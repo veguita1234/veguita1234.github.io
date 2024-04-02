@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: killer;
+    src: url('../assets/FUENTES/terror_pro.ttf');
+}
+
+header {
+    text-align: center;
+    color: gray;
+    height: 10vh;
+}
+
+.flechatexas {
+    position: absolute;
+    height: 5vh;
+    width: 5vw;
+    right: 94vw;
+}
+
+.asesinos-texas {
+    position: relative;
+    height: 140vh;
+
+.texto-asesinos-texas {
+    font-family: killer;
+    font-size: 4em;
+    color: red;
+}
+
+.tabla-asesinos-texas {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    top: 5vh;
+
+    
+
+    .imgleatherface {
+        position: relative;
+        height: 60vh;
+        width: 15vw;
+        left: 10vw;
+        }
+
+    .leatherface-descripcion {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .articulo-leatherface {
+            position: relative;
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 10px;
+            width: 60vw;
+            height: 35vh;
+            background-color: #cbc6c6;
+            right: 3vw;
+
+        }
+
+    }
+
+    .imgcook {
+        position: relative;
+        height: 60vh;
+        width: 13vw;
+        left: 11vw;
+        
+    }
+
+    .cook-descripcion {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 3vw;
+
+        .articulo-cook {
+            position: relative;
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 10px;
+            width: 60vw;
+            height: 35vh;
+            background-color: #cbc6c6;
+        }
+
+    }
+}
+}
+
+.survivors-texas {
+    position: relative;
+    height: 140vh;
+
+.texto-survivor-texas {
+    font-size: 4em;
+    color: rgb(92, 211, 244);
+    text-align: end;
+}
+
+.tabla-survivor-texas {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    top: 5vh;
+
+
+
+    .leland-descripcion {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .articulo-leland {
+            position: relative;
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 10px;
+            width: 60vw;
+            height: 50vh;
+            background-color: #cbc6c6;
+        }
+
+
+
+    }
+
+    .imgleland {
+        position: relative;
+        height: 60vh;
+        width: 15vw;
+        left: 7vw;
+        }
+
+
+    .connie-descripcion {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .articulo-connie {
+            position: relative;
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 10px;
+            width: 60vw;
+            height: 35vh;
+            background-color: #cbc6c6;
+        }
+
+
+    }
+            
+
+    .imgconnie {
+        position: relative;
+        height: 60vh;
+        width: 15vw;
+        left: 7vw;
+        }
+}
+}
