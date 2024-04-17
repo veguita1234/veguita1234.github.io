@@ -1,20 +1,28 @@
 
-header[data-tipo="dota-header"] {
-    height: 10vh;
+header {
 
-    a {
+    nav[data-tipo="dota-header"] {
+        position: relative;
+        height: 10vh;
 
-        img {
-            height: 5vh;
-            width: 5vw;
-            right: 94vw;
+        a {
+
+            img {
+                position: relative;
+                height: 5vh;
+                width: 5vw;
+                left: -10px;
+                top: -5vh;
+            }
         }
-    }
 
-    h1 {
-        position  : relative;
-        left: 40vw;
-        color     : gray;
-        height    : 5vh;
+        h1 {
+            position  : relative;
+            left: 36vw;
+            color     : gray;
+            height    : 5vh;
+            width: 80vw;
+        }
+
     }
 }

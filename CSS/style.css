@@ -131,17 +131,21 @@ main {
       main div[data-tipo="tercero"] a div[data-tipo="tres.4"]:hover {
         background-image: url("../assets/IMG/index/TEXAS/Texas-1.png"); }
 
-header[data-tipo="dota-header"] {
+header nav[data-tipo="dota-header"] {
+  position: relative;
   height: 10vh; }
-  header[data-tipo="dota-header"] a img {
+  header nav[data-tipo="dota-header"] a img {
+    position: relative;
     height: 5vh;
     width: 5vw;
-    right: 94vw; }
-  header[data-tipo="dota-header"] h1 {
+    left: -10px;
+    top: -5vh; }
+  header nav[data-tipo="dota-header"] h1 {
     position: relative;
-    left: 40vw;
+    left: 36vw;
     color: gray;
-    height: 5vh; }
+    height: 5vh;
+    width: 80vw; }
 
 main[data-tipo="dota-main"] p {
   font-size: 4em;
@@ -182,17 +186,21 @@ main[data-tipo="dota-main"] div {
           width: 10vw;
           height: 15vh; }
 
-header[data-tipo="dbd-header"] {
+header nav[data-tipo="dbd-header"] {
+  position: relative;
   height: 10vh; }
-  header[data-tipo="dbd-header"] a img {
+  header nav[data-tipo="dbd-header"] a img {
+    position: relative;
     height: 5vh;
     width: 5vw;
-    right: 94vw; }
-  header[data-tipo="dbd-header"] h1 {
+    left: -10px;
+    top: -5vh; }
+  header nav[data-tipo="dbd-header"] h1 {
     position: relative;
-    left: 40vw;
+    left: 25vw;
     color: gray;
-    height: 5vh; }
+    height: 5vh;
+    width: 80vw; }
 
 main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] {
   position: relative;
@@ -332,17 +340,21 @@ main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] {
   font-family: killer;
   src: url("../assets/FUENTES/terror_pro.ttf"); }
 
-header[data-tipo="left-header"] {
+header nav[data-tipo="left-header"] {
+  position: relative;
   height: 10vh; }
-  header[data-tipo="left-header"] a img {
+  header nav[data-tipo="left-header"] a img {
+    position: relative;
     height: 5vh;
     width: 5vw;
-    right: 94vw; }
-  header[data-tipo="left-header"] h1 {
+    left: -10px;
+    top: -5vh; }
+  header nav[data-tipo="left-header"] h1 {
     position: relative;
-    left: 40vw;
+    left: 29vw;
     color: gray;
-    height: 5vh; }
+    height: 5vh;
+    width: 80vw; }
 
 main[data-tipo="left-main"] div[data-tipo="asesinos-left"] {
   position: relative;
@@ -430,29 +442,149 @@ main[data-tipo="left-main"] div[data-tipo=supervivientes-left] {
       height: 75vh;
       width: 20vw;
       left: 5vw; }
-    main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Bill"] {
+    main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Nick"] {
       position: relative;
       display: flex;
       justify-content: center;
       align-items: center; }
-      main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Bill"] article {
+      main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Nick"] article {
         position: relative;
         border: 1px solid;
         border-radius: 30px;
         padding: 10px;
         width: 60vw;
-        height: 52vh;
+        height: 40vh;
         background-color: #cbc6c6; }
-        main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Bill"] article div {
-          position: relative;
-          display: inline-block;
-          left: 15vw;
-          bottom: 2vh; }
-          main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Bill"] article div img {
-            height: 15vh;
-            width: 8vw; }
-    main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div img[dato-tipo="Bill"] {
+    main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div img[dato-tipo="Nick"] {
       position: relative;
+      height: 75vh;
+      width: 20vw;
+      left: 5vw;
+      padding-top: 5vh; }
+
+@font-face {
+  font-family: killer;
+  src: url("../assets/FUENTES/terror_pro.ttf"); }
+
+header nav[data-tipo="texas-header"] {
+  position: relative;
+  height: 10vh; }
+  header nav[data-tipo="texas-header"] a img {
+    position: relative;
+    height: 5vh;
+    width: 5vw;
+    left: -10px;
+    top: -5vh; }
+  header nav[data-tipo="texas-header"] h1 {
+    position: relative;
+    left: 10vw;
+    color: gray;
+    height: 5vh;
+    width: 80vw; }
+
+main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] {
+  position: relative;
+  height: 140vh; }
+  main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] p[data-tipo="texas-letra-asesinos"] {
+    font-family: killer;
+    font-size: 4em;
+    color: red;
+    padding-bottom: 5vh; }
+  main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    gap: 10px; }
+    main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div img[data-tipo="leatherface"] {
+      position: relative;
+      height: 70vh;
+      width: 15vw;
+      left: 8vw; }
+    main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="leatherface"] {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="leatherface"] article {
+        position: relative;
+        border: 1px solid;
+        border-radius: 30px;
+        padding: 10px;
+        width: 60vw;
+        height: 40vh;
+        background-color: #cbc6c6; }
+    main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div img[data-tipo="cook"] {
+      position: relative;
+      height: 70vh;
+      width: 15vw;
+      left: 8vw;
+      padding-top: 5vh; }
+    main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="cook"] {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       height: 60vh;
+      padding-top: 5vh; }
+      main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="cook"] article {
+        position: relative;
+        border: 1px solid;
+        border-radius: 30px;
+        padding: 10px;
+        width: 60vw;
+        height: 40vh;
+        background-color: #cbc6c6; }
+
+main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] {
+  position: relative;
+  height: 140vh;
+  top: 20vh; }
+  main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] p[data-tipo="texas-letra-supervivientes"] {
+    font-size: 4em;
+    color: #5cd3f4;
+    text-align: end;
+    padding-bottom: 5vh; }
+  main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px; }
+    main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="leland"] {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="leland"] article {
+        position: relative;
+        border: 1px solid;
+        border-radius: 30px;
+        padding: 10px;
+        width: 60vw;
+        height: 40vh;
+        background-color: #cbc6c6; }
+    main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div img[dato-tipo="leland"] {
+      position: relative;
+      height: 75vh;
       width: 20vw;
       left: 5vw; }
+    main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="connie"] {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="connie"] article {
+        position: relative;
+        border: 1px solid;
+        border-radius: 30px;
+        padding: 10px;
+        width: 60vw;
+        height: 40vh;
+        background-color: #cbc6c6; }
+    main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div img[dato-tipo="connie"] {
+      position: relative;
+      height: 75vh;
+      width: 20vw;
+      left: 5vw;
+      padding-top: 5vh; }

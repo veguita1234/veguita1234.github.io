@@ -1,10 +1,11 @@
-main[data-tipo="left-main"] {
 
-    div[data-tipo="asesinos-left"] {
+main[data-tipo="texas-main"] {
+
+    div[data-tipo="asesinos-texas"] {
         position: relative;
         height: 140vh;
 
-        p[data-tipo="left-letra-asesinos"] {
+        p[data-tipo="texas-letra-asesinos"] {
             font-family: killer;
             font-size: 4em;
             color: red;
@@ -19,14 +20,14 @@ main[data-tipo="left-main"] {
             gap: 10px;
             
 
-            img[data-tipo="smoker"] {
+            img[data-tipo="leatherface"] {
                 position: relative;
-                height: 60vh;
-                width: 20vw;
-                left: 5vw;
+                height: 70vh;
+                width: 15vw;
+                left: 8vw;
             }
 
-            div[data-tipo="smoker"] {
+            div[data-tipo="leatherface"] {
                 position: relative;
                 display: flex;
                 justify-content: center;
@@ -44,15 +45,15 @@ main[data-tipo="left-main"] {
                 }
             }
 
-            img[data-tipo="charger"] {
+            img[data-tipo="cook"] {
                 position: relative;
-                height: 60vh;
-                width: 20vw;
-                left: 5vw;
+                height: 70vh;
+                width: 15vw;
+                left: 8vw;
                 padding-top: 5vh;
             }
 
-            div[data-tipo="charger"] {
+            div[data-tipo="cook"] {
                 position: relative;
                 display: flex;
                 justify-content: center;
@@ -77,11 +78,12 @@ main[data-tipo="left-main"] {
 
     }
 
-    div[data-tipo=supervivientes-left] {
+    div[data-tipo=supervivientes-texas] {
         position: relative;
         height: 140vh;
+        top: 20vh;
 
-        p[data-tipo="left-letra-supervivientes"] {
+        p[data-tipo="texas-letra-supervivientes"] {
             font-size: 4em;
             color: rgb(92, 211, 244);
             text-align: end;
@@ -95,7 +97,7 @@ main[data-tipo="left-main"] {
             grid-template-rows: auto;
             gap: 10px;
 
-            div[dato-tipo="Ellis"] {
+            div[dato-tipo="leland"] {
                 position: relative;
                 display: flex;
                 justify-content: center;
@@ -113,7 +115,7 @@ main[data-tipo="left-main"] {
                 }
             }
 
-            img[dato-tipo="Ellis"] {
+            img[dato-tipo="leland"] {
                 position: relative;
                 height: 75vh;
                 width: 20vw;
@@ -121,7 +123,7 @@ main[data-tipo="left-main"] {
             }
 
 
-            div[dato-tipo="Nick"] {
+            div[dato-tipo="connie"] {
                 position: relative;
                 display: flex;
                 justify-content: center;
@@ -140,7 +142,7 @@ main[data-tipo="left-main"] {
                 }
             }
 
-            img[dato-tipo="Nick"] {
+            img[dato-tipo="connie"] {
                 position: relative;
                 height: 75vh;
                 width: 20vw;
