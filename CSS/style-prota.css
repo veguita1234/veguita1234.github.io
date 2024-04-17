@@ -119,21 +119,7 @@
     
     }
 
-
-.header {
-  position: relative;
-  text-align: center;
-  color: gray;
-  height: 10vh;
-}
-
-
-.flecha {
-  position: absolute;
-  height: 5vh;
-  width: 5vw;
-  right: 94vw;
-}
+/*TEXAS*/
 
 .asesinos-texas {
   position: relative;

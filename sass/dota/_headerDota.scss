@@ -1,0 +1,20 @@
+
+header[data-tipo="dota-header"] {
+    height: 10vh;
+
+    a {
+
+        img {
+            height: 5vh;
+            width: 5vw;
+            right: 94vw;
+        }
+    }
+
+    h1 {
+        position  : relative;
+        left: 40vw;
+        color     : gray;
+        height    : 5vh;
+    }
+}

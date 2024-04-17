@@ -50,19 +50,134 @@ header {
 
 main {
   position: relative;
-  height: 150vh;
-  background-color: transparent; }
-  main div {
+  height: 90vh; }
+  main div[data-tipo="primero"] {
     position: relative;
     width: 1400px;
     height: 600px;
     overflow: hidden;
     left: 60px; }
-    main div img {
+    main div[data-tipo="primero"] img {
       width: 100%;
       height: 100%;
       position: relative;
       opacity: 1;
       transition: opacity 0.5s ease-in-out; }
-    main div:target {
+    main div[data-tipo="primero"]:target {
       opacity: 1; }
+  main div[data-tipo="segundo"] {
+    position: relative;
+    top: 2vh;
+    transform: translateX(-50%);
+    width: 15vw;
+    left: 50vw;
+    text-align: center; }
+    main div[data-tipo="segundo"] a {
+      display: inline-block;
+      position: relative;
+      width: 20px;
+      height: 20px;
+      background-color: #b6b5b9;
+      border-radius: 50%;
+      margin: 0 5px;
+      /*left: 55vw;*/
+      /*color: white;*/
+      text-decoration: none;
+      line-height: 20px; }
+      main div[data-tipo="segundo"] a:hover {
+        background-color: gray; }
+  main div[data-tipo="tercero"] {
+    position: relative;
+    top: 15vh;
+    height: 70vh;
+    display: grid;
+    grid-template-areas: "dota2 deadby" "left4 texass";
+    justify-content: center;
+    grid-gap: 10%; }
+    main div[data-tipo="tercero"] a div[data-tipo="tres.1"] {
+      grid-area: dota2;
+      position: relative;
+      height: 30vh;
+      width: 25vw;
+      background-image: url("../assets/IMG/index/DOTA/Dota2.jpg");
+      background-size: cover; }
+      main div[data-tipo="tercero"] a div[data-tipo="tres.1"]:hover {
+        background-image: url("../assets/IMG/index/DOTA/Dota2-1.png"); }
+    main div[data-tipo="tercero"] a div[data-tipo="tres.2"] {
+      grid-area: deadby;
+      position: relative;
+      height: 30vh;
+      width: 25vw;
+      background-image: url("../assets/IMG/index/DBD/DBD.jpg");
+      background-size: cover; }
+      main div[data-tipo="tercero"] a div[data-tipo="tres.2"]:hover {
+        background-image: url("../assets/IMG/index/DBD/DBD-1.jpg"); }
+    main div[data-tipo="tercero"] a div[data-tipo="tres.3"] {
+      grid-area: left4;
+      position: relative;
+      height: 30vh;
+      width: 25vw;
+      background-image: url("../assets/IMG/index/LEFT/Left.jpg");
+      background-size: cover; }
+      main div[data-tipo="tercero"] a div[data-tipo="tres.3"]:hover {
+        background-image: url("../assets/IMG/index/LEFT/left-1.jpg"); }
+    main div[data-tipo="tercero"] a div[data-tipo="tres.4"] {
+      grid-area: texass;
+      position: relative;
+      height: 30vh;
+      width: 25vw;
+      background-image: url("../assets/IMG/index/TEXAS/Texas.jpg");
+      background-size: cover; }
+      main div[data-tipo="tercero"] a div[data-tipo="tres.4"]:hover {
+        background-image: url("../assets/IMG/index/TEXAS/Texas-1.png"); }
+
+header[data-tipo="dota-header"] {
+  height: 10vh; }
+  header[data-tipo="dota-header"] a img {
+    height: 5vh;
+    width: 5vw;
+    right: 94vw; }
+  header[data-tipo="dota-header"] h1 {
+    position: relative;
+    left: 40vw;
+    color: gray;
+    height: 5vh; }
+
+main[data-tipo="dota-main"] p {
+  font-size: 4em;
+  color: blue; }
+
+main[data-tipo="dota-main"] div {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  gap: 10px;
+  top: 5vh; }
+  main[data-tipo="dota-main"] div img {
+    position: relative;
+    height: 65vh;
+    width: 20vw;
+    left: 5vw; }
+  main[data-tipo="dota-main"] div div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    main[data-tipo="dota-main"] div div article {
+      position: relative;
+      border: 1px solid;
+      border-radius: 30px;
+      padding: 10px;
+      width: 65vw;
+      height: 50vh;
+      background-color: #cbc6c6;
+      top: -5vh; }
+      main[data-tipo="dota-main"] div div article div {
+        position: relative;
+        display: inline-block;
+        top: 5vh;
+        left: 6vw; }
+        main[data-tipo="dota-main"] div div article div img {
+          width: 10vw;
+          height: 15vh; }
