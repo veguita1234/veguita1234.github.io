@@ -181,3 +181,278 @@ main[data-tipo="dota-main"] div {
         main[data-tipo="dota-main"] div div article div img {
           width: 10vw;
           height: 15vh; }
+
+header[data-tipo="dbd-header"] {
+  height: 10vh; }
+  header[data-tipo="dbd-header"] a img {
+    height: 5vh;
+    width: 5vw;
+    right: 94vw; }
+  header[data-tipo="dbd-header"] h1 {
+    position: relative;
+    left: 40vw;
+    color: gray;
+    height: 5vh; }
+
+main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] {
+  position: relative;
+  height: 140vh; }
+  main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] p[data-tipo="dbd-letra-asesinos"] {
+    font-family: killer;
+    font-size: 4em;
+    color: red;
+    padding-bottom: 5vh; }
+  main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    gap: 10px; }
+    main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div img[data-tipo="michael"] {
+      position: relative;
+      height: 60vh;
+      width: 20vw;
+      left: 5vw; }
+    main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60vh; }
+      main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] article {
+        position: relative;
+        border: 1px solid;
+        border-radius: 30px;
+        padding: 10px;
+        width: 60vw;
+        height: 55vh;
+        background-color: #cbc6c6; }
+        main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] article div {
+          position: relative;
+          display: inline-block;
+          left: 12vw; }
+          main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] article div img {
+            height: 15vh;
+            width: 8vw; }
+    main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div img[data-tipo="demogorgon"] {
+      position: relative;
+      height: 60vh;
+      width: 20vw;
+      left: 5vw; }
+    main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60vh; }
+      main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article {
+        position: relative;
+        border: 1px solid;
+        border-radius: 30px;
+        padding: 10px;
+        width: 60vw;
+        height: 55vh;
+        background-color: #cbc6c6; }
+        main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article div {
+          position: relative;
+          display: inline-block;
+          left: 15vw; }
+          main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article div img {
+            height: 15vh;
+            width: 8vw; }
+
+main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] {
+  position: relative;
+  height: 140vh; }
+  main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] p[data-tipo="dbd-letra-supervivientes"] {
+    font-size: 4em;
+    color: #5cd3f4;
+    text-align: end;
+    padding-bottom: 5vh; }
+  main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px; }
+    main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] article {
+        position: relative;
+        border: 1px solid;
+        border-radius: 30px;
+        padding: 10px;
+        width: 60vw;
+        height: 55vh;
+        background-color: #cbc6c6; }
+        main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] article div {
+          position: relative;
+          display: inline-block;
+          left: 15vw;
+          bottom: 2vh; }
+          main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] article div img {
+            height: 15vh;
+            width: 8vw; }
+    main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div img[dato-tipo="Nea"] {
+      position: relative;
+      height: 60vh;
+      width: 20vw;
+      left: 5vw; }
+    main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] article {
+        position: relative;
+        border: 1px solid;
+        border-radius: 30px;
+        padding: 10px;
+        width: 60vw;
+        height: 52vh;
+        background-color: #cbc6c6; }
+        main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] article div {
+          position: relative;
+          display: inline-block;
+          left: 15vw;
+          bottom: 2vh; }
+          main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] article div img {
+            height: 15vh;
+            width: 8vw; }
+    main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div img[dato-tipo="Bill"] {
+      position: relative;
+      height: 60vh;
+      width: 20vw;
+      left: 5vw; }
+
+@font-face {
+  font-family: killer;
+  src: url("../assets/FUENTES/terror_pro.ttf"); }
+
+header[data-tipo="left-header"] {
+  height: 10vh; }
+  header[data-tipo="left-header"] a img {
+    height: 5vh;
+    width: 5vw;
+    right: 94vw; }
+  header[data-tipo="left-header"] h1 {
+    position: relative;
+    left: 40vw;
+    color: gray;
+    height: 5vh; }
+
+main[data-tipo="left-main"] div[data-tipo="asesinos-left"] {
+  position: relative;
+  height: 140vh; }
+  main[data-tipo="left-main"] div[data-tipo="asesinos-left"] p[data-tipo="left-letra-asesinos"] {
+    font-family: killer;
+    font-size: 4em;
+    color: red;
+    padding-bottom: 5vh; }
+  main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    gap: 10px; }
+    main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div img[data-tipo="smoker"] {
+      position: relative;
+      height: 60vh;
+      width: 20vw;
+      left: 5vw; }
+    main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="smoker"] {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="smoker"] article {
+        position: relative;
+        border: 1px solid;
+        border-radius: 30px;
+        padding: 10px;
+        width: 60vw;
+        height: 40vh;
+        background-color: #cbc6c6; }
+    main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div img[data-tipo="charger"] {
+      position: relative;
+      height: 60vh;
+      width: 20vw;
+      left: 5vw;
+      padding-top: 5vh; }
+    main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="charger"] {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60vh;
+      padding-top: 5vh; }
+      main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="charger"] article {
+        position: relative;
+        border: 1px solid;
+        border-radius: 30px;
+        padding: 10px;
+        width: 60vw;
+        height: 40vh;
+        background-color: #cbc6c6; }
+
+main[data-tipo="left-main"] div[data-tipo=supervivientes-left] {
+  position: relative;
+  height: 140vh; }
+  main[data-tipo="left-main"] div[data-tipo=supervivientes-left] p[data-tipo="left-letra-supervivientes"] {
+    font-size: 4em;
+    color: #5cd3f4;
+    text-align: end;
+    padding-bottom: 5vh; }
+  main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px; }
+    main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Ellis"] {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Ellis"] article {
+        position: relative;
+        border: 1px solid;
+        border-radius: 30px;
+        padding: 10px;
+        width: 60vw;
+        height: 40vh;
+        background-color: #cbc6c6; }
+    main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div img[dato-tipo="Ellis"] {
+      position: relative;
+      height: 75vh;
+      width: 20vw;
+      left: 5vw; }
+    main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Bill"] {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Bill"] article {
+        position: relative;
+        border: 1px solid;
+        border-radius: 30px;
+        padding: 10px;
+        width: 60vw;
+        height: 52vh;
+        background-color: #cbc6c6; }
+        main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Bill"] article div {
+          position: relative;
+          display: inline-block;
+          left: 15vw;
+          bottom: 2vh; }
+          main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Bill"] article div img {
+            height: 15vh;
+            width: 8vw; }
+    main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div img[dato-tipo="Bill"] {
+      position: relative;
+      height: 60vh;
+      width: 20vw;
+      left: 5vw; }
