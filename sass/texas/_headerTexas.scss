@@ -16,13 +16,46 @@ header {
             }
         }
 
-        h1 {
+        h1[data-tipo="titulo-texas"] {
             position  : relative;
             left: 10vw;
             color     : gray;
-            height    : 5vh;
+            height    : 10vh;
             width: 80vw;
+            
         }
 
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header {
+
+        nav[data-tipo="texas-header"] {
+            position: relative;
+            height: 10vh;
+    
+            a {
+    
+                img {
+                    position: relative;
+                    height: 5vh;
+                    width: 10vw;
+                    top: -5vh;
+                    left: 2vw;
+                }
+            }
+    
+            h1[data-tipo="titulo-texas"] {
+                position  : relative;
+                left: 10vw;
+                color     : gray;
+                height    : 10vh;
+                width: 80vw;
+                font-size: 2.5rem;
+                
+            }
+    
+        }
     }
 }

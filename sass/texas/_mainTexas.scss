@@ -152,3 +152,164 @@ main[data-tipo="texas-main"] {
         }
     }
 }
+
+@media screen and (max-width: 400px) {
+    
+main[data-tipo="texas-main"] {
+
+    div[data-tipo="asesinos-texas"] {
+        position: relative;
+        height: 140vh;
+
+        p[data-tipo="texas-letra-asesinos"] {
+            position: relative;
+            font-family: killer;
+            font-size: 2em;
+            color: red;
+            top: -5vh;
+        }
+
+        div {
+            position: relative;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: auto;
+            gap: 10px;
+            top: -5vh;
+            
+
+            img[data-tipo="leatherface"] {
+                position: relative;
+                height: 70vh;
+                width: 30vw;
+                left: 2vw;
+            }
+
+            div[data-tipo="leatherface"] {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                article {
+                    position: relative;
+                    border: 1px solid;
+                    border-radius: 30px;
+                    padding: 10px;
+                    width: 60vw;
+                    height: 60vh;
+                    background-color: #cbc6c6;
+                    top: 5vh;
+
+                }
+            }
+
+            img[data-tipo="cook"] {
+                position: relative;
+                height: 70vh;
+                width: 30vw;
+                left: 2vw;
+            }
+
+            div[data-tipo="cook"] {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 60vh;
+                padding-top: 5vh;
+
+                article {
+                    position: relative;
+                    border: 1px solid;
+                    border-radius: 30px;
+                    padding: 10px;
+                    width: 60vw;
+                    height: 60vh;
+                    top: 9.5vh;
+                    background-color: #cbc6c6;
+                    
+                }
+
+            }
+        }
+
+
+    }
+
+    div[data-tipo=supervivientes-texas] {
+        position: relative;
+        height: 140vh;
+        top: 20vh;
+        
+
+        p[data-tipo="texas-letra-supervivientes"] {
+            font-size: 2em;
+            color: rgb(92, 211, 244);
+            text-align: center;
+            padding-bottom: 5vh;
+        }
+
+        div {
+            position: relative;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: auto;
+            gap: 10px;
+
+            div[dato-tipo="leland"] {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                article {
+                    position: relative;
+                    border: 1px solid;
+                    border-radius: 30px;
+                    padding: 10px;
+                    width: 60vw;
+                    height: 65vh;
+                    background-color: #cbc6c6;
+
+                }
+            }
+
+            img[dato-tipo="leland"] {
+                position: relative;
+                height: 70vh;
+                width: 30vw;
+                left: -1vw;
+            }
+
+
+            div[dato-tipo="connie"] {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                article {
+                    position: relative;
+                    border: 1px solid;
+                    border-radius: 30px;
+                    padding: 10px;
+                    width: 60vw;
+                    height: 60vh;
+                    background-color: #cbc6c6;
+                    top: 3vh;
+
+                    
+                }
+            }
+
+            img[dato-tipo="connie"] {
+                position: relative;
+                height: 70vh;
+                width: 30vw;
+                left: -1vw;
+            }
+        }
+    }
+}
+}

@@ -26,3 +26,35 @@ header {
 
     }
 }
+
+@media screen and (max-width: 400px) {
+    header {
+
+        nav[data-tipo="dota-header"] {
+            position: relative;
+            height: 10vh;
+    
+            a {
+    
+                img {
+                    position: relative;
+                    height: 5vh;
+                    width: 10vw;
+                    top: -1vh;
+                    left: 1vw;
+                }
+            }
+    
+            h1[data-tipo="titulo-dota"] {
+                position  : relative;
+                left: 20vw;
+                color     : gray;
+                height    : 10vh;
+                width: 80vw;
+                font-size: 3rem;
+                
+            }
+    
+        }
+    }
+}

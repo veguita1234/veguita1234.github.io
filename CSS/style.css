@@ -147,6 +147,24 @@ header nav[data-tipo="dota-header"] {
     height: 5vh;
     width: 80vw; }
 
+@media screen and (max-width: 400px) {
+  header nav[data-tipo="dota-header"] {
+    position: relative;
+    height: 10vh; }
+    header nav[data-tipo="dota-header"] a img {
+      position: relative;
+      height: 5vh;
+      width: 10vw;
+      top: -1vh;
+      left: 1vw; }
+    header nav[data-tipo="dota-header"] h1[data-tipo="titulo-dota"] {
+      position: relative;
+      left: 20vw;
+      color: gray;
+      height: 10vh;
+      width: 80vw;
+      font-size: 3rem; } }
+
 main[data-tipo="dota-main"] p {
   font-size: 4em;
   color: blue; }
@@ -185,6 +203,49 @@ main[data-tipo="dota-main"] div {
         main[data-tipo="dota-main"] div div article div img {
           width: 10vw;
           height: 15vh; }
+
+@media screen and (max-width: 400px) {
+  main[data-tipo="dota-main"] {
+    top: -10vh; }
+    main[data-tipo="dota-main"] p {
+      font-size: 2em;
+      color: blue;
+      text-align: center; }
+    main[data-tipo="dota-main"] div {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: auto;
+      gap: 10px;
+      top: 5vh; }
+      main[data-tipo="dota-main"] div img {
+        position: relative;
+        height: 50vh;
+        width: 30vw;
+        left: 2vw; }
+      main[data-tipo="dota-main"] div div {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main[data-tipo="dota-main"] div div article {
+          position: relative;
+          border: 1px solid;
+          border-radius: 30px;
+          padding: 10px;
+          width: 65vw;
+          height: 30vh;
+          background-color: #cbc6c6;
+          top: -5vh;
+          left: -2vw; }
+          main[data-tipo="dota-main"] div div article div {
+            position: relative;
+            display: inline-block;
+            top: 1vh;
+            left: 6vw; }
+            main[data-tipo="dota-main"] div div article div img {
+              width: 10vw;
+              height: 10vh; } }
 
 header nav[data-tipo="dbd-header"] {
   position: relative;
@@ -356,6 +417,24 @@ header nav[data-tipo="left-header"] {
     height: 5vh;
     width: 80vw; }
 
+@media screen and (max-width: 400px) {
+  header nav[data-tipo="left-header"] {
+    position: relative;
+    height: 10vh; }
+    header nav[data-tipo="left-header"] a img {
+      position: relative;
+      height: 5vh;
+      width: 10vw;
+      top: -1vh;
+      left: 1vw; }
+    header nav[data-tipo="left-header"] h1[data-tipo="titulo-left"] {
+      position: relative;
+      left: 10vw;
+      color: gray;
+      height: 10vh;
+      width: 80vw;
+      font-size: 2.5rem; } }
+
 main[data-tipo="left-main"] div[data-tipo="asesinos-left"] {
   position: relative;
   height: 140vh; }
@@ -462,6 +541,117 @@ main[data-tipo="left-main"] div[data-tipo=supervivientes-left] {
       left: 5vw;
       padding-top: 5vh; }
 
+@media screen and (max-width: 400px) {
+  main[data-tipo="left-main"] div[data-tipo="asesinos-left"] {
+    position: relative;
+    height: 140vh;
+    top: -6vh; }
+    main[data-tipo="left-main"] div[data-tipo="asesinos-left"] p[data-tipo="left-letra-asesinos"] {
+      position: relative;
+      font-family: killer;
+      font-size: 2em;
+      color: red;
+      top: -5vh; }
+    main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: auto;
+      gap: 10px;
+      top: -5vh; }
+      main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div img[data-tipo="smoker"] {
+        position: relative;
+        height: 65vh;
+        width: 35vw;
+        left: 2vw; }
+      main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="smoker"] {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="smoker"] article {
+          position: relative;
+          border: 1px solid;
+          border-radius: 30px;
+          padding: 10px;
+          width: 60vw;
+          height: 60vh;
+          background-color: #cbc6c6;
+          top: 5vh; }
+      main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div img[data-tipo="charger"] {
+        position: relative;
+        height: 70vh;
+        width: 30vw;
+        left: 2vw; }
+      main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="charger"] {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        padding-top: 5vh; }
+        main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="charger"] article {
+          position: relative;
+          border: 1px solid;
+          border-radius: 30px;
+          padding: 10px;
+          width: 60vw;
+          height: 60vh;
+          top: 9.5vh;
+          background-color: #cbc6c6; }
+  main[data-tipo="left-main"] div[data-tipo=supervivientes-left] {
+    position: relative;
+    height: 140vh;
+    top: 5vh; }
+    main[data-tipo="left-main"] div[data-tipo=supervivientes-left] p[data-tipo="left-letra-supervivientes"] {
+      font-size: 2em;
+      color: #5cd3f4;
+      text-align: center;
+      padding-bottom: 5vh; }
+    main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div {
+      position: relative;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: auto;
+      gap: 10px; }
+      main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Ellis"] {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Ellis"] article {
+          position: relative;
+          border: 1px solid;
+          border-radius: 30px;
+          padding: 10px;
+          width: 60vw;
+          height: 65vh;
+          background-color: #cbc6c6; }
+      main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div img[dato-tipo="Ellis"] {
+        position: relative;
+        height: 70vh;
+        width: 30vw;
+        left: -1vw; }
+      main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Nick"] {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Nick"] article {
+          position: relative;
+          border: 1px solid;
+          border-radius: 30px;
+          padding: 10px;
+          width: 60vw;
+          height: 60vh;
+          background-color: #cbc6c6;
+          top: 3vh; }
+      main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div img[dato-tipo="Nick"] {
+        position: relative;
+        height: 75vh;
+        width: 35vw;
+        left: -3vw; } }
+
 @font-face {
   font-family: killer;
   src: url("../assets/FUENTES/terror_pro.ttf"); }
@@ -475,12 +665,30 @@ header nav[data-tipo="texas-header"] {
     width: 5vw;
     left: -10px;
     top: -5vh; }
-  header nav[data-tipo="texas-header"] h1 {
+  header nav[data-tipo="texas-header"] h1[data-tipo="titulo-texas"] {
     position: relative;
     left: 10vw;
     color: gray;
-    height: 5vh;
+    height: 10vh;
     width: 80vw; }
+
+@media screen and (max-width: 400px) {
+  header nav[data-tipo="texas-header"] {
+    position: relative;
+    height: 10vh; }
+    header nav[data-tipo="texas-header"] a img {
+      position: relative;
+      height: 5vh;
+      width: 10vw;
+      top: -5vh;
+      left: 2vw; }
+    header nav[data-tipo="texas-header"] h1[data-tipo="titulo-texas"] {
+      position: relative;
+      left: 10vw;
+      color: gray;
+      height: 10vh;
+      width: 80vw;
+      font-size: 2.5rem; } }
 
 main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] {
   position: relative;
@@ -588,3 +796,113 @@ main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] {
       width: 20vw;
       left: 5vw;
       padding-top: 5vh; }
+
+@media screen and (max-width: 400px) {
+  main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] {
+    position: relative;
+    height: 140vh; }
+    main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] p[data-tipo="texas-letra-asesinos"] {
+      position: relative;
+      font-family: killer;
+      font-size: 2em;
+      color: red;
+      top: -5vh; }
+    main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: auto;
+      gap: 10px;
+      top: -5vh; }
+      main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div img[data-tipo="leatherface"] {
+        position: relative;
+        height: 70vh;
+        width: 30vw;
+        left: 2vw; }
+      main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="leatherface"] {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="leatherface"] article {
+          position: relative;
+          border: 1px solid;
+          border-radius: 30px;
+          padding: 10px;
+          width: 60vw;
+          height: 60vh;
+          background-color: #cbc6c6;
+          top: 5vh; }
+      main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div img[data-tipo="cook"] {
+        position: relative;
+        height: 70vh;
+        width: 30vw;
+        left: 2vw; }
+      main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="cook"] {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        padding-top: 5vh; }
+        main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="cook"] article {
+          position: relative;
+          border: 1px solid;
+          border-radius: 30px;
+          padding: 10px;
+          width: 60vw;
+          height: 60vh;
+          top: 9.5vh;
+          background-color: #cbc6c6; }
+  main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] {
+    position: relative;
+    height: 140vh;
+    top: 20vh; }
+    main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] p[data-tipo="texas-letra-supervivientes"] {
+      font-size: 2em;
+      color: #5cd3f4;
+      text-align: center;
+      padding-bottom: 5vh; }
+    main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div {
+      position: relative;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: auto;
+      gap: 10px; }
+      main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="leland"] {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="leland"] article {
+          position: relative;
+          border: 1px solid;
+          border-radius: 30px;
+          padding: 10px;
+          width: 60vw;
+          height: 65vh;
+          background-color: #cbc6c6; }
+      main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div img[dato-tipo="leland"] {
+        position: relative;
+        height: 70vh;
+        width: 30vw;
+        left: -1vw; }
+      main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="connie"] {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="connie"] article {
+          position: relative;
+          border: 1px solid;
+          border-radius: 30px;
+          padding: 10px;
+          width: 60vw;
+          height: 60vh;
+          background-color: #cbc6c6;
+          top: 3vh; }
+      main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div img[dato-tipo="connie"] {
+        position: relative;
+        height: 70vh;
+        width: 30vw;
+        left: -1vw; } }

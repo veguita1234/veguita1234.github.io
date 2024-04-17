@@ -150,3 +150,166 @@ main[data-tipo="left-main"] {
         }
     }
 }
+
+@media screen and (max-width: 400px) {
+    
+    main[data-tipo="left-main"] {
+    
+        div[data-tipo="asesinos-left"] {
+            position: relative;
+            height: 140vh;
+            top: -6vh;
+    
+            p[data-tipo="left-letra-asesinos"] {
+                position: relative;
+                font-family: killer;
+                font-size: 2em;
+                color: red;
+                top: -5vh;
+            }
+    
+            div {
+                position: relative;
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: auto;
+                gap: 10px;
+                top: -5vh;
+                
+    
+                img[data-tipo="smoker"] {
+                    position: relative;
+                    height: 65vh;
+                    width: 35vw;
+                    left: 2vw;
+                }
+    
+                div[data-tipo="smoker"] {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    article {
+                        position: relative;
+                        border: 1px solid;
+                        border-radius: 30px;
+                        padding: 10px;
+                        width: 60vw;
+                        height: 60vh;
+                        background-color: #cbc6c6;
+                        top: 5vh;
+    
+                    }
+                }
+    
+                img[data-tipo="charger"] {
+                    position: relative;
+                    height: 70vh;
+                    width: 30vw;
+                    left: 2vw;
+                }
+    
+                div[data-tipo="charger"] {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 60vh;
+                    padding-top: 5vh;
+    
+                    article {
+                        position: relative;
+                        border: 1px solid;
+                        border-radius: 30px;
+                        padding: 10px;
+                        width: 60vw;
+                        height: 60vh;
+                        top: 9.5vh;
+                        background-color: #cbc6c6;
+                        
+                    }
+    
+                }
+            }
+    
+    
+        }
+    
+        div[data-tipo=supervivientes-left] {
+            position: relative;
+            height: 140vh;
+            top: 5vh;
+            
+            
+    
+            p[data-tipo="left-letra-supervivientes"] {
+                font-size: 2em;
+                color: rgb(92, 211, 244);
+                text-align: center;
+                padding-bottom: 5vh;
+            }
+    
+            div {
+                position: relative;
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                grid-template-rows: auto;
+                gap: 10px;
+    
+                div[dato-tipo="Ellis"] {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+    
+                    article {
+                        position: relative;
+                        border: 1px solid;
+                        border-radius: 30px;
+                        padding: 10px;
+                        width: 60vw;
+                        height: 65vh;
+                        background-color: #cbc6c6;
+    
+                    }
+                }
+    
+                img[dato-tipo="Ellis"] {
+                    position: relative;
+                    height: 70vh;
+                    width: 30vw;
+                    left: -1vw;
+                }
+    
+    
+                div[dato-tipo="Nick"] {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+    
+                    article {
+                        position: relative;
+                        border: 1px solid;
+                        border-radius: 30px;
+                        padding: 10px;
+                        width: 60vw;
+                        height: 60vh;
+                        background-color: #cbc6c6;
+                        top: 3vh;
+    
+                        
+                    }
+                }
+    
+                img[dato-tipo="Nick"] {
+                    position: relative;
+                    height: 75vh;
+                    width: 35vw;
+                    left: -3vw;
+                }
+            }
+        }
+    }
+    }
