@@ -1,0 +1,50 @@
+footer[data-tipo="footer-texas"] {
+    height: 20vh;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+
+    hr[data-tipo="primero"] {
+        width: 38vw;
+        position: relative;
+        color: red;
+        top: 4vh;
+    }
+
+    a[data-tipo="steam"]{
+        font-size: 50px;
+        text-decoration: none;
+        color: black;
+        margin-right: 20px;
+    }
+
+    a[data-tipo="twiter"]{
+        font-size: 50px;
+        text-decoration: none;
+        color: rgb(31, 168, 227);
+        margin-right: 20px;
+    }
+
+    a[data-tipo="facebook"]{
+        font-size: 50px;
+        text-decoration: none;
+        color: rgb(59, 12, 228);
+        margin-right: 20px;
+    }
+
+    a[data-tipo="youtuve"]{
+        font-size: 50px;
+        text-decoration: none;
+        color: rgb(255, 0, 0);
+        
+    }
+
+    hr[data-tipo="segundo"] {
+        width: 37.93vw;
+        position: relative;
+        color: gray;
+        bottom: 5vh;
+        left: 61vw;
+        position: relative;
+    }
+}

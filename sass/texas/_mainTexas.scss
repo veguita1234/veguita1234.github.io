@@ -1,14 +1,17 @@
 
 main[data-tipo="texas-main"] {
+    height: 345vh;
 
-    h1 {
-        color: rgb(248, 170, 170);
+    p[data-tipo="titulo-texas"] {
+        color: rgb(240, 134, 211);
         position: relative;
-        left: 19vw;
-        bottom: 3vh;
+        left: 15vw;
+        font-size: 6em;
+        bottom: 1vh;
         width: 70vw;
-
+        font-weight: bold;
     }
+
 
     div[data-tipo="asesinos-texas"] {
         position: relative;

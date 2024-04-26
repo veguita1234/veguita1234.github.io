@@ -1,12 +1,14 @@
 
 main[data-tipo="dbd-main"] {
 
-    h1 {
-        color: rgb(93, 92, 92);
+    p[data-tipo="titulo-dbd"] {
+        color: gray;
         position: relative;
-        left: 30vw;
-        bottom: 3vh;
-
+        left: 25vw;
+        font-size: 6em;
+        bottom: 1vh;
+        width: 50vw;
+        font-weight: bold;
     }
 
         div[data-tipo="asesinos-dbd"] {

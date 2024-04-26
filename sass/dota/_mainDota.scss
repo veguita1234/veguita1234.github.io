@@ -1,5 +1,6 @@
 
 main[data-tipo="dota-main"] {
+    height: 165vh;
 
     p[data-tipo="titulo-dota"] {
         color: red;
@@ -9,8 +10,6 @@ main[data-tipo="dota-main"] {
         bottom: 1vh;
         width: 20vw;
         font-weight: bold;
-
-
     }
 
     p {
