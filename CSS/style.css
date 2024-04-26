@@ -28,10 +28,10 @@ header {
           header nav[data-tipo="nav-index"] ul li a:hover {
             color: white; }
 
-main {
+main[data-tipo="main-index"] {
   position: relative;
-  height: 90vh; }
-  main h1 {
+  height: 200vh; }
+  main[data-tipo="main-index"] h1 {
     display: inline-block;
     position: relative;
     color: blue;
@@ -40,13 +40,13 @@ main {
     left: 10vw;
     font-size: 80px;
     font-style: italic; }
-  main img[data-tipo="perfil"] {
+  main[data-tipo="main-index"] img[data-tipo="perfil"] {
     display: inline-block;
     position: relative;
     height: 20vh;
     top: 2vh;
     left: 30vw; }
-  main p[data-tipo="nick"] {
+  main[data-tipo="main-index"] p[data-tipo="nick"] {
     position: relative;
     left: 83vw;
     font-size: 20px;
@@ -212,7 +212,7 @@ main[data-tipo="dota-main"] div {
       border-radius: 30px;
       padding: 10px;
       width: 65vw;
-      height: 50vh;
+      height: 40vh;
       background-color: #cbc6c6;
       top: -5vh; }
       main[data-tipo="dota-main"] div div article div {
@@ -630,7 +630,7 @@ main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] {
     main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div img[data-tipo="leatherface"] {
       position: relative;
       height: 70vh;
-      width: 15vw;
+      width: 20vw;
       left: 8vw; }
     main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="leatherface"] {
       position: relative;
@@ -652,7 +652,7 @@ main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] {
       position: relative;
       height: 70vh;
       width: 15vw;
-      left: 8vw;
+      left: 10vw;
       padding-top: 5vh; }
     main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="cook"] {
       position: relative;
@@ -733,112 +733,39 @@ main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] {
       left: 5vw;
       padding-top: 5vh; }
 
-@media screen and (max-width: 400px) {
-  main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] {
+footer {
+  height: 20vh;
+  align-content: center;
+  text-align: center;
+  justify-content: center; }
+  footer hr[data-tipo="primero"] {
+    width: 37vw;
     position: relative;
-    height: 140vh; }
-    main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] p[data-tipo="texas-letra-asesinos"] {
-      position: relative;
-      font-family: killer;
-      font-size: 2em;
-      color: red;
-      top: -5vh; }
-    main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div {
-      position: relative;
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      grid-template-rows: auto;
-      gap: 10px;
-      top: -5vh; }
-      main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div img[data-tipo="leatherface"] {
-        position: relative;
-        height: 70vh;
-        width: 30vw;
-        left: 2vw; }
-      main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="leatherface"] {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="leatherface"] article {
-          position: relative;
-          border: 1px solid;
-          border-radius: 30px;
-          padding: 10px;
-          width: 60vw;
-          height: 60vh;
-          background-color: #cbc6c6;
-          top: 5vh; }
-      main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div img[data-tipo="cook"] {
-        position: relative;
-        height: 70vh;
-        width: 30vw;
-        left: 2vw; }
-      main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="cook"] {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 60vh;
-        padding-top: 5vh; }
-        main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="cook"] article {
-          position: relative;
-          border: 1px solid;
-          border-radius: 30px;
-          padding: 10px;
-          width: 60vw;
-          height: 60vh;
-          top: 9.5vh;
-          background-color: #cbc6c6; }
-  main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] {
+    color: gray;
+    top: 7vh; }
+  footer a[data-tipo="steam"] {
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px; }
+  footer a[data-tipo="twiter"] {
+    font-size: 50px;
+    text-decoration: none;
+    color: #1fa8e3;
+    margin-right: 20px; }
+  footer a[data-tipo="facebook"] {
+    font-size: 50px;
+    text-decoration: none;
+    color: #3b0ce4;
+    margin-right: 20px; }
+  footer a[data-tipo="youtuve"] {
+    font-size: 50px;
+    text-decoration: none;
+    color: red; }
+  footer hr[data-tipo="segundo"] {
+    width: 37.93vw;
     position: relative;
-    height: 140vh;
-    top: 20vh; }
-    main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] p[data-tipo="texas-letra-supervivientes"] {
-      font-size: 2em;
-      color: #5cd3f4;
-      text-align: center;
-      padding-bottom: 5vh; }
-    main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div {
-      position: relative;
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-      grid-template-rows: auto;
-      gap: 10px; }
-      main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="leland"] {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="leland"] article {
-          position: relative;
-          border: 1px solid;
-          border-radius: 30px;
-          padding: 10px;
-          width: 60vw;
-          height: 65vh;
-          background-color: #cbc6c6; }
-      main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div img[dato-tipo="leland"] {
-        position: relative;
-        height: 70vh;
-        width: 30vw;
-        left: -1vw; }
-      main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="connie"] {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="connie"] article {
-          position: relative;
-          border: 1px solid;
-          border-radius: 30px;
-          padding: 10px;
-          width: 60vw;
-          height: 60vh;
-          background-color: #cbc6c6;
-          top: 3vh; }
-      main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div img[dato-tipo="connie"] {
-        position: relative;
-        height: 70vh;
-        width: 30vw;
-        left: -1vw; } }
+    color: gray;
+    bottom: 8vh;
+    left: 61vw;
+    position: relative; }
