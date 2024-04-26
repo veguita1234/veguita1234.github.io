@@ -16,7 +16,10 @@ header {
       gap: 7em;
       list-style-type: none; }
       header nav[data-tipo="nav-index"] ul li {
-        font-size: 20px; }
+        font-size: 20px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding: 3px 3px; }
         header nav[data-tipo="nav-index"] ul li:hover {
           border: 1px solid #2af3fa;
           padding: 3px 3px;
@@ -164,7 +167,10 @@ header nav[data-tipo="nav-dota"] {
     gap: 7em;
     list-style-type: none; }
     header nav[data-tipo="nav-dota"] ul li {
-      font-size: 20px; }
+      font-size: 20px;
+      border: 1px solid gray;
+      border-radius: 10px;
+      padding: 3px 3px; }
       header nav[data-tipo="nav-dota"] ul li:hover {
         border: 1px solid red;
         padding: 3px 3px;
@@ -176,11 +182,14 @@ header nav[data-tipo="nav-dota"] {
         header nav[data-tipo="nav-dota"] ul li a:hover {
           color: white; }
 
-main[data-tipo="dota-main"] h1 {
+main[data-tipo="dota-main"] p[data-tipo="titulo-dota"] {
   color: red;
   position: relative;
   left: 40vw;
-  bottom: 3vh; }
+  font-size: 6em;
+  bottom: 1vh;
+  width: 20vw;
+  font-weight: bold; }
 
 main[data-tipo="dota-main"] p {
   font-size: 4em;
@@ -277,7 +286,10 @@ header nav[data-tipo="nav-dbd"] {
     gap: 7em;
     list-style-type: none; }
     header nav[data-tipo="nav-dbd"] ul li {
-      font-size: 20px; }
+      font-size: 20px;
+      border: 1px solid gray;
+      border-radius: 10px;
+      padding: 3px 3px; }
       header nav[data-tipo="nav-dbd"] ul li:hover {
         border: 1px solid #5d5c5c;
         padding: 3px 3px;
@@ -443,7 +455,10 @@ header nav[data-tipo="nav-left"] {
     gap: 7em;
     list-style-type: none; }
     header nav[data-tipo="nav-left"] ul li {
-      font-size: 20px; }
+      font-size: 20px;
+      border: 1px solid gray;
+      border-radius: 10px;
+      padding: 3px 3px; }
       header nav[data-tipo="nav-left"] ul li:hover {
         border: 1px solid black;
         padding: 3px 3px;
@@ -593,7 +608,10 @@ header nav[data-tipo="nav-texas"] {
     gap: 7em;
     list-style-type: none; }
     header nav[data-tipo="nav-texas"] ul li {
-      font-size: 20px; }
+      font-size: 20px;
+      border: 1px solid gray;
+      border-radius: 10px;
+      padding: 3px 3px; }
       header nav[data-tipo="nav-texas"] ul li:hover {
         border: 1px solid #f09696;
         padding: 3px 3px;
@@ -741,7 +759,7 @@ footer {
   footer hr[data-tipo="primero"] {
     width: 37vw;
     position: relative;
-    color: gray;
+    color: red;
     top: 7vh; }
   footer a[data-tipo="steam"] {
     font-size: 50px;

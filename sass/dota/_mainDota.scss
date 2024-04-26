@@ -1,11 +1,15 @@
 
 main[data-tipo="dota-main"] {
 
-    h1 {
+    p[data-tipo="titulo-dota"] {
         color: red;
         position: relative;
         left: 40vw;
-        bottom: 3vh;
+        font-size: 6em;
+        bottom: 1vh;
+        width: 20vw;
+        font-weight: bold;
+
 
     }
 
