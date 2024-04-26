@@ -3,26 +3,50 @@
   box-sizing: border-box; }
 
 header {
-  height: 30vh;
+  height: 15vh;
   display: flex;
   flex-direction: row; }
-  header nav h1 {
+  header nav[data-tipo="nav-index"] {
+    position: relative;
+    left: 40vw;
+    top: 5vh; }
+    header nav[data-tipo="nav-index"] ul {
+      display: flex;
+      flex-direction: row;
+      gap: 7em;
+      list-style-type: none; }
+      header nav[data-tipo="nav-index"] ul li {
+        font-size: 20px; }
+        header nav[data-tipo="nav-index"] ul li:hover {
+          border: 1px solid #2af3fa;
+          padding: 3px 3px;
+          border-radius: 10px;
+          background-color: #2af3fa; }
+        header nav[data-tipo="nav-index"] ul li a {
+          text-decoration: none;
+          color: black; }
+          header nav[data-tipo="nav-index"] ul li a:hover {
+            color: white; }
+
+main {
+  position: relative;
+  height: 90vh; }
+  main h1 {
     display: inline-block;
     position: relative;
     color: blue;
     width: 50vw;
     height: 13vh;
-    top: 3vh;
     left: 10vw;
     font-size: 80px;
     font-style: italic; }
-  header nav img {
+  main img[data-tipo="perfil"] {
     display: inline-block;
     position: relative;
     height: 20vh;
-    left: 30vw;
-    top: 2vh; }
-  header nav p {
+    top: 2vh;
+    left: 30vw; }
+  main p[data-tipo="nick"] {
     position: relative;
     left: 83vw;
     font-size: 20px;
@@ -48,126 +72,122 @@ header {
     color: red; }
   /* Vuelve al color inicial al final */ }
 
-main {
+div[data-tipo="primero"] {
   position: relative;
-  height: 90vh; }
-  main div[data-tipo="primero"] {
+  width: 1400px;
+  height: 600px;
+  overflow: hidden;
+  left: 60px; }
+  div[data-tipo="primero"] img[data-tipo="primero-1"] {
+    width: 100%;
+    height: 100%;
     position: relative;
-    width: 1400px;
-    height: 600px;
-    overflow: hidden;
-    left: 60px; }
-    main div[data-tipo="primero"] img {
-      width: 100%;
-      height: 100%;
-      position: relative;
-      opacity: 1;
-      transition: opacity 0.5s ease-in-out; }
-    main div[data-tipo="primero"]:target {
-      opacity: 1; }
-  main div[data-tipo="segundo"] {
-    position: relative;
-    top: 2vh;
-    transform: translateX(-50%);
-    width: 15vw;
-    left: 50vw;
-    text-align: center; }
-    main div[data-tipo="segundo"] a {
-      display: inline-block;
-      position: relative;
-      width: 20px;
-      height: 20px;
-      background-color: #b6b5b9;
-      border-radius: 50%;
-      margin: 0 5px;
-      /*left: 55vw;*/
-      /*color: white;*/
-      text-decoration: none;
-      line-height: 20px; }
-      main div[data-tipo="segundo"] a:hover {
-        background-color: gray; }
-  main div[data-tipo="tercero"] {
-    position: relative;
-    top: 15vh;
-    height: 70vh;
-    display: grid;
-    grid-template-areas: "dota2 deadby" "left4 texass";
-    justify-content: center;
-    grid-gap: 10%; }
-    main div[data-tipo="tercero"] a div[data-tipo="tres.1"] {
-      grid-area: dota2;
-      position: relative;
-      height: 30vh;
-      width: 25vw;
-      background-image: url("../assets/IMG/index/DOTA/Dota2.jpg");
-      background-size: cover; }
-      main div[data-tipo="tercero"] a div[data-tipo="tres.1"]:hover {
-        background-image: url("../assets/IMG/index/DOTA/Dota2-1.png"); }
-    main div[data-tipo="tercero"] a div[data-tipo="tres.2"] {
-      grid-area: deadby;
-      position: relative;
-      height: 30vh;
-      width: 25vw;
-      background-image: url("../assets/IMG/index/DBD/DBD.jpg");
-      background-size: cover; }
-      main div[data-tipo="tercero"] a div[data-tipo="tres.2"]:hover {
-        background-image: url("../assets/IMG/index/DBD/DBD-1.jpg"); }
-    main div[data-tipo="tercero"] a div[data-tipo="tres.3"] {
-      grid-area: left4;
-      position: relative;
-      height: 30vh;
-      width: 25vw;
-      background-image: url("../assets/IMG/index/LEFT/Left.jpg");
-      background-size: cover; }
-      main div[data-tipo="tercero"] a div[data-tipo="tres.3"]:hover {
-        background-image: url("../assets/IMG/index/LEFT/left-1.jpg"); }
-    main div[data-tipo="tercero"] a div[data-tipo="tres.4"] {
-      grid-area: texass;
-      position: relative;
-      height: 30vh;
-      width: 25vw;
-      background-image: url("../assets/IMG/index/TEXAS/Texas.jpg");
-      background-size: cover; }
-      main div[data-tipo="tercero"] a div[data-tipo="tres.4"]:hover {
-        background-image: url("../assets/IMG/index/TEXAS/Texas-1.png"); }
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out; }
+  div[data-tipo="primero"]:target {
+    opacity: 1; }
 
-header nav[data-tipo="dota-header"] {
+div[data-tipo="segundo"] {
   position: relative;
-  height: 10vh; }
-  header nav[data-tipo="dota-header"] a img {
+  top: 2vh;
+  transform: translateX(-50%);
+  width: 15vw;
+  left: 50vw;
+  text-align: center; }
+  div[data-tipo="segundo"] a {
+    display: inline-block;
     position: relative;
-    height: 5vh;
-    width: 5vw;
-    left: -10px;
-    top: -5vh; }
-  header nav[data-tipo="dota-header"] h1 {
-    position: relative;
-    left: 36vw;
-    color: gray;
-    height: 5vh;
-    width: 80vw; }
+    width: 20px;
+    height: 20px;
+    background-color: #b6b5b9;
+    border-radius: 50%;
+    margin: 0 5px;
+    /*left: 55vw;*/
+    /*color: white;*/
+    text-decoration: none;
+    line-height: 20px; }
+    div[data-tipo="segundo"] a:hover {
+      background-color: gray; }
 
-@media screen and (max-width: 400px) {
-  header nav[data-tipo="dota-header"] {
+div[data-tipo="tercero"] {
+  position: relative;
+  top: 15vh;
+  height: 70vh;
+  display: grid;
+  grid-template-areas: "dota2 deadby" "left4 texass";
+  justify-content: center;
+  grid-gap: 10%; }
+  div[data-tipo="tercero"] a div[data-tipo="tres.1"] {
+    grid-area: dota2;
     position: relative;
-    height: 10vh; }
-    header nav[data-tipo="dota-header"] a img {
-      position: relative;
-      height: 5vh;
-      width: 10vw;
-      top: -1vh;
-      left: 1vw; }
-    header nav[data-tipo="dota-header"] h1[data-tipo="titulo-dota"] {
-      position: relative;
-      left: 20vw;
-      color: gray;
-      height: 10vh;
-      width: 80vw;
-      font-size: 3rem; } }
+    height: 30vh;
+    width: 25vw;
+    background-image: url("../assets/IMG/index/DOTA/Dota2.jpg");
+    background-size: cover; }
+    div[data-tipo="tercero"] a div[data-tipo="tres.1"]:hover {
+      background-image: url("../assets/IMG/index/DOTA/Dota2-1.png"); }
+  div[data-tipo="tercero"] a div[data-tipo="tres.2"] {
+    grid-area: deadby;
+    position: relative;
+    height: 30vh;
+    width: 25vw;
+    background-image: url("../assets/IMG/index/DBD/DBD.jpg");
+    background-size: cover; }
+    div[data-tipo="tercero"] a div[data-tipo="tres.2"]:hover {
+      background-image: url("../assets/IMG/index/DBD/DBD-1.jpg"); }
+  div[data-tipo="tercero"] a div[data-tipo="tres.3"] {
+    grid-area: left4;
+    position: relative;
+    height: 30vh;
+    width: 25vw;
+    background-image: url("../assets/IMG/index/LEFT/Left.jpg");
+    background-size: cover; }
+    div[data-tipo="tercero"] a div[data-tipo="tres.3"]:hover {
+      background-image: url("../assets/IMG/index/LEFT/left-1.jpg"); }
+  div[data-tipo="tercero"] a div[data-tipo="tres.4"] {
+    grid-area: texass;
+    position: relative;
+    height: 30vh;
+    width: 25vw;
+    background-image: url("../assets/IMG/index/TEXAS/Texas.jpg");
+    background-size: cover; }
+    div[data-tipo="tercero"] a div[data-tipo="tres.4"]:hover {
+      background-image: url("../assets/IMG/index/TEXAS/Texas-1.png"); }
+
+header nav[data-tipo="nav-dota"] {
+  position: relative;
+  left: 40vw;
+  top: 5vh; }
+  header nav[data-tipo="nav-dota"] ul {
+    display: flex;
+    flex-direction: row;
+    gap: 7em;
+    list-style-type: none; }
+    header nav[data-tipo="nav-dota"] ul li {
+      font-size: 20px; }
+      header nav[data-tipo="nav-dota"] ul li:hover {
+        border: 1px solid red;
+        padding: 3px 3px;
+        border-radius: 10px;
+        background-color: #fa2a2a; }
+      header nav[data-tipo="nav-dota"] ul li a {
+        text-decoration: none;
+        color: black; }
+        header nav[data-tipo="nav-dota"] ul li a:hover {
+          color: white; }
+
+main[data-tipo="dota-main"] h1 {
+  color: red;
+  position: relative;
+  left: 40vw;
+  bottom: 3vh; }
 
 main[data-tipo="dota-main"] p {
   font-size: 4em;
-  color: blue; }
+  color: blue;
+  left: 5vw;
+  width: 75vw;
+  position: relative; }
 
 main[data-tipo="dota-main"] div {
   position: relative;
@@ -247,21 +267,33 @@ main[data-tipo="dota-main"] div {
               width: 10vw;
               height: 10vh; } }
 
-header nav[data-tipo="dbd-header"] {
+header nav[data-tipo="nav-dbd"] {
   position: relative;
-  height: 10vh; }
-  header nav[data-tipo="dbd-header"] a img {
-    position: relative;
-    height: 5vh;
-    width: 5vw;
-    left: -10px;
-    top: -5vh; }
-  header nav[data-tipo="dbd-header"] h1 {
-    position: relative;
-    left: 25vw;
-    color: gray;
-    height: 5vh;
-    width: 80vw; }
+  left: 40vw;
+  top: 5vh; }
+  header nav[data-tipo="nav-dbd"] ul {
+    display: flex;
+    flex-direction: row;
+    gap: 7em;
+    list-style-type: none; }
+    header nav[data-tipo="nav-dbd"] ul li {
+      font-size: 20px; }
+      header nav[data-tipo="nav-dbd"] ul li:hover {
+        border: 1px solid #5d5c5c;
+        padding: 3px 3px;
+        border-radius: 10px;
+        background-color: #5a5757; }
+      header nav[data-tipo="nav-dbd"] ul li a {
+        text-decoration: none;
+        color: black; }
+        header nav[data-tipo="nav-dbd"] ul li a:hover {
+          color: white; }
+
+main[data-tipo="dbd-main"] h1 {
+  color: #5d5c5c;
+  position: relative;
+  left: 30vw;
+  bottom: 3vh; }
 
 main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] {
   position: relative;
@@ -401,39 +433,33 @@ main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] {
   font-family: killer;
   src: url("../assets/FUENTES/terror_pro.ttf"); }
 
-header nav[data-tipo="left-header"] {
+header nav[data-tipo="nav-left"] {
   position: relative;
-  height: 10vh; }
-  header nav[data-tipo="left-header"] a img {
-    position: relative;
-    height: 5vh;
-    width: 5vw;
-    left: -10px;
-    top: -5vh; }
-  header nav[data-tipo="left-header"] h1 {
-    position: relative;
-    left: 29vw;
-    color: gray;
-    height: 5vh;
-    width: 80vw; }
+  left: 40vw;
+  top: 5vh; }
+  header nav[data-tipo="nav-left"] ul {
+    display: flex;
+    flex-direction: row;
+    gap: 7em;
+    list-style-type: none; }
+    header nav[data-tipo="nav-left"] ul li {
+      font-size: 20px; }
+      header nav[data-tipo="nav-left"] ul li:hover {
+        border: 1px solid black;
+        padding: 3px 3px;
+        border-radius: 10px;
+        background-color: black; }
+      header nav[data-tipo="nav-left"] ul li a {
+        text-decoration: none;
+        color: black; }
+        header nav[data-tipo="nav-left"] ul li a:hover {
+          color: white; }
 
-@media screen and (max-width: 400px) {
-  header nav[data-tipo="left-header"] {
-    position: relative;
-    height: 10vh; }
-    header nav[data-tipo="left-header"] a img {
-      position: relative;
-      height: 5vh;
-      width: 10vw;
-      top: -1vh;
-      left: 1vw; }
-    header nav[data-tipo="left-header"] h1[data-tipo="titulo-left"] {
-      position: relative;
-      left: 10vw;
-      color: gray;
-      height: 10vh;
-      width: 80vw;
-      font-size: 2.5rem; } }
+main[data-tipo="left-main"] h1 {
+  color: black;
+  position: relative;
+  left: 35vw;
+  bottom: 3vh; }
 
 main[data-tipo="left-main"] div[data-tipo="asesinos-left"] {
   position: relative;
@@ -467,6 +493,9 @@ main[data-tipo="left-main"] div[data-tipo="asesinos-left"] {
         width: 60vw;
         height: 40vh;
         background-color: #cbc6c6; }
+        main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="smoker"] article p {
+          text-align: justify;
+          font-size: 17px; }
     main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div img[data-tipo="charger"] {
       position: relative;
       height: 60vh;
@@ -488,6 +517,9 @@ main[data-tipo="left-main"] div[data-tipo="asesinos-left"] {
         width: 60vw;
         height: 40vh;
         background-color: #cbc6c6; }
+        main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="charger"] article p {
+          text-align: justify;
+          font-size: 16px; }
 
 main[data-tipo="left-main"] div[data-tipo=supervivientes-left] {
   position: relative;
@@ -516,6 +548,9 @@ main[data-tipo="left-main"] div[data-tipo=supervivientes-left] {
         width: 60vw;
         height: 40vh;
         background-color: #cbc6c6; }
+        main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Ellis"] article p {
+          text-align: justify;
+          font-size: 16px; }
     main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div img[dato-tipo="Ellis"] {
       position: relative;
       height: 75vh;
@@ -534,6 +569,9 @@ main[data-tipo="left-main"] div[data-tipo=supervivientes-left] {
         width: 60vw;
         height: 40vh;
         background-color: #cbc6c6; }
+        main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Nick"] article p {
+          text-align: justify;
+          font-size: 18px; }
     main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div img[dato-tipo="Nick"] {
       position: relative;
       height: 75vh;
@@ -541,154 +579,38 @@ main[data-tipo="left-main"] div[data-tipo=supervivientes-left] {
       left: 5vw;
       padding-top: 5vh; }
 
-@media screen and (max-width: 400px) {
-  main[data-tipo="left-main"] div[data-tipo="asesinos-left"] {
-    position: relative;
-    height: 140vh;
-    top: -6vh; }
-    main[data-tipo="left-main"] div[data-tipo="asesinos-left"] p[data-tipo="left-letra-asesinos"] {
-      position: relative;
-      font-family: killer;
-      font-size: 2em;
-      color: red;
-      top: -5vh; }
-    main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div {
-      position: relative;
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      grid-template-rows: auto;
-      gap: 10px;
-      top: -5vh; }
-      main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div img[data-tipo="smoker"] {
-        position: relative;
-        height: 65vh;
-        width: 35vw;
-        left: 2vw; }
-      main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="smoker"] {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="smoker"] article {
-          position: relative;
-          border: 1px solid;
-          border-radius: 30px;
-          padding: 10px;
-          width: 60vw;
-          height: 60vh;
-          background-color: #cbc6c6;
-          top: 5vh; }
-      main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div img[data-tipo="charger"] {
-        position: relative;
-        height: 70vh;
-        width: 30vw;
-        left: 2vw; }
-      main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="charger"] {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 60vh;
-        padding-top: 5vh; }
-        main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="charger"] article {
-          position: relative;
-          border: 1px solid;
-          border-radius: 30px;
-          padding: 10px;
-          width: 60vw;
-          height: 60vh;
-          top: 9.5vh;
-          background-color: #cbc6c6; }
-  main[data-tipo="left-main"] div[data-tipo=supervivientes-left] {
-    position: relative;
-    height: 140vh;
-    top: 5vh; }
-    main[data-tipo="left-main"] div[data-tipo=supervivientes-left] p[data-tipo="left-letra-supervivientes"] {
-      font-size: 2em;
-      color: #5cd3f4;
-      text-align: center;
-      padding-bottom: 5vh; }
-    main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div {
-      position: relative;
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-      grid-template-rows: auto;
-      gap: 10px; }
-      main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Ellis"] {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Ellis"] article {
-          position: relative;
-          border: 1px solid;
-          border-radius: 30px;
-          padding: 10px;
-          width: 60vw;
-          height: 65vh;
-          background-color: #cbc6c6; }
-      main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div img[dato-tipo="Ellis"] {
-        position: relative;
-        height: 70vh;
-        width: 30vw;
-        left: -1vw; }
-      main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Nick"] {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Nick"] article {
-          position: relative;
-          border: 1px solid;
-          border-radius: 30px;
-          padding: 10px;
-          width: 60vw;
-          height: 60vh;
-          background-color: #cbc6c6;
-          top: 3vh; }
-      main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div img[dato-tipo="Nick"] {
-        position: relative;
-        height: 75vh;
-        width: 35vw;
-        left: -3vw; } }
-
 @font-face {
   font-family: killer;
   src: url("../assets/FUENTES/terror_pro.ttf"); }
 
-header nav[data-tipo="texas-header"] {
+header nav[data-tipo="nav-texas"] {
   position: relative;
-  height: 10vh; }
-  header nav[data-tipo="texas-header"] a img {
-    position: relative;
-    height: 5vh;
-    width: 5vw;
-    left: -10px;
-    top: -5vh; }
-  header nav[data-tipo="texas-header"] h1[data-tipo="titulo-texas"] {
-    position: relative;
-    left: 10vw;
-    color: gray;
-    height: 10vh;
-    width: 80vw; }
+  left: 40vw;
+  top: 5vh; }
+  header nav[data-tipo="nav-texas"] ul {
+    display: flex;
+    flex-direction: row;
+    gap: 7em;
+    list-style-type: none; }
+    header nav[data-tipo="nav-texas"] ul li {
+      font-size: 20px; }
+      header nav[data-tipo="nav-texas"] ul li:hover {
+        border: 1px solid #f09696;
+        padding: 3px 3px;
+        border-radius: 10px;
+        background-color: #f09696; }
+      header nav[data-tipo="nav-texas"] ul li a {
+        text-decoration: none;
+        color: black; }
+        header nav[data-tipo="nav-texas"] ul li a:hover {
+          color: white; }
 
-@media screen and (max-width: 400px) {
-  header nav[data-tipo="texas-header"] {
-    position: relative;
-    height: 10vh; }
-    header nav[data-tipo="texas-header"] a img {
-      position: relative;
-      height: 5vh;
-      width: 10vw;
-      top: -5vh;
-      left: 2vw; }
-    header nav[data-tipo="texas-header"] h1[data-tipo="titulo-texas"] {
-      position: relative;
-      left: 10vw;
-      color: gray;
-      height: 10vh;
-      width: 80vw;
-      font-size: 2.5rem; } }
+main[data-tipo="texas-main"] h1 {
+  color: #f8aaaa;
+  position: relative;
+  left: 19vw;
+  bottom: 3vh;
+  width: 70vw; }
 
 main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] {
   position: relative;
@@ -697,7 +619,8 @@ main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] {
     font-family: killer;
     font-size: 4em;
     color: red;
-    padding-bottom: 5vh; }
+    padding-bottom: 5vh;
+    position: relative; }
   main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div {
     position: relative;
     display: grid;
@@ -720,8 +643,11 @@ main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] {
         border-radius: 30px;
         padding: 10px;
         width: 60vw;
-        height: 40vh;
+        height: 35vh;
         background-color: #cbc6c6; }
+        main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="leatherface"] article p {
+          text-align: justify;
+          font-size: 20px; }
     main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div img[data-tipo="cook"] {
       position: relative;
       height: 70vh;
@@ -741,8 +667,12 @@ main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] {
         border-radius: 30px;
         padding: 10px;
         width: 60vw;
-        height: 40vh;
-        background-color: #cbc6c6; }
+        height: 35vh;
+        background-color: #cbc6c6;
+        top: 4vh; }
+        main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="cook"] article p {
+          text-align: justify;
+          font-size: 20px; }
 
 main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] {
   position: relative;
@@ -772,6 +702,9 @@ main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] {
         width: 60vw;
         height: 40vh;
         background-color: #cbc6c6; }
+        main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="leland"] article p {
+          text-align: justify;
+          font-size: 18px; }
     main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div img[dato-tipo="leland"] {
       position: relative;
       height: 75vh;
@@ -788,8 +721,11 @@ main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] {
         border-radius: 30px;
         padding: 10px;
         width: 60vw;
-        height: 40vh;
+        height: 37vh;
         background-color: #cbc6c6; }
+        main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="connie"] article p {
+          text-align: justify;
+          font-size: 20px; }
     main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div img[dato-tipo="connie"] {
       position: relative;
       height: 75vh;

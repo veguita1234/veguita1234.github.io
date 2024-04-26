@@ -1,61 +1,41 @@
 
 header {
 
-    nav[data-tipo="texas-header"] {
+    nav[data-tipo="nav-texas"] {
         position: relative;
-        height: 10vh;
+        left: 40vw;
+        top: 5vh;
 
-        a {
-
-            img {
-                position: relative;
-                height: 5vh;
-                width: 5vw;
-                left: -10px;
-                top: -5vh;
-            }
-        }
-
-        h1[data-tipo="titulo-texas"] {
-            position  : relative;
-            left: 10vw;
-            color     : gray;
-            height    : 10vh;
-            width: 80vw;
+        ul {
+            display: flex;
+            flex-direction: row;
+            gap: 7em;
+            list-style-type: none;
             
-        }
+            
+            li {
+                font-size: 20px;
+                
 
-    }
-}
-
-@media screen and (max-width: 400px) {
-    header {
-
-        nav[data-tipo="texas-header"] {
-            position: relative;
-            height: 10vh;
-    
-            a {
-    
-                img {
-                    position: relative;
-                    height: 5vh;
-                    width: 10vw;
-                    top: -5vh;
-                    left: 2vw;
+                &:hover {
+                    border: 1px solid rgb(240, 150, 150);
+                    padding: 3px 3px;
+                    border-radius: 10px;
+                    background-color: rgb(240, 150, 150);
                 }
-            }
-    
-            h1[data-tipo="titulo-texas"] {
-                position  : relative;
-                left: 10vw;
-                color     : gray;
-                height    : 10vh;
-                width: 80vw;
-                font-size: 2.5rem;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+
+                    &:hover {
+                        color: white;
+                    }
+                    
+                }
                 
             }
-    
         }
+
     }
 }

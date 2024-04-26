@@ -1,6 +1,15 @@
 
 main[data-tipo="texas-main"] {
 
+    h1 {
+        color: rgb(248, 170, 170);
+        position: relative;
+        left: 19vw;
+        bottom: 3vh;
+        width: 70vw;
+
+    }
+
     div[data-tipo="asesinos-texas"] {
         position: relative;
         height: 140vh;
@@ -10,6 +19,7 @@ main[data-tipo="texas-main"] {
             font-size: 4em;
             color: red;
             padding-bottom: 5vh;
+            position: relative;
         }
 
         div {
@@ -39,8 +49,13 @@ main[data-tipo="texas-main"] {
                     border-radius: 30px;
                     padding: 10px;
                     width: 60vw;
-                    height: 40vh;
+                    height: 35vh;
                     background-color: #cbc6c6;
+
+                    p {
+                        text-align: justify;
+                        font-size: 20px;
+                    }
 
                 }
             }
@@ -67,8 +82,14 @@ main[data-tipo="texas-main"] {
                     border-radius: 30px;
                     padding: 10px;
                     width: 60vw;
-                    height: 40vh;
+                    height: 35vh;
                     background-color: #cbc6c6;
+                    top: 4vh;
+
+                    p {
+                        text-align: justify;
+                        font-size: 20px;
+                    }
                     
                 }
 
@@ -88,6 +109,7 @@ main[data-tipo="texas-main"] {
             color: rgb(92, 211, 244);
             text-align: end;
             padding-bottom: 5vh;
+            
         }
 
         div {
@@ -112,6 +134,11 @@ main[data-tipo="texas-main"] {
                     height: 40vh;
                     background-color: #cbc6c6;
 
+                    p {
+                        text-align: justify;
+                        font-size: 18px;
+                    }
+
                 }
             }
 
@@ -135,8 +162,13 @@ main[data-tipo="texas-main"] {
                     border-radius: 30px;
                     padding: 10px;
                     width: 60vw;
-                    height: 40vh;
+                    height: 37vh;
                     background-color: #cbc6c6;
+
+                    p {
+                        text-align: justify;
+                        font-size: 20px;
+                    }
 
                     
                 }

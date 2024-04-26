@@ -1,47 +1,42 @@
 header {
-    height: 30vh;
+    height: 15vh;
     display: flex;
     flex-direction: row;
 
-    nav {
+    nav[data-tipo="nav-index"] {
+        position: relative;
+        left: 40vw;
+        top: 5vh;
 
-        h1 {
-            display: inline-block;
-            position: relative;
-            color: blue;
-            width: 50vw;
-            height: 13vh;
-            top: 3vh;
-            left: 10vw;
-            font-size: 80px;
-            font-style: italic;
+        ul {
+            display: flex;
+            flex-direction: row;
+            gap: 7em;
+            list-style-type: none;
+            
+            
+            li {
+                font-size: 20px;
+                
+
+                &:hover {
+                    border: 1px solid rgb(42, 243, 250);
+                    padding: 3px 3px;
+                    border-radius: 10px;
+                    background-color: rgb(42, 243, 250);
+                }
+
+                a {
+                    text-decoration: none;
+                    color: black;
+
+                    &:hover {
+                        color: white;
+                    }
+                    
+                }
+                
+            }
         }
-
-        img {
-            display: inline-block;
-            position: relative;
-            height: 20vh;
-            left: 30vw;
-            top: 2vh;
-        }
-
-        p {
-            position: relative;
-        left:83vw;
-        font-size: 20px;
-        font-weight: bold;
-        width: 5vw;
-        animation: changeColor 2s linear infinite;
-        top: 2vh;
-        }
-
-        @keyframes changeColor {
-            0% { color: red; } /* Define el color inicial */
-            25% { color: blue; } /* Cambia el color al 25% del tiempo */
-            50% { color: green; } /* Cambia el color al 50% del tiempo */
-            75% { color: orange; } /* Cambia el color al 75% del tiempo */
-            100% { color: red; } /* Vuelve al color inicial al final */
-        }
-
     }
 }

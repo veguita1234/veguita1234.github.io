@@ -1,60 +1,42 @@
 
 header {
 
-    nav[data-tipo="dota-header"] {
+    nav[data-tipo="nav-dota"] {
         position: relative;
-        height: 10vh;
+        left: 40vw;
+        top: 5vh;
 
-        a {
+        ul {
+            display: flex;
+            flex-direction: row;
+            gap: 7em;
+            list-style-type: none;
+            
+            
+            li {
+                font-size: 20px;
+                
 
-            img {
-                position: relative;
-                height: 5vh;
-                width: 5vw;
-                left: -10px;
-                top: -5vh;
-            }
-        }
-
-        h1 {
-            position  : relative;
-            left: 36vw;
-            color     : gray;
-            height    : 5vh;
-            width: 80vw;
-        }
-
-    }
-}
-
-@media screen and (max-width: 400px) {
-    header {
-
-        nav[data-tipo="dota-header"] {
-            position: relative;
-            height: 10vh;
-    
-            a {
-    
-                img {
-                    position: relative;
-                    height: 5vh;
-                    width: 10vw;
-                    top: -1vh;
-                    left: 1vw;
+                &:hover {
+                    border: 1px solid red;
+                    padding: 3px 3px;
+                    border-radius: 10px;
+                    background-color: rgb(250, 42, 42);
                 }
-            }
-    
-            h1[data-tipo="titulo-dota"] {
-                position  : relative;
-                left: 20vw;
-                color     : gray;
-                height    : 10vh;
-                width: 80vw;
-                font-size: 3rem;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+
+                    &:hover {
+                        color: white;
+                    }
+                    
+                }
                 
             }
-    
         }
+
     }
 }
+

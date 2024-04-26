@@ -1,6 +1,14 @@
 
 main[data-tipo="dbd-main"] {
 
+    h1 {
+        color: rgb(93, 92, 92);
+        position: relative;
+        left: 30vw;
+        bottom: 3vh;
+
+    }
+
         div[data-tipo="asesinos-dbd"] {
             position: relative;
             height: 140vh;

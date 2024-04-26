@@ -1,9 +1,20 @@
 
 main[data-tipo="dota-main"] {
 
+    h1 {
+        color: red;
+        position: relative;
+        left: 40vw;
+        bottom: 3vh;
+
+    }
+
     p {
         font-size: 4em;
         color: blue;
+        left: 5vw;
+        width: 75vw;
+        position: relative;
     }
 
     div {

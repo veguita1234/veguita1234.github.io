@@ -1,27 +1,40 @@
 
 header {
 
-    nav[data-tipo="dbd-header"] {
+    nav[data-tipo="nav-dbd"] {
         position: relative;
-        height: 10vh;
+        left: 40vw;
+        top: 5vh;
 
-        a {
+        ul {
+            display: flex;
+            flex-direction: row;
+            gap: 7em;
+            list-style-type: none;
+            
+            
+            li {
+                font-size: 20px;
+                
 
-            img {
-                position: relative;
-                height: 5vh;
-                width: 5vw;
-                left: -10px;
-                top: -5vh;
+                &:hover {
+                    border: 1px solid rgb(93, 92, 92);
+                    padding: 3px 3px;
+                    border-radius: 10px;
+                    background-color: rgb(90, 87, 87);
+                }
+
+                a {
+                    text-decoration: none;
+                    color: black;
+
+                    &:hover {
+                        color: white;
+                    }
+                    
+                }
+                
             }
-        }
-
-        h1 {
-            position  : relative;
-            left: 25vw;
-            color     : gray;
-            height    : 5vh;
-            width: 80vw;
         }
 
     }
