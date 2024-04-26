@@ -1,8 +1,7 @@
 
-main[data-tipo="main-index"] {
-    
+main {
     position: relative;
-    height: 200vh;
+    height: 90vh;
 
         h1 {
             display: inline-block;
@@ -43,10 +42,63 @@ main[data-tipo="main-index"] {
             100% { color: red; } /* Vuelve al color inicial al final */
         }
 
+        @import "./mainIndexPLATAFORMAS";
+
+        @import "./mainIndexJUEGOS";
+
     }
     
-    @import "./mainIndexPLATAFORMAS";
+    @media screen and (max-width: 768px) {
+        main {
+            position: relative;
+            height: 230vh;
+            width: 100vw;
+        
+                h1 {
 
-    @import "./mainIndexJUEGOS";
+                    position: relative;
+                    color: blue;
+                    width: 50vw;
+                    height: 13vh;
+                    left: 10vw;
+                    font-size: 65px;
+                    font-style: italic;
+                    top: 5vh;
+        
+                }
+        
+                img[data-tipo="perfil"] {
+
+                    position: relative;
+                    height: 18vh;
+                    top: -3vh;
+                    left: 30vw;
+                }
+        
+                p[data-tipo="nick"] {
+                position: relative;
+                left:83vw;
+                font-size: 20px;
+                font-weight: bold;
+                width: 10vw;
+                animation: changeColor 2s linear infinite;
+                top: -3vh;
+                }
+        
+                @keyframes changeColor {
+                    0% { color: red; } /* Define el color inicial */
+                    25% { color: blue; } /* Cambia el color al 25% del tiempo */
+                    50% { color: green; } /* Cambia el color al 50% del tiempo */
+                    75% { color: orange; } /* Cambia el color al 75% del tiempo */
+                    100% { color: red; } /* Vuelve al color inicial al final */
+                }
+        
+                @import "./mainIndexPLATAFORMAS";
+        
+                @import "./mainIndexJUEGOS";
+        
+            }
+
+    }
     
 

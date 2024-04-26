@@ -68,3 +68,77 @@ div[data-tipo="tercero"] {
 
 }
 }
+
+@media screen and (max-width: 768px) {
+    div[data-tipo="tercero"] {
+        position: relative;
+        top: 15vh;
+        height: 70vh;
+        display: grid;
+        grid-template-areas: "dota2 deadby" "left4 texass";
+        justify-content: center;
+        grid-gap: 10%;
+    
+        a {
+            div[data-tipo="tres.1"] {
+                grid-area: dota2;
+                position: relative;
+                height: 25vh;
+                width: 30vw;
+                background-image: url('../assets/IMG/index/DOTA/Dota2.jpg');
+                background-size: cover;
+    
+            &:hover {
+                background-image: url("../assets/IMG/index/DOTA/Dota2-1.png");
+            }
+        }
+        }
+    
+        a {
+            div[data-tipo="tres.2"] {
+                grid-area: deadby;
+                position: relative;
+                height: 25vh;
+                width: 30vw;
+                background-image: url('../assets/IMG/index/DBD/DBD.jpg');
+                background-size: cover;
+    
+            &:hover {
+                background-image: url("../assets/IMG/index/DBD/DBD-1.jpg");
+            }
+        }
+        }
+    
+        a {
+            div[data-tipo="tres.3"] {
+                grid-area: left4;
+                position: relative;
+                height: 25vh;
+                width: 30vw;
+                background-image: url('../assets/IMG/index/LEFT/Left.jpg');
+                background-size: cover;
+    
+            &:hover {
+                background-image: url("../assets/IMG/index/LEFT/left-1.jpg");
+            }
+        }
+        }
+    
+        a {
+            div[data-tipo="tres.4"] {
+                grid-area: texass;
+            position: relative;
+            height: 25vh;
+            width: 30vw;
+            background-image: url('../assets/IMG/index/TEXAS/Texas.jpg');
+            background-size: cover;
+            
+    
+            &:hover {
+                background-image: url("../assets/IMG/index/TEXAS/Texas-1.png");
+            }
+        }
+    
+    }
+    }
+}
