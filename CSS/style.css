@@ -380,6 +380,9 @@ main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] {
         width: 60vw;
         height: 55vh;
         background-color: #cbc6c6; }
+        main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] article p {
+          text-align: justify;
+          font-size: 17px; }
         main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] article div {
           position: relative;
           display: inline-block;
@@ -406,6 +409,9 @@ main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] {
         width: 60vw;
         height: 55vh;
         background-color: #cbc6c6; }
+        main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article p {
+          text-align: justify;
+          font-size: 17px; }
         main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article div {
           position: relative;
           display: inline-block;
@@ -441,6 +447,9 @@ main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] {
         width: 60vw;
         height: 55vh;
         background-color: #cbc6c6; }
+        main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] article p {
+          text-align: justify;
+          font-size: 16px; }
         main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] article div {
           position: relative;
           display: inline-block;
@@ -467,6 +476,9 @@ main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] {
         width: 60vw;
         height: 52vh;
         background-color: #cbc6c6; }
+        main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] article p {
+          text-align: justify;
+          font-size: 17px; }
         main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] article div {
           position: relative;
           display: inline-block;
