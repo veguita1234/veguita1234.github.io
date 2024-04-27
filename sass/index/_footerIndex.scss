@@ -103,7 +103,7 @@ footer[data-tipo="footer-index"] {
 }
 
 @media screen and (max-width: 320px) {
-    footer[data-tipo="footer-index"] {
+    footer[data-tipo="footer-dota"] {
         top: -10vh;
         height: 20vh;
         align-content: center;
@@ -115,7 +115,7 @@ footer[data-tipo="footer-index"] {
             width: 15vw;
             position: relative;
             color: gray;
-            top: 6vh;
+            top: 2.5vh;
         }
     
         a[data-tipo="steam"]{
@@ -152,7 +152,7 @@ footer[data-tipo="footer-index"] {
             width: 15vw;
             position: relative;
             color: gray;
-            bottom: 6.5vh;
+            bottom: 3vh;
             left: 85vw;
             position: relative;
         }

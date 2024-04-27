@@ -182,7 +182,7 @@ main[data-tipo="left-main"] {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     main[data-tipo="left-main"] {
         height: 348vh;
     
@@ -294,6 +294,8 @@ main[data-tipo="left-main"] {
                 color: rgb(92, 211, 244);
                 text-align: end;
                 padding-bottom: 5vh;
+                left: -3vw;
+                position: relative;
             }
     
             div {
@@ -368,4 +370,198 @@ main[data-tipo="left-main"] {
             }
         }
     }
+}
+
+@media screen and (max-width: 320px) {
+    main[data-tipo="left-main"] {
+        position: relative;
+        height: 315vh;
+        top: -10vh;
+    
+        p[data-tipo="titulo-left"] {
+            color: black;
+            position: relative;
+            left: 6vw;
+            font-size: 3em;
+            bottom: 1vh;
+            width: 90vw;
+            font-weight: bold;
+        }
+    
+        div[data-tipo="asesinos-left"] {
+            position: relative;
+            height: 140vh;
+            top: 3vh;
+    
+            p[data-tipo="left-letra-asesinos"] {
+                font-family: killer;
+                font-size: 2em;
+                color: red;
+                padding-bottom: 5vh;
+            }
+    
+            div {
+                position: relative;
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: auto;
+                gap: 10px;
+                
+    
+                img[data-tipo="smoker"] {
+                    position: relative;
+                    height: 45vh;
+                    width: 30vw;
+                    left: 5vw;
+                }
+    
+                div[data-tipo="smoker"] {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    article {
+                        position: relative;
+                        border: 1px solid;
+                        border-radius: 30px;
+                        padding: 10px;
+                        width: 60vw;
+                        height: 40vh;
+                        background-color: #cbc6c6;
+    
+                        p {
+                            text-align: justify;
+                            font-size: 7.5px;
+                        }
+    
+                    }
+                }
+    
+                img[data-tipo="charger"] {
+                    position: relative;
+                    height: 60vh;
+                    width: 30vw;
+                    left: 5vw;
+                    padding-top: 5vh;
+                }
+    
+                div[data-tipo="charger"] {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 60vh;
+                    padding-top: 5vh;
+    
+                    article {
+                        position: relative;
+                        border: 1px solid;
+                        border-radius: 30px;
+                        padding: 10px;
+                        width: 60vw;
+                        height: 50vh;
+                        background-color: #cbc6c6;
+                        top: -1vh;
+    
+                        p {
+                            text-align: justify;
+                            font-size: 8.5px;
+                        }
+                        
+                    }
+    
+                }
+            }
+    
+    
+        }
+    
+        div[data-tipo=supervivientes-left] {
+            position: relative;
+            height: 140vh;
+            top: -5vh;
+
+    
+            p[data-tipo="left-letra-supervivientes"] {
+                font-size: 2em;
+                color: rgb(92, 211, 244);
+                text-align: end;
+                padding-bottom: 5vh;
+            }
+    
+            div {
+                position: relative;
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                grid-template-rows: auto;
+                gap: 10px;
+    
+                div[dato-tipo="Ellis"] {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+    
+                    article {
+                        position: relative;
+                        border: 1px solid;
+                        border-radius: 30px;
+                        padding: 10px;
+                        width: 60vw;
+                        height: 55vh;
+                        background-color: #cbc6c6;
+
+    
+                        p {
+                            text-align: justify;
+                            font-size: 11px;
+                        }
+    
+                    }
+                }
+    
+                img[dato-tipo="Ellis"] {
+                    position: relative;
+                    height: 75vh;
+                    width: 25vw;
+                    left: 5vw;
+                }
+    
+    
+                div[dato-tipo="Nick"] {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+    
+                    article {
+                        position: relative;
+                        border: 1px solid;
+                        border-radius: 30px;
+                        padding: 10px;
+                        width: 60vw;
+                        height: 55vh;
+                        background-color: #cbc6c6;
+    
+                        p {
+                            text-align: justify;
+                            font-size: 12px;
+                        }
+    
+                        
+                    }
+                }
+    
+                img[dato-tipo="Nick"] {
+                    position: relative;
+                    height: 75vh;
+                    width: 30vw;
+                    left: -3vw;
+                    padding-top: 5vh;
+                }
+            }
+        }
+    }
+    
 }

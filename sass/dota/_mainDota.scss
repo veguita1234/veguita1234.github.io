@@ -70,7 +70,7 @@ main[data-tipo="dota-main"] {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     main[data-tipo="dota-main"] {
         height: 170vh;
     
@@ -140,4 +140,79 @@ main[data-tipo="dota-main"] {
             }
         }
     }
+    }
+
+    @media screen and (max-width: 320px) {
+        main[data-tipo="dota-main"] {
+            top: -10vh;
+            height: 110vh;
+            position: relative;
+        
+        
+            p[data-tipo="titulo-dota"] {
+                color: red;
+                position: relative;
+                left: 15vw;
+                font-size: 5em;
+                bottom: 1vh;
+                width: 80vw;
+                font-weight: bold;
+            }
+        
+            p {
+                font-size: 30px;
+                color: blue;
+                left: 5vw;
+                width: 90vw;
+                position: relative;
+            }
+        
+            div {
+                position: relative;
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: auto;
+                gap: 10px;
+                top: 5vh;
+        
+                img {
+                    position: relative;
+                    height: 40vh;
+                    width: 25vw;
+                    left: 5vw;
+                }
+        
+                div {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+        
+                    article {
+                        position: relative;
+                        border: 1px solid;
+                        border-radius: 30px;
+                        padding: 10px;
+                        width: 65vw;
+                        height: 25vh;
+                        background-color: #cbc6c6;
+                        top: -5vh;
+        
+                        
+        
+                        div {
+                            position: relative;
+                            display: inline-block;
+                            top: -1vh;
+                            left: 3vw;
+        
+                            img {
+                                width: 10vw;
+                                height: 10vh;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }

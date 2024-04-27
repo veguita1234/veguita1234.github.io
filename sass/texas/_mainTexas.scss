@@ -188,7 +188,7 @@ main[data-tipo="texas-main"] {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 
     main[data-tipo="texas-main"] {
         height: 355vh;
@@ -380,6 +380,200 @@ main[data-tipo="texas-main"] {
                     left: 5vw;
                     padding-top: 5vh;
                     top: 5vh;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    main[data-tipo="texas-main"] {
+        position: relative;
+        height: 345vh;
+        top: -10vh;
+    
+        p[data-tipo="titulo-texas"] {
+            color: rgb(240, 134, 211);
+            position: relative;
+            left: 1vw;
+            font-size: 3em;
+            bottom: 1vh;
+            width: 95vw;
+            font-weight: bold;
+            text-align: center;
+        }
+    
+    
+        div[data-tipo="asesinos-texas"] {
+            position: relative;
+            height: 140vh;
+    
+            p[data-tipo="texas-letra-asesinos"] {
+                font-family: killer;
+                font-size: 1.8em;
+                color: red;
+                padding-bottom: 5vh;
+                position: relative;
+                top: 3vh;
+            }
+    
+            div {
+                position: relative;
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: auto;
+                gap: 10px;
+                
+    
+                img[data-tipo="leatherface"] {
+                    position: relative;
+                    height: 70vh;
+                    width: 30vw;
+                    left: 2vw;
+                }
+    
+                div[data-tipo="leatherface"] {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    article {
+                        position: relative;
+                        border: 1px solid;
+                        border-radius: 30px;
+                        padding: 10px;
+                        width: 60vw;
+                        height: 60vh;
+                        background-color: #cbc6c6;
+    
+                        p {
+                            text-align: justify;
+                            font-size: 13px;
+                        }
+    
+                    }
+                }
+    
+                img[data-tipo="cook"] {
+                    position: relative;
+                    height: 70vh;
+                    width: 30vw;
+                    left: 2vw;
+                    padding-top: 5vh;
+                }
+    
+                div[data-tipo="cook"] {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 60vh;
+                    padding-top: 5vh;
+    
+                    article {
+                        position: relative;
+                        border: 1px solid;
+                        border-radius: 30px;
+                        padding: 10px;
+                        width: 60vw;
+                        height: 60vh;
+                        background-color: #cbc6c6;
+                        top: 5vh;
+    
+                        p {
+                            text-align: justify;
+                            font-size: 13px;
+                        }
+                        
+                    }
+    
+                }
+            }
+    
+    
+        }
+    
+        div[data-tipo=supervivientes-texas] {
+            position: relative;
+            height: 140vh;
+            top: 20vh;
+    
+            p[data-tipo="texas-letra-supervivientes"] {
+                font-size: 2em;
+                color: rgb(92, 211, 244);
+                text-align: end;
+                padding-bottom: 5vh;
+                
+            }
+    
+            div {
+                position: relative;
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                grid-template-rows: auto;
+                gap: 10px;
+    
+                div[dato-tipo="leland"] {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+    
+                    article {
+                        position: relative;
+                        border: 1px solid;
+                        border-radius: 30px;
+                        padding: 10px;
+                        width: 60vw;
+                        height: 65vh;
+                        background-color: #cbc6c6;
+    
+                        p {
+                            text-align: justify;
+                            font-size: 9.5px;
+                        }
+    
+                    }
+                }
+    
+                img[dato-tipo="leland"] {
+                    position: relative;
+                    height: 75vh;
+                    width: 30vw;
+                    left: 1vw;
+                }
+    
+    
+                div[dato-tipo="connie"] {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+    
+                    article {
+                        position: relative;
+                        border: 1px solid;
+                        border-radius: 30px;
+                        padding: 10px;
+                        width: 60vw;
+                        height: 55vh;
+                        background-color: #cbc6c6;
+    
+                        p {
+                            text-align: justify;
+                            font-size: 13px;
+                        }
+    
+                        
+                    }
+                }
+    
+                img[dato-tipo="connie"] {
+                    position: relative;
+                    height: 75vh;
+                    width: 30vw;
+                    left: 1vw;
                 }
             }
         }

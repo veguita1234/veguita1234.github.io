@@ -49,7 +49,7 @@ footer[data-tipo="footer-dota"] {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     footer[data-tipo="footer-dota"] {
         height: 20vh;
         align-content: center;
@@ -97,6 +97,63 @@ footer[data-tipo="footer-dota"] {
             color: gray;
             bottom: 6vh;
             left: 70vw;
+            position: relative;
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    footer[data-tipo="footer-dota"] {
+        top: -10vh;
+        height: 20vh;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+    
+        hr[data-tipo="primero"] {
+            width: 15vw;
+            position: relative;
+            color: gray;
+            top: 6vh;
+        }
+    
+        a[data-tipo="steam"]{
+            font-size: 30px;
+            text-decoration: none;
+            color: black;
+            margin-right: 20px;
+            
+        }
+    
+        a[data-tipo="twiter"]{
+            font-size: 30px;
+            text-decoration: none;
+            color: rgb(31, 168, 227);
+            margin-right: 20px;
+            
+        }
+    
+        a[data-tipo="facebook"]{
+            font-size: 30px;
+            text-decoration: none;
+            color: rgb(59, 12, 228);
+            margin-right: 20px;
+        }
+    
+        a[data-tipo="youtuve"]{
+            font-size: 30px;
+            text-decoration: none;
+            color: rgb(255, 0, 0);
+            
+        }
+    
+        hr[data-tipo="segundo"] {
+            width: 15vw;
+            position: relative;
+            color: gray;
+            bottom: 6.5vh;
+            left: 85vw;
             position: relative;
         }
     }

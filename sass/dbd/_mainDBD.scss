@@ -9,8 +9,9 @@ main[data-tipo="dbd-main"] {
         left: 25vw;
         font-size: 6em;
         bottom: 1vh;
-        width: 50vw;
+        width: 30vw;
         font-weight: bold;
+        text-align: center;
     }
 
         div[data-tipo="asesinos-dbd"] {
@@ -54,7 +55,7 @@ main[data-tipo="dbd-main"] {
                         border-radius: 30px;
                         padding: 10px;
                         width: 60vw;
-                        height: 55vh;
+                        height: 45vh;
                         background-color: #cbc6c6;
 
                         p {
@@ -225,7 +226,7 @@ main[data-tipo="dbd-main"] {
         }
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (min-width: 768px) {
         main[data-tipo="dbd-main"] {
 
             height: 320vh;
@@ -381,7 +382,7 @@ main[data-tipo="dbd-main"] {
                                 border-radius: 30px;
                                 padding: 10px;
                                 width: 60vw;
-                                height: 55vh;
+                                height: 50vh;
                                 background-color: #cbc6c6;
         
                                 p {
@@ -393,7 +394,7 @@ main[data-tipo="dbd-main"] {
                                     position: relative;
                                     display: inline-block;
                                     left: 15vw;
-                                    bottom: 2vh;
+                                    top: 0.5vh;
         
                                     img {
                                         height: 15vh;
@@ -423,19 +424,19 @@ main[data-tipo="dbd-main"] {
                                 border-radius: 30px;
                                 padding: 10px;
                                 width: 60vw;
-                                height: 52vh;
+                                height: 45vh;
                                 background-color: #cbc6c6;
         
                                 p {
                                     text-align: justify;
-                                    font-size: 10px;
+                                    font-size: 11px;
                                 }
         
                                 div {
                                     position: relative;
                                     display: inline-block;
                                     left: 15vw;
-                                    bottom: 2vh;
+                                    top: -1vh;
         
                                     img {
                                         height: 15vh;
@@ -450,6 +451,237 @@ main[data-tipo="dbd-main"] {
                             height: 60vh;
                             width: 20vw;
                             left: 5vw;
+                        }
+                    }
+                }
+            }
+    }
+
+    @media screen and (max-width: 320px) {
+        main[data-tipo="dbd-main"] {
+            position: relative;
+            top: -10vh;
+            height: 290vh;
+        
+            p[data-tipo="titulo-dbd"] {
+                color: gray;
+                position: relative;
+                left: 3vw;
+                font-size: 2.5em;
+                bottom: 1vh;
+                width: 95vw;
+                font-weight: bold;
+            }
+        
+                div[data-tipo="asesinos-dbd"] {
+                    position: relative;
+                    height: 140vh;
+                    top: 5vh;
+        
+                    p[data-tipo="dbd-letra-asesinos"] {
+                        font-family: killer;
+                        font-size: 2em;
+                        color: red;
+                        padding-bottom: 5vh;
+                    }
+        
+                    div {
+                        position: relative;
+                        display: grid;
+                        grid-template-columns: 1fr 2fr;
+                        grid-template-rows: auto;
+                        gap: 10px;
+                        
+        
+                        img[data-tipo="michael"] {
+                            position: relative;
+                            height: 60vh;
+                            width: 30vw;
+                            left: 5vw;
+                        }
+        
+                        div[data-tipo="michael"] {
+                            position: relative;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 60vh;
+                            
+                            
+        
+                            article {
+                                position: relative;
+                                border: 1px solid;
+                                border-radius: 30px;
+                                padding: 10px;
+                                width: 60vw;
+                                height: 55vh;
+                                background-color: #cbc6c6;
+        
+                                p {
+                                    text-align: justify;
+                                    font-size: 9px;
+                                }
+        
+                                div {
+                                    position: relative;
+                                    display: inline-block;
+                                    left: 12vw;
+        
+                                    img {
+                                        height: 8vh;
+                                        width: 8vw;
+                                    }
+                                }
+                            }
+                        }
+        
+                        img[data-tipo="demogorgon"] {
+                            position: relative;
+                            height: 60vh;
+                            width: 30vw;
+                            left: 5vw;
+                        }
+        
+                        div[data-tipo="demogorgon"] {
+                            position: relative;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 60vh;
+        
+                            article {
+                                position: relative;
+                                border: 1px solid;
+                                border-radius: 30px;
+                                padding: 10px;
+                                width: 60vw;
+                                height: 55vh;
+                                background-color: #cbc6c6;
+        
+                                p {
+                                    text-align: justify;
+                                    font-size: 10px;
+                                }
+                                
+                                div {
+                                    position: relative;
+                                    display: inline-block;
+                                    left: 15vw;
+        
+                                        img {
+                                            height: 8vh;
+                                            width: 8vw;
+                                        }
+                                }
+                            }
+        
+                        }
+                    }
+        
+        
+                }
+        
+                div[data-tipo=supervivientes-dbd] {
+                    position: relative;
+                    height: 140vh;
+                    top: 5vh;
+        
+                    p[data-tipo="dbd-letra-supervivientes"] {
+                        font-size: 2em;
+                        color: rgb(92, 211, 244);
+                        text-align: end;
+                        padding-bottom: 5vh;
+                    }
+        
+                    div {
+                        position: relative;
+                        display: grid;
+                        grid-template-columns: 2fr 1fr;
+                        grid-template-rows: auto;
+                        gap: 10px;
+        
+                        div[dato-tipo="Nea"] {
+                            position: relative;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+        
+                            article {
+                                position: relative;
+                                border: 1px solid;
+                                border-radius: 30px;
+                                padding: 10px;
+                                width: 60vw;
+                                height: 55vh;
+                                background-color: #cbc6c6;
+        
+                                p {
+                                    text-align: justify;
+                                    font-size: 8px;
+                                }
+        
+                                div {
+                                    position: relative;
+                                    display: inline-block;
+                                    left: 15vw;
+                                    bottom: 2vh;
+        
+                                    img {
+                                        height: 8vh;
+                                        width: 8vw;
+                                    }
+                                }
+                            }
+                        }
+        
+                        img[dato-tipo="Nea"] {
+                            position: relative;
+                            height: 60vh;
+                            width: 30vw;
+                            left: -1vw;
+                        }
+        
+        
+                        div[dato-tipo="Bill"] {
+                            position: relative;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+        
+                            article {
+                                position: relative;
+                                border: 1px solid;
+                                border-radius: 30px;
+                                padding: 10px;
+                                width: 60vw;
+                                height: 55vh;
+                                background-color: #cbc6c6;
+        
+                                p {
+                                    text-align: justify;
+                                    font-size: 9.43px;
+                                }
+        
+                                div {
+                                    position: relative;
+                                    display: inline-block;
+                                    left: 15vw;
+                                    bottom: 2vh;
+        
+                                    img {
+                                        height: 8vh;
+                                        width: 8vw;
+                                    }
+                                }
+                            }
+                        }
+        
+                        img[dato-tipo="Bill"] {
+                            position: relative;
+                            height: 60vh;
+                            width: 30vw;
+                            left: -1vw;
                         }
                     }
                 }

@@ -101,3 +101,60 @@ footer[data-tipo="footer-left"] {
         }
     }
 }
+
+@media screen and (max-width: 320px) {
+    footer[data-tipo="footer-left"] {
+        top: -10vh;
+        height: 20vh;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+    
+        hr[data-tipo="primero"] {
+            width: 15vw;
+            position: relative;
+            color: gray;
+            top: 2.5vh;
+        }
+    
+        a[data-tipo="steam"]{
+            font-size: 30px;
+            text-decoration: none;
+            color: black;
+            margin-right: 20px;
+            
+        }
+    
+        a[data-tipo="twiter"]{
+            font-size: 30px;
+            text-decoration: none;
+            color: rgb(31, 168, 227);
+            margin-right: 20px;
+            
+        }
+    
+        a[data-tipo="facebook"]{
+            font-size: 30px;
+            text-decoration: none;
+            color: rgb(59, 12, 228);
+            margin-right: 20px;
+        }
+    
+        a[data-tipo="youtuve"]{
+            font-size: 30px;
+            text-decoration: none;
+            color: rgb(255, 0, 0);
+            
+        }
+    
+        hr[data-tipo="segundo"] {
+            width: 15vw;
+            position: relative;
+            color: gray;
+            bottom: 3.5vh;
+            left: 85vw;
+            position: relative;
+        }
+    }
+}
