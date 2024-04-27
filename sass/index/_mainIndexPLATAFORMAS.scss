@@ -47,7 +47,7 @@ div[data-tipo="segundo"] {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     div[data-tipo="primero"] {
         position: relative;
         width: 100vw;
@@ -57,7 +57,7 @@ div[data-tipo="segundo"] {
     
         img[data-tipo="primero-1"] {
             width: 100vw;
-            height: 100%;
+            height: 100vh;
             position: relative;
             opacity: 1;
             transition: opacity 0.5s ease-in-out;
@@ -86,6 +86,58 @@ div[data-tipo="segundo"] {
             margin: 0 5px;
             /*left: 55vw;*/
             /*color: white;*/
+            text-decoration: none;
+            line-height: 20px;
+    
+            &:hover {
+                background-color: gray;
+            }
+    
+        }
+    
+    }
+}
+
+@media screen and (max-width: 320px) {
+    div[data-tipo="primero"] {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        left: -0.1vw;
+        
+    
+        img[data-tipo="primero-1"] {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            opacity: 1;
+            transition: opacity 0.5s ease-in-out;
+            display: block;
+        }
+    
+        &:target {
+            opacity: 1;
+        }
+    }
+    
+    
+    div[data-tipo="segundo"] {
+        position: relative;
+        top: 2vh;
+        transform: translateX(-50%);
+        width: 35vw;
+        left: 50vw;
+        text-align: center;
+    
+        a {
+            display: inline-block;
+            position: relative;
+            width: 20px;
+            height: 20px;
+            background-color: rgb(182, 181, 185);
+            border-radius: 50%;
+            margin: 0 5px;
             text-decoration: none;
             line-height: 20px;
     

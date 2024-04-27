@@ -3,6 +3,15 @@ header {
     display: flex;
     flex-direction: row;
 
+    input { 
+        display: none;
+    }
+
+    label {
+        display: none;
+        cursor: pointer;
+    }
+
     nav[data-tipo="nav-index"] {
         position: relative;
         left: 40vw;
@@ -44,9 +53,10 @@ header {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     header {
         height: 15vh;
+        background-color: red;
 
     
         nav[data-tipo="nav-index"] {
@@ -78,6 +88,91 @@ header {
                     a {
                         text-decoration: none;
                         color: black;
+    
+                        &:hover {
+                            color: white;
+                        }
+                        
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    header {
+        height: 15vh;
+    
+        #menu-check:not(:checked) ~ nav {
+            display: none;
+            
+        }
+
+        #menu-check:checked ~ nav {
+            display: block;
+            background-color: gray;
+            width: 100vw;
+            height: 20vh;
+            z-index: 1;
+        }
+
+        #menu {
+            display: block;
+            color: black;
+            background-color: white;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 0.3em;
+            position: absolute;
+            
+            
+        }
+
+        
+
+        #menu-cerrar {
+            display: none;
+            
+        }
+
+        #menu-check:checked ~ label #menu-abrir {
+            display: none;
+        }
+
+        #menu-check:checked ~ label #menu-cerrar {
+            display: block;
+        }
+
+        nav[data-tipo="nav-index"] {
+            position: relative;
+            left: 1vw;
+            top: 5vh;
+    
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 25px;
+                list-style-type: none;
+                
+                
+                li {
+                    font-size: 20px;
+                    border: none;
+                    
+    
+                    &:hover {
+                        border: 1px solid rgb(42, 243, 250);
+                        padding: 3px 3px;
+                        border-radius: 10px;
+                        background-color: rgb(42, 243, 250);
+                    }
+    
+                    a {
+                        text-decoration: none;
+                        color: white;
     
                         &:hover {
                             color: white;
