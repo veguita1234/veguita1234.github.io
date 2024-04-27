@@ -494,6 +494,34 @@ header nav[data-tipo="nav-dota"] {
         header nav[data-tipo="nav-dota"] ul li a:hover {
           color: white; }
 
+@media screen and (max-width: 768px) {
+  header {
+    height: 15vh; }
+    header nav[data-tipo="nav-dota"] {
+      position: absolute;
+      left: 1vw;
+      top: 5vh; }
+      header nav[data-tipo="nav-dota"] ul {
+        display: flex;
+        flex-direction: row;
+        gap: 7em;
+        list-style-type: none; }
+        header nav[data-tipo="nav-dota"] ul li {
+          font-size: 20px;
+          border: 1px solid gray;
+          border-radius: 10px;
+          padding: 3px 3px; }
+          header nav[data-tipo="nav-dota"] ul li:hover {
+            border: 1px solid #2af3fa;
+            padding: 3px 3px;
+            border-radius: 10px;
+            background-color: #2af3fa; }
+          header nav[data-tipo="nav-dota"] ul li a {
+            text-decoration: none;
+            color: black; }
+            header nav[data-tipo="nav-dota"] ul li a:hover {
+              color: white; } }
+
 main[data-tipo="dota-main"] {
   height: 165vh; }
   main[data-tipo="dota-main"] p[data-tipo="titulo-dota"] {
@@ -545,13 +573,23 @@ main[data-tipo="dota-main"] {
             width: 10vw;
             height: 15vh; }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
   main[data-tipo="dota-main"] {
-    top: -10vh; }
+    height: 170vh; }
+    main[data-tipo="dota-main"] p[data-tipo="titulo-dota"] {
+      color: red;
+      position: relative;
+      left: 35vw;
+      font-size: 6em;
+      bottom: 1vh;
+      width: 40vw;
+      font-weight: bold; }
     main[data-tipo="dota-main"] p {
-      font-size: 2em;
+      font-size: 4em;
       color: blue;
-      text-align: center; }
+      left: 5vw;
+      width: 75vw;
+      position: relative; }
     main[data-tipo="dota-main"] div {
       position: relative;
       display: grid;
@@ -561,9 +599,9 @@ main[data-tipo="dota-main"] {
       top: 5vh; }
       main[data-tipo="dota-main"] div img {
         position: relative;
-        height: 50vh;
-        width: 30vw;
-        left: 2vw; }
+        height: 65vh;
+        width: 25vw;
+        left: 5vw; }
       main[data-tipo="dota-main"] div div {
         position: relative;
         display: flex;
@@ -577,16 +615,15 @@ main[data-tipo="dota-main"] {
           width: 65vw;
           height: 30vh;
           background-color: #cbc6c6;
-          top: -5vh;
-          left: -2vw; }
+          top: -5vh; }
           main[data-tipo="dota-main"] div div article div {
             position: relative;
             display: inline-block;
-            top: 1vh;
+            top: -3vh;
             left: 6vw; }
             main[data-tipo="dota-main"] div div article div img {
               width: 10vw;
-              height: 10vh; } }
+              height: 15vh; } }
 
 footer[data-tipo="footer-dota"] {
   height: 20vh;
@@ -625,6 +662,44 @@ footer[data-tipo="footer-dota"] {
     left: 61vw;
     position: relative; }
 
+@media screen and (max-width: 768px) {
+  footer[data-tipo="footer-dota"] {
+    height: 20vh;
+    align-content: center;
+    text-align: center;
+    justify-content: center; }
+    footer[data-tipo="footer-dota"] hr[data-tipo="primero"] {
+      width: 30vw;
+      position: relative;
+      color: gray;
+      top: 4vh; }
+    footer[data-tipo="footer-dota"] a[data-tipo="steam"] {
+      font-size: 50px;
+      text-decoration: none;
+      color: black;
+      margin-right: 20px; }
+    footer[data-tipo="footer-dota"] a[data-tipo="twiter"] {
+      font-size: 50px;
+      text-decoration: none;
+      color: #1fa8e3;
+      margin-right: 20px; }
+    footer[data-tipo="footer-dota"] a[data-tipo="facebook"] {
+      font-size: 50px;
+      text-decoration: none;
+      color: #3b0ce4;
+      margin-right: 20px; }
+    footer[data-tipo="footer-dota"] a[data-tipo="youtuve"] {
+      font-size: 50px;
+      text-decoration: none;
+      color: red; }
+    footer[data-tipo="footer-dota"] hr[data-tipo="segundo"] {
+      width: 30vw;
+      position: relative;
+      color: gray;
+      bottom: 6vh;
+      left: 70vw;
+      position: relative; } }
+
 header nav[data-tipo="nav-dbd"] {
   position: relative;
   left: 40vw;
@@ -650,160 +725,347 @@ header nav[data-tipo="nav-dbd"] {
         header nav[data-tipo="nav-dbd"] ul li a:hover {
           color: white; }
 
-main[data-tipo="dbd-main"] p[data-tipo="titulo-dbd"] {
-  color: gray;
-  position: relative;
-  left: 25vw;
-  font-size: 6em;
-  bottom: 1vh;
-  width: 50vw;
-  font-weight: bold; }
+@media screen and (max-width: 768px) {
+  header {
+    height: 15vh; }
+    header nav[data-tipo="nav-dbd"] {
+      position: absolute;
+      left: 1vw;
+      top: 5vh; }
+      header nav[data-tipo="nav-dbd"] ul {
+        display: flex;
+        flex-direction: row;
+        gap: 7em;
+        list-style-type: none; }
+        header nav[data-tipo="nav-dbd"] ul li {
+          font-size: 20px;
+          border: 1px solid gray;
+          border-radius: 10px;
+          padding: 3px 3px; }
+          header nav[data-tipo="nav-dbd"] ul li:hover {
+            border: 1px solid #2af3fa;
+            padding: 3px 3px;
+            border-radius: 10px;
+            background-color: #2af3fa; }
+          header nav[data-tipo="nav-dbd"] ul li a {
+            text-decoration: none;
+            color: black; }
+            header nav[data-tipo="nav-dbd"] ul li a:hover {
+              color: white; } }
 
-main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] {
-  position: relative;
-  height: 140vh; }
-  main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] p[data-tipo="dbd-letra-asesinos"] {
-    font-family: killer;
-    font-size: 4em;
-    color: red;
-    padding-bottom: 5vh; }
-  main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div {
+main[data-tipo="dbd-main"] {
+  height: 300vh; }
+  main[data-tipo="dbd-main"] p[data-tipo="titulo-dbd"] {
+    color: gray;
     position: relative;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto;
-    gap: 10px; }
-    main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div img[data-tipo="michael"] {
+    left: 25vw;
+    font-size: 6em;
+    bottom: 1vh;
+    width: 50vw;
+    font-weight: bold; }
+  main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] {
+    position: relative;
+    height: 140vh; }
+    main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] p[data-tipo="dbd-letra-asesinos"] {
+      font-family: killer;
+      font-size: 4em;
+      color: red;
+      padding-bottom: 5vh; }
+    main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div {
       position: relative;
-      height: 60vh;
-      width: 20vw;
-      left: 5vw; }
-    main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 60vh; }
-      main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] article {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: auto;
+      gap: 10px; }
+      main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div img[data-tipo="michael"] {
         position: relative;
-        border: 1px solid;
-        border-radius: 30px;
-        padding: 10px;
-        width: 60vw;
-        height: 55vh;
-        background-color: #cbc6c6; }
-        main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] article p {
-          text-align: justify;
-          font-size: 17px; }
-        main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] article div {
-          position: relative;
-          display: inline-block;
-          left: 12vw; }
-          main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] article div img {
-            height: 15vh;
-            width: 8vw; }
-    main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div img[data-tipo="demogorgon"] {
-      position: relative;
-      height: 60vh;
-      width: 20vw;
-      left: 5vw; }
-    main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 60vh; }
-      main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article {
+        height: 60vh;
+        width: 20vw;
+        left: 5vw; }
+      main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] {
         position: relative;
-        border: 1px solid;
-        border-radius: 30px;
-        padding: 10px;
-        width: 60vw;
-        height: 55vh;
-        background-color: #cbc6c6; }
-        main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article p {
-          text-align: justify;
-          font-size: 17px; }
-        main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh; }
+        main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] article {
           position: relative;
-          display: inline-block;
-          left: 15vw; }
-          main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article div img {
-            height: 15vh;
-            width: 8vw; }
+          border: 1px solid;
+          border-radius: 30px;
+          padding: 10px;
+          width: 60vw;
+          height: 55vh;
+          background-color: #cbc6c6; }
+          main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] article p {
+            text-align: justify;
+            font-size: 17px; }
+          main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] article div {
+            position: relative;
+            display: inline-block;
+            left: 12vw; }
+            main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] article div img {
+              height: 15vh;
+              width: 8vw; }
+      main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div img[data-tipo="demogorgon"] {
+        position: relative;
+        height: 60vh;
+        width: 20vw;
+        left: 5vw; }
+      main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh; }
+        main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article {
+          position: relative;
+          border: 1px solid;
+          border-radius: 30px;
+          padding: 10px;
+          width: 60vw;
+          height: 50vh;
+          background-color: #cbc6c6; }
+          main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article p {
+            text-align: justify;
+            font-size: 17px; }
+          main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article div {
+            position: relative;
+            display: inline-block;
+            left: 15vw; }
+            main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article div img {
+              height: 15vh;
+              width: 8vw; }
+  main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] {
+    position: relative;
+    height: 140vh; }
+    main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] p[data-tipo="dbd-letra-supervivientes"] {
+      font-size: 4em;
+      color: #5cd3f4;
+      text-align: end;
+      padding-bottom: 5vh; }
+    main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div {
+      position: relative;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: auto;
+      gap: 10px; }
+      main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] article {
+          position: relative;
+          border: 1px solid;
+          border-radius: 30px;
+          padding: 10px;
+          width: 60vw;
+          height: 55vh;
+          background-color: #cbc6c6; }
+          main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] article p {
+            text-align: justify;
+            font-size: 16px; }
+          main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] article div {
+            position: relative;
+            display: inline-block;
+            left: 15vw;
+            bottom: 2vh; }
+            main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] article div img {
+              height: 15vh;
+              width: 8vw; }
+      main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div img[dato-tipo="Nea"] {
+        position: relative;
+        height: 60vh;
+        width: 20vw;
+        left: 5vw; }
+      main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] article {
+          position: relative;
+          border: 1px solid;
+          border-radius: 30px;
+          padding: 10px;
+          width: 60vw;
+          height: 52vh;
+          background-color: #cbc6c6; }
+          main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] article p {
+            text-align: justify;
+            font-size: 17px; }
+          main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] article div {
+            position: relative;
+            display: inline-block;
+            left: 15vw;
+            bottom: 2vh; }
+            main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] article div img {
+              height: 15vh;
+              width: 8vw; }
+      main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div img[dato-tipo="Bill"] {
+        position: relative;
+        height: 60vh;
+        width: 20vw;
+        left: 5vw; }
 
-main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] {
-  position: relative;
-  height: 140vh; }
-  main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] p[data-tipo="dbd-letra-supervivientes"] {
-    font-size: 4em;
-    color: #5cd3f4;
-    text-align: end;
-    padding-bottom: 5vh; }
-  main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div {
-    position: relative;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: auto;
-    gap: 10px; }
-    main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] {
+@media screen and (max-width: 768px) {
+  main[data-tipo="dbd-main"] {
+    height: 320vh; }
+    main[data-tipo="dbd-main"] p[data-tipo="titulo-dbd"] {
+      color: gray;
       position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] article {
+      left: 10vw;
+      font-size: 5em;
+      bottom: 1vh;
+      width: 85vw;
+      font-weight: bold; }
+    main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] {
+      position: relative;
+      height: 140vh;
+      top: 5vh; }
+      main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] p[data-tipo="dbd-letra-asesinos"] {
+        font-family: killer;
+        font-size: 3.5em;
+        color: red;
+        padding-bottom: 5vh; }
+      main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div {
         position: relative;
-        border: 1px solid;
-        border-radius: 30px;
-        padding: 10px;
-        width: 60vw;
-        height: 55vh;
-        background-color: #cbc6c6; }
-        main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] article p {
-          text-align: justify;
-          font-size: 16px; }
-        main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] article div {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+        gap: 10px; }
+        main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div img[data-tipo="michael"] {
           position: relative;
-          display: inline-block;
-          left: 15vw;
-          bottom: 2vh; }
-          main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] article div img {
-            height: 15vh;
-            width: 8vw; }
-    main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div img[dato-tipo="Nea"] {
+          height: 60vh;
+          width: 25vw;
+          left: 5vw; }
+        main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 60vh; }
+          main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] article {
+            position: relative;
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 10px;
+            width: 60vw;
+            height: 55vh;
+            background-color: #cbc6c6; }
+            main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] article p {
+              text-align: justify;
+              font-size: 11px; }
+            main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] article div {
+              position: relative;
+              display: inline-block;
+              left: 12vw; }
+              main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] article div img {
+                height: 15vh;
+                width: 8vw; }
+        main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div img[data-tipo="demogorgon"] {
+          position: relative;
+          height: 60vh;
+          width: 25vw;
+          left: 5vw; }
+        main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 60vh; }
+          main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article {
+            position: relative;
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 10px;
+            width: 60vw;
+            height: 55vh;
+            background-color: #cbc6c6; }
+            main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article p {
+              text-align: justify;
+              font-size: 12px; }
+            main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article div {
+              top: -2vh;
+              position: relative;
+              display: inline-block;
+              left: 15vw; }
+              main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article div img {
+                height: 15vh;
+                width: 8vw; }
+    main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] {
       position: relative;
-      height: 60vh;
-      width: 20vw;
-      left: 5vw; }
-    main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] article {
+      height: 140vh;
+      top: 10vh; }
+      main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] p[data-tipo="dbd-letra-supervivientes"] {
+        font-size: 4em;
+        color: #5cd3f4;
+        text-align: end;
+        padding-bottom: 5vh; }
+      main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div {
         position: relative;
-        border: 1px solid;
-        border-radius: 30px;
-        padding: 10px;
-        width: 60vw;
-        height: 52vh;
-        background-color: #cbc6c6; }
-        main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] article p {
-          text-align: justify;
-          font-size: 17px; }
-        main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] article div {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto;
+        gap: 10px; }
+        main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] {
           position: relative;
-          display: inline-block;
-          left: 15vw;
-          bottom: 2vh; }
-          main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] article div img {
-            height: 15vh;
-            width: 8vw; }
-    main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div img[dato-tipo="Bill"] {
-      position: relative;
-      height: 60vh;
-      width: 20vw;
-      left: 5vw; }
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] article {
+            position: relative;
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 10px;
+            width: 60vw;
+            height: 55vh;
+            background-color: #cbc6c6; }
+            main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] article p {
+              text-align: justify;
+              font-size: 10px; }
+            main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] article div {
+              position: relative;
+              display: inline-block;
+              left: 15vw;
+              bottom: 2vh; }
+              main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] article div img {
+                height: 15vh;
+                width: 8vw; }
+        main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div img[dato-tipo="Nea"] {
+          position: relative;
+          height: 60vh;
+          width: 20vw;
+          left: 5vw; }
+        main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] article {
+            position: relative;
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 10px;
+            width: 60vw;
+            height: 52vh;
+            background-color: #cbc6c6; }
+            main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] article p {
+              text-align: justify;
+              font-size: 10px; }
+            main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] article div {
+              position: relative;
+              display: inline-block;
+              left: 15vw;
+              bottom: 2vh; }
+              main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] article div img {
+                height: 15vh;
+                width: 8vw; }
+        main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div img[dato-tipo="Bill"] {
+          position: relative;
+          height: 60vh;
+          width: 20vw;
+          left: 5vw; } }
 
 footer[data-tipo="footer-dbd"] {
   height: 20vh;
@@ -842,6 +1104,44 @@ footer[data-tipo="footer-dbd"] {
     left: 61vw;
     position: relative; }
 
+@media screen and (max-width: 768px) {
+  footer[data-tipo="footer-dbd"] {
+    height: 20vh;
+    align-content: center;
+    text-align: center;
+    justify-content: center; }
+    footer[data-tipo="footer-dbd"] hr[data-tipo="primero"] {
+      width: 30vw;
+      position: relative;
+      color: gray;
+      top: 4vh; }
+    footer[data-tipo="footer-dbd"] a[data-tipo="steam"] {
+      font-size: 50px;
+      text-decoration: none;
+      color: black;
+      margin-right: 20px; }
+    footer[data-tipo="footer-dbd"] a[data-tipo="twiter"] {
+      font-size: 50px;
+      text-decoration: none;
+      color: #1fa8e3;
+      margin-right: 20px; }
+    footer[data-tipo="footer-dbd"] a[data-tipo="facebook"] {
+      font-size: 50px;
+      text-decoration: none;
+      color: #3b0ce4;
+      margin-right: 20px; }
+    footer[data-tipo="footer-dbd"] a[data-tipo="youtuve"] {
+      font-size: 50px;
+      text-decoration: none;
+      color: red; }
+    footer[data-tipo="footer-dbd"] hr[data-tipo="segundo"] {
+      width: 30vw;
+      position: relative;
+      color: gray;
+      bottom: 6vh;
+      left: 70vw;
+      position: relative; } }
+
 @font-face {
   font-family: killer;
   src: url("../assets/FUENTES/terror_pro.ttf"); }
@@ -870,6 +1170,34 @@ header nav[data-tipo="nav-left"] {
         color: black; }
         header nav[data-tipo="nav-left"] ul li a:hover {
           color: white; }
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 15vh; }
+    header nav[data-tipo="nav-left"] {
+      position: absolute;
+      left: 1vw;
+      top: 5vh; }
+      header nav[data-tipo="nav-left"] ul {
+        display: flex;
+        flex-direction: row;
+        gap: 7em;
+        list-style-type: none; }
+        header nav[data-tipo="nav-left"] ul li {
+          font-size: 20px;
+          border: 1px solid gray;
+          border-radius: 10px;
+          padding: 3px 3px; }
+          header nav[data-tipo="nav-left"] ul li:hover {
+            border: 1px solid #2af3fa;
+            padding: 3px 3px;
+            border-radius: 10px;
+            background-color: #2af3fa; }
+          header nav[data-tipo="nav-left"] ul li a {
+            text-decoration: none;
+            color: black; }
+            header nav[data-tipo="nav-left"] ul li a:hover {
+              color: white; } }
 
 main[data-tipo="left-main"] {
   height: 327vh; }
@@ -939,7 +1267,7 @@ main[data-tipo="left-main"] {
           background-color: #cbc6c6; }
           main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="charger"] article p {
             text-align: justify;
-            font-size: 16px; }
+            font-size: 17px; }
   main[data-tipo="left-main"] div[data-tipo=supervivientes-left] {
     position: relative;
     height: 140vh; }
@@ -965,11 +1293,11 @@ main[data-tipo="left-main"] {
           border-radius: 30px;
           padding: 10px;
           width: 60vw;
-          height: 40vh;
+          height: 35vh;
           background-color: #cbc6c6; }
           main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Ellis"] article p {
             text-align: justify;
-            font-size: 16px; }
+            font-size: 17px; }
       main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div img[dato-tipo="Ellis"] {
         position: relative;
         height: 75vh;
@@ -986,7 +1314,7 @@ main[data-tipo="left-main"] {
           border-radius: 30px;
           padding: 10px;
           width: 60vw;
-          height: 40vh;
+          height: 35vh;
           background-color: #cbc6c6; }
           main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Nick"] article p {
             text-align: justify;
@@ -997,6 +1325,136 @@ main[data-tipo="left-main"] {
         width: 20vw;
         left: 5vw;
         padding-top: 5vh; }
+
+@media screen and (max-width: 768px) {
+  main[data-tipo="left-main"] {
+    height: 348vh; }
+    main[data-tipo="left-main"] p[data-tipo="titulo-left"] {
+      color: black;
+      position: relative;
+      left: 13vw;
+      font-size: 6em;
+      bottom: 1vh;
+      width: 80vw;
+      font-weight: bold; }
+    main[data-tipo="left-main"] div[data-tipo="asesinos-left"] {
+      position: relative;
+      height: 140vh;
+      top: 4vh; }
+      main[data-tipo="left-main"] div[data-tipo="asesinos-left"] p[data-tipo="left-letra-asesinos"] {
+        font-family: killer;
+        font-size: 3.5em;
+        color: red;
+        padding-bottom: 5vh; }
+      main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+        gap: 10px; }
+        main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div img[data-tipo="smoker"] {
+          position: relative;
+          height: 60vh;
+          width: 20vw;
+          left: 5vw; }
+        main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="smoker"] {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="smoker"] article {
+            position: relative;
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 10px;
+            width: 60vw;
+            height: 50vh;
+            background-color: #cbc6c6; }
+            main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="smoker"] article p {
+              text-align: justify;
+              font-size: 13px; }
+        main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div img[data-tipo="charger"] {
+          position: relative;
+          height: 60vh;
+          width: 20vw;
+          left: 5vw;
+          padding-top: 5vh; }
+        main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="charger"] {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 60vh;
+          padding-top: 5vh; }
+          main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="charger"] article {
+            position: relative;
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 10px;
+            width: 60vw;
+            height: 45vh;
+            background-color: #cbc6c6; }
+            main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="charger"] article p {
+              text-align: justify;
+              font-size: 12px; }
+    main[data-tipo="left-main"] div[data-tipo=supervivientes-left] {
+      position: relative;
+      height: 140vh;
+      top: 8vh; }
+      main[data-tipo="left-main"] div[data-tipo=supervivientes-left] p[data-tipo="left-letra-supervivientes"] {
+        font-size: 4em;
+        color: #5cd3f4;
+        text-align: end;
+        padding-bottom: 5vh; }
+      main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div {
+        position: relative;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto;
+        gap: 10px; }
+        main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Ellis"] {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Ellis"] article {
+            position: relative;
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 10px;
+            width: 60vw;
+            height: 50vh;
+            background-color: #cbc6c6; }
+            main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Ellis"] article p {
+              text-align: justify;
+              font-size: 16px; }
+        main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div img[dato-tipo="Ellis"] {
+          position: relative;
+          height: 75vh;
+          width: 20vw;
+          left: 5vw; }
+        main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Nick"] {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Nick"] article {
+            position: relative;
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 10px;
+            width: 60vw;
+            height: 50vh;
+            background-color: #cbc6c6; }
+            main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Nick"] article p {
+              text-align: justify;
+              font-size: 18px; }
+        main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div img[dato-tipo="Nick"] {
+          position: relative;
+          height: 75vh;
+          width: 20vw;
+          left: 5vw;
+          padding-top: 5vh; } }
 
 footer[data-tipo="footer-left"] {
   height: 20vh;
@@ -1035,6 +1493,44 @@ footer[data-tipo="footer-left"] {
     left: 61vw;
     position: relative; }
 
+@media screen and (max-width: 768px) {
+  footer[data-tipo="footer-left"] {
+    height: 20vh;
+    align-content: center;
+    text-align: center;
+    justify-content: center; }
+    footer[data-tipo="footer-left"] hr[data-tipo="primero"] {
+      width: 30vw;
+      position: relative;
+      color: gray;
+      top: 4vh; }
+    footer[data-tipo="footer-left"] a[data-tipo="steam"] {
+      font-size: 50px;
+      text-decoration: none;
+      color: black;
+      margin-right: 20px; }
+    footer[data-tipo="footer-left"] a[data-tipo="twiter"] {
+      font-size: 50px;
+      text-decoration: none;
+      color: #1fa8e3;
+      margin-right: 20px; }
+    footer[data-tipo="footer-left"] a[data-tipo="facebook"] {
+      font-size: 50px;
+      text-decoration: none;
+      color: #3b0ce4;
+      margin-right: 20px; }
+    footer[data-tipo="footer-left"] a[data-tipo="youtuve"] {
+      font-size: 50px;
+      text-decoration: none;
+      color: red; }
+    footer[data-tipo="footer-left"] hr[data-tipo="segundo"] {
+      width: 30vw;
+      position: relative;
+      color: gray;
+      bottom: 6vh;
+      left: 70vw;
+      position: relative; } }
+
 @font-face {
   font-family: killer;
   src: url("../assets/FUENTES/terror_pro.ttf"); }
@@ -1063,6 +1559,34 @@ header nav[data-tipo="nav-texas"] {
         color: black; }
         header nav[data-tipo="nav-texas"] ul li a:hover {
           color: white; }
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 15vh; }
+    header nav[data-tipo="nav-texas"] {
+      position: absolute;
+      left: 1vw;
+      top: 5vh; }
+      header nav[data-tipo="nav-texas"] ul {
+        display: flex;
+        flex-direction: row;
+        gap: 7em;
+        list-style-type: none; }
+        header nav[data-tipo="nav-texas"] ul li {
+          font-size: 20px;
+          border: 1px solid gray;
+          border-radius: 10px;
+          padding: 3px 3px; }
+          header nav[data-tipo="nav-texas"] ul li:hover {
+            border: 1px solid #2af3fa;
+            padding: 3px 3px;
+            border-radius: 10px;
+            background-color: #2af3fa; }
+          header nav[data-tipo="nav-texas"] ul li a {
+            text-decoration: none;
+            color: black; }
+            header nav[data-tipo="nav-texas"] ul li a:hover {
+              color: white; } }
 
 main[data-tipo="texas-main"] {
   height: 345vh; }
@@ -1182,7 +1706,7 @@ main[data-tipo="texas-main"] {
           border-radius: 30px;
           padding: 10px;
           width: 60vw;
-          height: 37vh;
+          height: 35vh;
           background-color: #cbc6c6; }
           main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="connie"] article p {
             text-align: justify;
@@ -1193,6 +1717,143 @@ main[data-tipo="texas-main"] {
         width: 20vw;
         left: 5vw;
         padding-top: 5vh; }
+
+@media screen and (max-width: 768px) {
+  main[data-tipo="texas-main"] {
+    height: 355vh; }
+    main[data-tipo="texas-main"] p[data-tipo="titulo-texas"] {
+      color: #f086d3;
+      position: relative;
+      left: 4vw;
+      font-size: 4.2em;
+      bottom: 1vh;
+      width: 95vw;
+      font-weight: bold; }
+    main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] {
+      position: relative;
+      height: 140vh; }
+      main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] p[data-tipo="texas-letra-asesinos"] {
+        font-family: killer;
+        font-size: 3.5em;
+        color: red;
+        padding-bottom: 5vh;
+        position: relative; }
+      main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+        gap: 10px; }
+        main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div img[data-tipo="leatherface"] {
+          position: relative;
+          height: 70vh;
+          width: 20vw;
+          left: 8vw; }
+        main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="leatherface"] {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="leatherface"] article {
+            position: relative;
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 10px;
+            width: 60vw;
+            height: 55vh;
+            background-color: #cbc6c6; }
+            main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="leatherface"] article p {
+              text-align: justify;
+              font-size: 20px; }
+        main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div img[data-tipo="cook"] {
+          position: relative;
+          height: 70vh;
+          width: 15vw;
+          left: 10vw;
+          padding-top: 5vh; }
+        main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="cook"] {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 60vh;
+          padding-top: 5vh; }
+          main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="cook"] article {
+            position: relative;
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 10px;
+            width: 60vw;
+            height: 55vh;
+            background-color: #cbc6c6;
+            top: 5vh; }
+            main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="cook"] article p {
+              text-align: justify;
+              font-size: 20px; }
+    main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] {
+      position: relative;
+      height: 180vh;
+      top: 20vh; }
+      main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] p[data-tipo="texas-letra-supervivientes"] {
+        font-size: 4em;
+        color: #5cd3f4;
+        text-align: end;
+        padding-bottom: 5vh;
+        top: 5vh;
+        position: relative; }
+      main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div {
+        position: relative;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto;
+        gap: 10px; }
+        main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="leland"] {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="leland"] article {
+            position: relative;
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 10px;
+            width: 60vw;
+            height: 60vh;
+            background-color: #cbc6c6;
+            top: 5vh; }
+            main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="leland"] article p {
+              text-align: justify;
+              font-size: 14px; }
+        main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div img[dato-tipo="leland"] {
+          position: relative;
+          height: 75vh;
+          width: 20vw;
+          left: 5vw;
+          top: 5vh; }
+        main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="connie"] {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="connie"] article {
+            position: relative;
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 10px;
+            width: 60vw;
+            height: 40vh;
+            background-color: #cbc6c6;
+            top: 5vh; }
+            main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="connie"] article p {
+              text-align: justify;
+              font-size: 15px; }
+        main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div img[dato-tipo="connie"] {
+          position: relative;
+          height: 75vh;
+          width: 20vw;
+          left: 5vw;
+          padding-top: 5vh;
+          top: 5vh; } }
 
 footer[data-tipo="footer-texas"] {
   height: 20vh;
@@ -1230,6 +1891,44 @@ footer[data-tipo="footer-texas"] {
     bottom: 5vh;
     left: 61vw;
     position: relative; }
+
+@media screen and (max-width: 768px) {
+  footer[data-tipo="footer-texas"] {
+    height: 20vh;
+    align-content: center;
+    text-align: center;
+    justify-content: center; }
+    footer[data-tipo="footer-texas"] hr[data-tipo="primero"] {
+      width: 30vw;
+      position: relative;
+      color: gray;
+      top: 4vh; }
+    footer[data-tipo="footer-texas"] a[data-tipo="steam"] {
+      font-size: 50px;
+      text-decoration: none;
+      color: black;
+      margin-right: 20px; }
+    footer[data-tipo="footer-texas"] a[data-tipo="twiter"] {
+      font-size: 50px;
+      text-decoration: none;
+      color: #1fa8e3;
+      margin-right: 20px; }
+    footer[data-tipo="footer-texas"] a[data-tipo="facebook"] {
+      font-size: 50px;
+      text-decoration: none;
+      color: #3b0ce4;
+      margin-right: 20px; }
+    footer[data-tipo="footer-texas"] a[data-tipo="youtuve"] {
+      font-size: 50px;
+      text-decoration: none;
+      color: red; }
+    footer[data-tipo="footer-texas"] hr[data-tipo="segundo"] {
+      width: 30vw;
+      position: relative;
+      color: gray;
+      bottom: 6vh;
+      left: 70vw;
+      position: relative; } }
 
 footer[data-tipo="footer-index"] {
   height: 20vh;
@@ -1302,6 +2001,6 @@ footer[data-tipo="footer-index"] {
       width: 30vw;
       position: relative;
       color: gray;
-      bottom: 8.5vh;
+      bottom: 9vh;
       left: 70vw;
       position: relative; } }

@@ -43,3 +43,50 @@ header {
     }
 }
 
+@media screen and (max-width: 768px) {
+    header {
+        height: 15vh;
+
+    
+        nav[data-tipo="nav-dota"] {
+            position: absolute;
+            left: 1vw;
+            top: 5vh;
+    
+            ul {
+                display: flex;
+                flex-direction: row;
+                gap: 7em;
+                list-style-type: none;
+                
+                
+                li {
+                    font-size: 20px;
+                    border: 1px solid gray;
+                    border-radius: 10px;
+                    padding: 3px 3px;
+                    
+    
+                    &:hover {
+                        border: 1px solid rgb(42, 243, 250);
+                        padding: 3px 3px;
+                        border-radius: 10px;
+                        background-color: rgb(42, 243, 250);
+                    }
+    
+                    a {
+                        text-decoration: none;
+                        color: black;
+    
+                        &:hover {
+                            color: white;
+                        }
+                        
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
