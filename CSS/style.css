@@ -64,7 +64,7 @@ header {
             header nav[data-tipo="nav-index"] ul li a:hover {
               color: white; } }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   header {
     height: 15vh; }
     header #menu-check:not(:checked) ~ nav {
@@ -226,7 +226,7 @@ main[data-tipo="main-index"] {
         line-height: 20px; }
         main[data-tipo="main-index"] div[data-tipo="segundo"] a:hover {
           background-color: gray; } }
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 420px) {
     main[data-tipo="main-index"] div[data-tipo="primero"] {
       position: relative;
       width: 100vw;
@@ -355,7 +355,7 @@ main[data-tipo="main-index"] {
     }*/ }
       main[data-tipo="main-index"] div a img:hover {
         background-image: url("../assets/IMG/index/DOTA/Dota2-1.png"); } }
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 420px) {
     main[data-tipo="main-index"] div[data-tipo="tercero"] {
       position: relative;
       height: 90vh;
@@ -524,7 +524,7 @@ main[data-tipo="main-index"] {
         line-height: 20px; }
         main[data-tipo="main-index"] div[data-tipo="segundo"] a:hover {
           background-color: gray; } }
-  @media screen and (min-width: 768px) and (max-width: 320px) {
+  @media screen and (min-width: 768px) and (max-width: 420px) {
     main[data-tipo="main-index"] div[data-tipo="primero"] {
       position: relative;
       width: 100vw;
@@ -655,7 +655,7 @@ main[data-tipo="main-index"] {
     }*/ }
       main[data-tipo="main-index"] div a img:hover {
         background-image: url("../assets/IMG/index/DOTA/Dota2-1.png"); } }
-  @media screen and (min-width: 768px) and (max-width: 320px) {
+  @media screen and (min-width: 768px) and (max-width: 420px) {
     main[data-tipo="main-index"] div[data-tipo="tercero"] {
       position: relative;
       height: 90vh;
@@ -710,7 +710,7 @@ main[data-tipo="main-index"] {
       main[data-tipo="main-index"] div[data-tipo="tercero"] a img:hover {
         background-image: url("../assets/IMG/index/DOTA/Dota2-1.png"); } }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   main[data-tipo="main-index"] {
     position: relative;
     height: 220vh;
@@ -791,7 +791,7 @@ main[data-tipo="main-index"] {
         line-height: 20px; }
         main[data-tipo="main-index"] div[data-tipo="segundo"] a:hover {
           background-color: gray; } }
-  @media screen and (max-width: 320px) and (min-width: 768px) {
+  @media screen and (max-width: 420px) and (min-width: 768px) {
     main[data-tipo="main-index"] div[data-tipo="primero"] {
       position: relative;
       width: 100vw;
@@ -827,7 +827,7 @@ main[data-tipo="main-index"] {
         line-height: 20px; }
         main[data-tipo="main-index"] div[data-tipo="segundo"] a:hover {
           background-color: gray; } }
-  @media screen and (max-width: 320px) and (max-width: 320px) {
+  @media screen and (max-width: 420px) and (max-width: 420px) {
     main[data-tipo="main-index"] div[data-tipo="primero"] {
       position: relative;
       width: 100vw;
@@ -863,7 +863,7 @@ main[data-tipo="main-index"] {
         main[data-tipo="main-index"] div[data-tipo="segundo"] a:hover {
           background-color: gray; } }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     main[data-tipo="main-index"] div[data-tipo="tercero"] {
       position: relative;
       top: 15vh;
@@ -908,7 +908,7 @@ main[data-tipo="main-index"] {
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.4"]:hover {
           background-image: url("../assets/IMG/index/TEXAS/Texas-1.png"); } }
-  @media screen and (max-width: 320px) and (min-width: 768px) {
+  @media screen and (max-width: 420px) and (min-width: 768px) {
     main[data-tipo="main-index"] div {
       /*a {
             div[data-tipo="tres.2"] {
@@ -958,7 +958,7 @@ main[data-tipo="main-index"] {
     }*/ }
       main[data-tipo="main-index"] div a img:hover {
         background-image: url("../assets/IMG/index/DOTA/Dota2-1.png"); } }
-  @media screen and (max-width: 320px) and (max-width: 320px) {
+  @media screen and (max-width: 420px) and (max-width: 420px) {
     main[data-tipo="main-index"] div[data-tipo="tercero"] {
       position: relative;
       height: 90vh;
@@ -3385,7 +3385,7 @@ footer[data-tipo="footer-index"] {
       left: 70vw;
       position: relative; } }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   footer[data-tipo="footer-index"] {
     top: -10vh;
     height: 20vh;
