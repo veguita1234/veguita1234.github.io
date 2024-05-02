@@ -36,37 +36,10 @@ header {
           header nav[data-tipo="nav-index"] ul li a:hover {
             color: white; }
 
-@media screen and (min-width: 768px) {
-  header {
-    height: 15vh; }
-    header nav[data-tipo="nav-index"] {
-      position: absolute;
-      left: 1vw;
-      top: 5vh; }
-      header nav[data-tipo="nav-index"] ul {
-        display: flex;
-        flex-direction: row;
-        gap: 7em;
-        list-style-type: none; }
-        header nav[data-tipo="nav-index"] ul li {
-          font-size: 20px;
-          border: 1px solid gray;
-          border-radius: 10px;
-          padding: 3px 3px; }
-          header nav[data-tipo="nav-index"] ul li:hover {
-            border: 1px solid #2af3fa;
-            padding: 3px 3px;
-            border-radius: 10px;
-            background-color: #2af3fa; }
-          header nav[data-tipo="nav-index"] ul li a {
-            text-decoration: none;
-            color: black; }
-            header nav[data-tipo="nav-index"] ul li a:hover {
-              color: white; } }
-
 @media screen and (max-width: 420px) {
   header {
-    height: 15vh; }
+    height: 15vh;
+    background-color: red; }
     header #menu-check:not(:checked) ~ nav {
       display: none; }
     header #menu-check:checked ~ nav {
@@ -114,8 +87,7 @@ header {
 
 main[data-tipo="main-index"] {
   position: relative;
-  height: 90vh;
-  background-color: yellow; }
+  height: 220vh; }
   main[data-tipo="main-index"] h1 {
     display: inline-block;
     position: relative;
@@ -161,7 +133,8 @@ main[data-tipo="main-index"] {
     width: 1400px;
     height: 600px;
     overflow: hidden;
-    left: 60px; }
+    left: 60px;
+    background-color: red; }
     main[data-tipo="main-index"] div[data-tipo="primero"] img[data-tipo="primero-1"] {
       width: 100vw;
       height: 100%;
@@ -249,8 +222,7 @@ main[data-tipo="main-index"] {
       transform: translateX(-50%);
       width: 35vw;
       left: 50vw;
-      text-align: center;
-      background-color: red; }
+      text-align: center; }
       main[data-tipo="main-index"] div[data-tipo="segundo"] a {
         display: inline-block;
         position: relative;
@@ -278,89 +250,10 @@ main[data-tipo="main-index"] {
         position: relative;
         height: 30vh;
         width: 25vw; }
-        main[data-tipo="main-index"] div[data-tipo="tercero"] a img:hover {
-          background-image: url("../assets/IMG/index/DOTA/Dota2-1.png"); }
-    main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.2"] {
-      grid-area: deadby;
-      position: relative;
-      height: 30vh;
-      width: 25vw;
-      background-image: url("../assets/IMG/index/DBD/DBD.jpg");
-      background-size: cover; }
-      main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.2"]:hover {
-        background-image: url("../assets/IMG/index/DBD/DBD-1.jpg"); }
-    main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.3"] {
-      grid-area: left4;
-      position: relative;
-      height: 30vh;
-      width: 25vw;
-      background-image: url("../assets/IMG/index/LEFT/Left.jpg");
-      background-size: cover; }
-      main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.3"]:hover {
-        background-image: url("../assets/IMG/index/LEFT/left-1.jpg"); }
-    main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.4"] {
-      grid-area: texass;
-      position: relative;
-      height: 30vh;
-      width: 25vw;
-      background-image: url("../assets/IMG/index/TEXAS/Texas.jpg");
-      background-size: cover; }
-      main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.4"]:hover {
-        background-image: url("../assets/IMG/index/TEXAS/Texas-1.png"); }
-  @media screen and (min-width: 768px) {
-    main[data-tipo="main-index"] div {
-      /*a {
-            div[data-tipo="tres.2"] {
-                grid-area: deadby;
-                position: relative;
-                height: 25vh;
-                width: 35vw;
-                background-image: url('../assets/IMG/index/DBD/DBD.jpg');
-                background-size: cover;
-    
-            &:hover {
-                background-image: url("../assets/IMG/index/DBD/DBD-1.jpg");
-            }
-        }
-        }
-    
-        a {
-            div[data-tipo="tres.3"] {
-                grid-area: left4;
-                position: relative;
-                height: 25vh;
-                width: 35vw;
-                background-image: url('../assets/IMG/index/LEFT/Left.jpg');
-                background-size: cover;
-    
-            &:hover {
-                background-image: url("../assets/IMG/index/LEFT/left-1.jpg");
-            }
-        }
-        }
-    
-        a {
-            div[data-tipo="tres.4"] {
-                grid-area: texass;
-            position: relative;
-            height: 25vh;
-            width: 35vw;
-            background-image: url('../assets/IMG/index/TEXAS/Texas.jpg');
-            background-size: cover;
-            
-    
-            &:hover {
-                background-image: url("../assets/IMG/index/TEXAS/Texas-1.png");
-            }
-        }
-    
-    }*/ }
-      main[data-tipo="main-index"] div a img:hover {
-        background-image: url("../assets/IMG/index/DOTA/Dota2-1.png"); } }
   @media screen and (max-width: 420px) {
     main[data-tipo="main-index"] div[data-tipo="tercero"] {
       position: relative;
-      height: 90vh;
+      height: 120vh;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -409,316 +302,15 @@ main[data-tipo="main-index"] {
         }
     
     }*/ }
-      main[data-tipo="main-index"] div[data-tipo="tercero"] a img:hover {
-        background-image: url("../assets/IMG/index/DOTA/Dota2-1.png"); } }
-
-@media screen and (min-width: 768px) {
-  main[data-tipo="main-index"] {
-    position: relative;
-    height: 230vh;
-    width: 100vw; }
-    main[data-tipo="main-index"] h1 {
-      position: relative;
-      color: blue;
-      width: 50vw;
-      height: 13vh;
-      left: 10vw;
-      font-size: 65px;
-      font-style: italic;
-      top: 5vh; }
-    main[data-tipo="main-index"] img[data-tipo="perfil"] {
-      position: relative;
-      height: 28vh;
-      top: -5vh;
-      left: 22vw; }
-    main[data-tipo="main-index"] p[data-tipo="nick"] {
-      position: relative;
-      left: 79vw;
-      font-size: 20px;
-      font-weight: bold;
-      width: 20vw;
-      animation: changeColor 2s linear infinite;
-      top: -4vh; }
-  @keyframes changeColor {
-    0% {
-      color: red; }
-    /* Define el color inicial */
-    25% {
-      color: blue; }
-    /* Cambia el color al 25% del tiempo */
-    50% {
-      color: green; }
-    /* Cambia el color al 50% del tiempo */
-    75% {
-      color: orange; }
-    /* Cambia el color al 75% del tiempo */
-    100% {
-      color: red; }
-    /* Vuelve al color inicial al final */ }
-    main[data-tipo="main-index"] div[data-tipo="primero"] {
-      position: relative;
-      width: 1400px;
-      height: 600px;
-      overflow: hidden;
-      left: 60px; }
-      main[data-tipo="main-index"] div[data-tipo="primero"] img[data-tipo="primero-1"] {
-        width: 100vw;
-        height: 100%;
-        position: relative;
-        opacity: 1;
-        transition: opacity 0.5s ease-in-out; }
-      main[data-tipo="main-index"] div[data-tipo="primero"]:target {
-        opacity: 1; }
-    main[data-tipo="main-index"] div[data-tipo="segundo"] {
-      position: relative;
-      top: 2vh;
-      transform: translateX(-50%);
-      width: 15vw;
-      left: 50vw;
-      text-align: center; }
-      main[data-tipo="main-index"] div[data-tipo="segundo"] a {
-        display: inline-block;
-        position: relative;
-        width: 20px;
-        height: 20px;
-        background-color: #b6b5b9;
-        border-radius: 50%;
-        margin: 0 5px;
-        /*left: 55vw;*/
-        /*color: white;*/
-        text-decoration: none;
-        line-height: 20px; }
-        main[data-tipo="main-index"] div[data-tipo="segundo"] a:hover {
-          background-color: gray; } }
-  @media screen and (min-width: 768px) and (min-width: 768px) {
-    main[data-tipo="main-index"] div[data-tipo="primero"] {
-      position: relative;
-      width: 100vw;
-      height: 100vh;
-      overflow: hidden;
-      left: -0.1vw; }
-      main[data-tipo="main-index"] div[data-tipo="primero"] img[data-tipo="primero-1"] {
-        width: 100vw;
-        height: 100vh;
-        position: relative;
-        opacity: 1;
-        transition: opacity 0.5s ease-in-out; }
-      main[data-tipo="main-index"] div[data-tipo="primero"]:target {
-        opacity: 1; }
-    main[data-tipo="main-index"] div[data-tipo="segundo"] {
-      position: relative;
-      top: 2vh;
-      transform: translateX(-50%);
-      width: 15vw;
-      left: 50vw;
-      text-align: center; }
-      main[data-tipo="main-index"] div[data-tipo="segundo"] a {
-        display: inline-block;
-        position: relative;
-        width: 20px;
-        height: 20px;
-        background-color: #b6b5b9;
-        border-radius: 50%;
-        margin: 0 5px;
-        /*left: 55vw;*/
-        /*color: white;*/
-        text-decoration: none;
-        line-height: 20px; }
-        main[data-tipo="main-index"] div[data-tipo="segundo"] a:hover {
-          background-color: gray; } }
-  @media screen and (min-width: 768px) and (max-width: 420px) {
-    main[data-tipo="main-index"] div[data-tipo="primero"] {
-      position: relative;
-      width: 100vw;
-      height: 80vh;
-      overflow: hidden;
-      left: -0.1vw; }
-      main[data-tipo="main-index"] div[data-tipo="primero"] img[data-tipo="primero-1"] {
-        width: 100vw;
-        height: 80vh;
-        position: relative;
-        opacity: 1;
-        transition: opacity 0.5s ease-in-out;
-        display: block; }
-      main[data-tipo="main-index"] div[data-tipo="primero"]:target {
-        opacity: 1; }
-    main[data-tipo="main-index"] div[data-tipo="segundo"] {
-      position: relative;
-      top: 2vh;
-      transform: translateX(-50%);
-      width: 35vw;
-      left: 50vw;
-      text-align: center;
-      background-color: red; }
-      main[data-tipo="main-index"] div[data-tipo="segundo"] a {
-        display: inline-block;
-        position: relative;
-        width: 20px;
-        height: 20px;
-        background-color: #b6b5b9;
-        border-radius: 50%;
-        margin: 0 5px;
-        text-decoration: none;
-        line-height: 20px; }
-        main[data-tipo="main-index"] div[data-tipo="segundo"] a:hover {
-          background-color: gray; } }
-
-@media screen and (min-width: 768px) {
-    main[data-tipo="main-index"] div[data-tipo="tercero"] {
-      position: relative;
-      top: 15vh;
-      height: 70vh;
-      display: grid;
-      grid-template-areas: "dota2 deadby" "left4 texass";
-      justify-content: center;
-      grid-gap: 10%; }
-      main[data-tipo="main-index"] div[data-tipo="tercero"] a {
-        height: 30vh; }
-        main[data-tipo="main-index"] div[data-tipo="tercero"] a img {
-          grid-area: dota2;
-          position: relative;
-          height: 30vh;
-          width: 25vw; }
-          main[data-tipo="main-index"] div[data-tipo="tercero"] a img:hover {
-            background-image: url("../assets/IMG/index/DOTA/Dota2-1.png"); }
-      main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.2"] {
-        grid-area: deadby;
-        position: relative;
-        height: 30vh;
-        width: 25vw;
-        background-image: url("../assets/IMG/index/DBD/DBD.jpg");
-        background-size: cover; }
-        main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.2"]:hover {
-          background-image: url("../assets/IMG/index/DBD/DBD-1.jpg"); }
-      main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.3"] {
-        grid-area: left4;
-        position: relative;
-        height: 30vh;
-        width: 25vw;
-        background-image: url("../assets/IMG/index/LEFT/Left.jpg");
-        background-size: cover; }
-        main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.3"]:hover {
-          background-image: url("../assets/IMG/index/LEFT/left-1.jpg"); }
-      main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.4"] {
-        grid-area: texass;
-        position: relative;
-        height: 30vh;
-        width: 25vw;
-        background-image: url("../assets/IMG/index/TEXAS/Texas.jpg");
-        background-size: cover; }
-        main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.4"]:hover {
-          background-image: url("../assets/IMG/index/TEXAS/Texas-1.png"); } }
-  @media screen and (min-width: 768px) and (min-width: 768px) {
-    main[data-tipo="main-index"] div {
-      /*a {
-            div[data-tipo="tres.2"] {
-                grid-area: deadby;
-                position: relative;
-                height: 25vh;
-                width: 35vw;
-                background-image: url('../assets/IMG/index/DBD/DBD.jpg');
-                background-size: cover;
-    
-            &:hover {
-                background-image: url("../assets/IMG/index/DBD/DBD-1.jpg");
-            }
-        }
-        }
-    
-        a {
-            div[data-tipo="tres.3"] {
-                grid-area: left4;
-                position: relative;
-                height: 25vh;
-                width: 35vw;
-                background-image: url('../assets/IMG/index/LEFT/Left.jpg');
-                background-size: cover;
-    
-            &:hover {
-                background-image: url("../assets/IMG/index/LEFT/left-1.jpg");
-            }
-        }
-        }
-    
-        a {
-            div[data-tipo="tres.4"] {
-                grid-area: texass;
-            position: relative;
-            height: 25vh;
-            width: 35vw;
-            background-image: url('../assets/IMG/index/TEXAS/Texas.jpg');
-            background-size: cover;
-            
-    
-            &:hover {
-                background-image: url("../assets/IMG/index/TEXAS/Texas-1.png");
-            }
-        }
-    
-    }*/ }
-      main[data-tipo="main-index"] div a img:hover {
-        background-image: url("../assets/IMG/index/DOTA/Dota2-1.png"); } }
-  @media screen and (min-width: 768px) and (max-width: 420px) {
-    main[data-tipo="main-index"] div[data-tipo="tercero"] {
-      position: relative;
-      height: 90vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-      /*a {
-            div[data-tipo="tres.2"] {
-                position: relative;
-                height: 18vh;
-                width: 65vw;
-                background-image: url('../assets/IMG/index/DBD/DBD.jpg');
-                background-size: cover;
-    
-            &:hover {
-                background-image: url("../assets/IMG/index/DBD/DBD-1.jpg");
-            }
-        }
-        }
-    
-        a {
-            div[data-tipo="tres.3"] {
-
-                position: relative;
-                height: 18vh;
-                width: 65vw;
-                background-image: url('../assets/IMG/index/LEFT/Left.jpg');
-                background-size: cover;
-    
-            &:hover {
-                background-image: url("../assets/IMG/index/LEFT/left-1.jpg");
-            }
-        }
-        }
-    
-        a {
-            div[data-tipo="tres.4"] {
-                position: relative;
-                height: 18vh;
-                width: 65vw;
-                background-image: url('../assets/IMG/index/TEXAS/Texas.jpg');
-                background-size: cover;
-            
-    
-            &:hover {
-                background-image: url("../assets/IMG/index/TEXAS/Texas-1.png");
-            }
-        }
-    
-    }*/ }
-      main[data-tipo="main-index"] div[data-tipo="tercero"] a img:hover {
-        background-image: url("../assets/IMG/index/DOTA/Dota2-1.png"); } }
+      main[data-tipo="main-index"] div[data-tipo="tercero"] a img {
+        height: 25vh;
+        width: 60vw; } }
 
 @media screen and (max-width: 420px) {
   main[data-tipo="main-index"] {
     position: relative;
-    height: 220vh;
-    top: -10vh;
-    z-index: 0; }
+    z-index: 0;
+    height: 260vh; }
     main[data-tipo="main-index"] h1 {
       display: inline-block;
       position: relative;
@@ -764,7 +356,8 @@ main[data-tipo="main-index"] {
       width: 1400px;
       height: 600px;
       overflow: hidden;
-      left: 60px; }
+      left: 60px;
+      background-color: red; }
       main[data-tipo="main-index"] div[data-tipo="primero"] img[data-tipo="primero-1"] {
         width: 100vw;
         height: 100%;
@@ -852,8 +445,7 @@ main[data-tipo="main-index"] {
       transform: translateX(-50%);
       width: 35vw;
       left: 50vw;
-      text-align: center;
-      background-color: red; }
+      text-align: center; }
       main[data-tipo="main-index"] div[data-tipo="segundo"] a {
         display: inline-block;
         position: relative;
@@ -882,90 +474,11 @@ main[data-tipo="main-index"] {
           grid-area: dota2;
           position: relative;
           height: 30vh;
-          width: 25vw; }
-          main[data-tipo="main-index"] div[data-tipo="tercero"] a img:hover {
-            background-image: url("../assets/IMG/index/DOTA/Dota2-1.png"); }
-      main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.2"] {
-        grid-area: deadby;
-        position: relative;
-        height: 30vh;
-        width: 25vw;
-        background-image: url("../assets/IMG/index/DBD/DBD.jpg");
-        background-size: cover; }
-        main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.2"]:hover {
-          background-image: url("../assets/IMG/index/DBD/DBD-1.jpg"); }
-      main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.3"] {
-        grid-area: left4;
-        position: relative;
-        height: 30vh;
-        width: 25vw;
-        background-image: url("../assets/IMG/index/LEFT/Left.jpg");
-        background-size: cover; }
-        main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.3"]:hover {
-          background-image: url("../assets/IMG/index/LEFT/left-1.jpg"); }
-      main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.4"] {
-        grid-area: texass;
-        position: relative;
-        height: 30vh;
-        width: 25vw;
-        background-image: url("../assets/IMG/index/TEXAS/Texas.jpg");
-        background-size: cover; }
-        main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.4"]:hover {
-          background-image: url("../assets/IMG/index/TEXAS/Texas-1.png"); } }
-  @media screen and (max-width: 420px) and (min-width: 768px) {
-    main[data-tipo="main-index"] div {
-      /*a {
-            div[data-tipo="tres.2"] {
-                grid-area: deadby;
-                position: relative;
-                height: 25vh;
-                width: 35vw;
-                background-image: url('../assets/IMG/index/DBD/DBD.jpg');
-                background-size: cover;
-    
-            &:hover {
-                background-image: url("../assets/IMG/index/DBD/DBD-1.jpg");
-            }
-        }
-        }
-    
-        a {
-            div[data-tipo="tres.3"] {
-                grid-area: left4;
-                position: relative;
-                height: 25vh;
-                width: 35vw;
-                background-image: url('../assets/IMG/index/LEFT/Left.jpg');
-                background-size: cover;
-    
-            &:hover {
-                background-image: url("../assets/IMG/index/LEFT/left-1.jpg");
-            }
-        }
-        }
-    
-        a {
-            div[data-tipo="tres.4"] {
-                grid-area: texass;
-            position: relative;
-            height: 25vh;
-            width: 35vw;
-            background-image: url('../assets/IMG/index/TEXAS/Texas.jpg');
-            background-size: cover;
-            
-    
-            &:hover {
-                background-image: url("../assets/IMG/index/TEXAS/Texas-1.png");
-            }
-        }
-    
-    }*/ }
-      main[data-tipo="main-index"] div a img:hover {
-        background-image: url("../assets/IMG/index/DOTA/Dota2-1.png"); } }
+          width: 25vw; } }
   @media screen and (max-width: 420px) and (max-width: 420px) {
     main[data-tipo="main-index"] div[data-tipo="tercero"] {
       position: relative;
-      height: 90vh;
+      height: 120vh;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -1014,61 +527,37 @@ main[data-tipo="main-index"] {
         }
     
     }*/ }
-      main[data-tipo="main-index"] div[data-tipo="tercero"] a img:hover {
-        background-image: url("../assets/IMG/index/DOTA/Dota2-1.png"); } }
+      main[data-tipo="main-index"] div[data-tipo="tercero"] a img {
+        height: 25vh;
+        width: 60vw; } }
 
-header nav[data-tipo="nav-dota"] {
-  position: relative;
-  left: 40vw;
-  top: 5vh; }
-  header nav[data-tipo="nav-dota"] ul {
-    display: flex;
-    flex-direction: row;
-    gap: 7em;
-    list-style-type: none; }
-    header nav[data-tipo="nav-dota"] ul li {
-      font-size: 20px;
-      border: 1px solid gray;
-      border-radius: 10px;
-      padding: 3px 3px; }
-      header nav[data-tipo="nav-dota"] ul li:hover {
-        border: 1px solid red;
-        padding: 3px 3px;
+header {
+  justify-content: center; }
+  header nav[data-tipo="nav-dota"] {
+    position: relative;
+    top: 5vh; }
+    header nav[data-tipo="nav-dota"] ul {
+      display: flex;
+      flex-direction: row;
+      gap: 10%;
+      list-style-type: none;
+      width: 90vw;
+      justify-content: center; }
+      header nav[data-tipo="nav-dota"] ul li {
+        font-size: 150%;
+        border: 1px solid gray;
         border-radius: 10px;
-        background-color: #fa2a2a; }
-      header nav[data-tipo="nav-dota"] ul li a {
-        text-decoration: none;
-        color: black; }
-        header nav[data-tipo="nav-dota"] ul li a:hover {
-          color: white; }
-
-@media screen and (min-width: 768px) {
-  header {
-    height: 15vh; }
-    header nav[data-tipo="nav-dota"] {
-      position: absolute;
-      left: 1vw;
-      top: 5vh; }
-      header nav[data-tipo="nav-dota"] ul {
-        display: flex;
-        flex-direction: row;
-        gap: 7em;
-        list-style-type: none; }
-        header nav[data-tipo="nav-dota"] ul li {
-          font-size: 20px;
-          border: 1px solid gray;
+        padding: 3px 3px; }
+        header nav[data-tipo="nav-dota"] ul li:hover {
+          border: 1px solid red;
+          padding: 3px 3px;
           border-radius: 10px;
-          padding: 3px 3px; }
-          header nav[data-tipo="nav-dota"] ul li:hover {
-            border: 1px solid #2af3fa;
-            padding: 3px 3px;
-            border-radius: 10px;
-            background-color: #2af3fa; }
-          header nav[data-tipo="nav-dota"] ul li a {
-            text-decoration: none;
-            color: black; }
-            header nav[data-tipo="nav-dota"] ul li a:hover {
-              color: white; } }
+          background-color: #fa2a2a; }
+        header nav[data-tipo="nav-dota"] ul li a {
+          text-decoration: none;
+          color: black; }
+          header nav[data-tipo="nav-dota"] ul li a:hover {
+            color: white; }
 
 @media screen and (max-width: 320px) {
   header {
@@ -1105,7 +594,6 @@ header nav[data-tipo="nav-dota"] {
         gap: 25px;
         list-style-type: none; }
         header nav[data-tipo="nav-dota"] ul li {
-          font-size: 20px;
           border: none; }
           header nav[data-tipo="nav-dota"] ul li:hover {
             border: 1px solid #2af3fa;
@@ -1123,13 +611,14 @@ main[data-tipo="dota-main"] {
   main[data-tipo="dota-main"] p[data-tipo="titulo-dota"] {
     color: red;
     position: relative;
-    left: 40vw;
-    font-size: 6em;
+    left: 30%;
+    text-align: center;
+    font-size: 600%;
     bottom: 1vh;
-    width: 20vw;
+    width: 40vw;
     font-weight: bold; }
   main[data-tipo="dota-main"] p {
-    font-size: 4em;
+    font-size: 350%;
     color: blue;
     left: 5vw;
     width: 75vw;
@@ -1169,112 +658,80 @@ main[data-tipo="dota-main"] {
             width: 10vw;
             height: 15vh; }
 
-@media screen and (min-width: 768px) {
-  main[data-tipo="dota-main"] {
-    height: 170vh; }
-    main[data-tipo="dota-main"] p[data-tipo="titulo-dota"] {
-      color: red;
-      position: relative;
-      left: 35vw;
-      font-size: 6em;
-      bottom: 1vh;
-      width: 40vw;
-      font-weight: bold; }
-    main[data-tipo="dota-main"] p {
-      font-size: 4em;
-      color: blue;
-      left: 5vw;
-      width: 75vw;
-      position: relative; }
-    main[data-tipo="dota-main"] div {
-      position: relative;
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      grid-template-rows: auto;
-      gap: 10px;
-      top: 5vh; }
-      main[data-tipo="dota-main"] div img {
-        position: relative;
-        height: 65vh;
-        width: 25vw;
-        left: 5vw; }
-      main[data-tipo="dota-main"] div div {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        main[data-tipo="dota-main"] div div article {
-          position: relative;
-          border: 1px solid;
-          border-radius: 30px;
-          padding: 10px;
-          width: 65vw;
-          height: 30vh;
-          background-color: #cbc6c6;
-          top: -5vh; }
-          main[data-tipo="dota-main"] div div article div {
+/*@media screen and (max-width: 320px) {
+        main[data-tipo="dota-main"] {
+            top: -10vh;
+            height: 110vh;
             position: relative;
-            display: inline-block;
-            top: -3vh;
-            left: 6vw; }
-            main[data-tipo="dota-main"] div div article div img {
-              width: 10vw;
-              height: 15vh; } }
-
-@media screen and (max-width: 320px) {
-  main[data-tipo="dota-main"] {
-    top: -10vh;
-    height: 110vh;
-    position: relative; }
-    main[data-tipo="dota-main"] p[data-tipo="titulo-dota"] {
-      color: red;
-      position: relative;
-      left: 15vw;
-      font-size: 5em;
-      bottom: 1vh;
-      width: 80vw;
-      font-weight: bold; }
-    main[data-tipo="dota-main"] p {
-      font-size: 30px;
-      color: blue;
-      left: 5vw;
-      width: 90vw;
-      position: relative; }
-    main[data-tipo="dota-main"] div {
-      position: relative;
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      grid-template-rows: auto;
-      gap: 10px;
-      top: 5vh; }
-      main[data-tipo="dota-main"] div img {
-        position: relative;
-        height: 40vh;
-        width: 25vw;
-        left: 5vw; }
-      main[data-tipo="dota-main"] div div {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        main[data-tipo="dota-main"] div div article {
-          position: relative;
-          border: 1px solid;
-          border-radius: 30px;
-          padding: 10px;
-          width: 65vw;
-          height: 25vh;
-          background-color: #cbc6c6;
-          top: -5vh; }
-          main[data-tipo="dota-main"] div div article div {
-            position: relative;
-            display: inline-block;
-            top: -1vh;
-            left: 3vw; }
-            main[data-tipo="dota-main"] div div article div img {
-              width: 10vw;
-              height: 10vh; } }
-
+        
+        
+            p[data-tipo="titulo-dota"] {
+                color: red;
+                position: relative;
+                left: 15vw;
+                font-size: 5em;
+                bottom: 1vh;
+                width: 80vw;
+                font-weight: bold;
+            }
+        
+            p {
+                font-size: 30px;
+                color: blue;
+                left: 5vw;
+                width: 90vw;
+                position: relative;
+            }
+        
+            div {
+                position: relative;
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: auto;
+                gap: 10px;
+                top: 5vh;
+        
+                img {
+                    position: relative;
+                    height: 40vh;
+                    width: 25vw;
+                    left: 5vw;
+                }
+        
+                div {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+        
+                    article {
+                        position: relative;
+                        border: 1px solid;
+                        border-radius: 30px;
+                        padding: 10px;
+                        width: 65vw;
+                        height: 25vh;
+                        background-color: #cbc6c6;
+                        top: -5vh;
+        
+                        
+        
+                        div {
+                            position: relative;
+                            display: inline-block;
+                            top: -1vh;
+                            left: 3vw;
+        
+                            img {
+                                width: 10vw;
+                                height: 10vh;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }*/
 footer[data-tipo="footer-dota"] {
   height: 20vh;
   align-content: center;
@@ -1284,24 +741,24 @@ footer[data-tipo="footer-dota"] {
     width: 38vw;
     position: relative;
     color: red;
-    top: 4vh; }
+    top: 20%; }
   footer[data-tipo="footer-dota"] a[data-tipo="steam"] {
-    font-size: 50px;
+    font-size: 350%;
     text-decoration: none;
     color: black;
     margin-right: 20px; }
   footer[data-tipo="footer-dota"] a[data-tipo="twiter"] {
-    font-size: 50px;
+    font-size: 350%;
     text-decoration: none;
     color: #1fa8e3;
     margin-right: 20px; }
   footer[data-tipo="footer-dota"] a[data-tipo="facebook"] {
-    font-size: 50px;
+    font-size: 350%;
     text-decoration: none;
     color: #3b0ce4;
     margin-right: 20px; }
   footer[data-tipo="footer-dota"] a[data-tipo="youtuve"] {
-    font-size: 50px;
+    font-size: 350%;
     text-decoration: none;
     color: red; }
   footer[data-tipo="footer-dota"] hr[data-tipo="segundo"] {
@@ -1311,84 +768,6 @@ footer[data-tipo="footer-dota"] {
     bottom: 5vh;
     left: 61vw;
     position: relative; }
-
-@media screen and (min-width: 768px) {
-  footer[data-tipo="footer-dota"] {
-    height: 20vh;
-    align-content: center;
-    text-align: center;
-    justify-content: center; }
-    footer[data-tipo="footer-dota"] hr[data-tipo="primero"] {
-      width: 30vw;
-      position: relative;
-      color: gray;
-      top: 4vh; }
-    footer[data-tipo="footer-dota"] a[data-tipo="steam"] {
-      font-size: 50px;
-      text-decoration: none;
-      color: black;
-      margin-right: 20px; }
-    footer[data-tipo="footer-dota"] a[data-tipo="twiter"] {
-      font-size: 50px;
-      text-decoration: none;
-      color: #1fa8e3;
-      margin-right: 20px; }
-    footer[data-tipo="footer-dota"] a[data-tipo="facebook"] {
-      font-size: 50px;
-      text-decoration: none;
-      color: #3b0ce4;
-      margin-right: 20px; }
-    footer[data-tipo="footer-dota"] a[data-tipo="youtuve"] {
-      font-size: 50px;
-      text-decoration: none;
-      color: red; }
-    footer[data-tipo="footer-dota"] hr[data-tipo="segundo"] {
-      width: 30vw;
-      position: relative;
-      color: gray;
-      bottom: 6vh;
-      left: 70vw;
-      position: relative; } }
-
-@media screen and (max-width: 320px) {
-  footer[data-tipo="footer-dota"] {
-    top: -10vh;
-    height: 20vh;
-    align-content: center;
-    text-align: center;
-    justify-content: center;
-    position: relative; }
-    footer[data-tipo="footer-dota"] hr[data-tipo="primero"] {
-      width: 15vw;
-      position: relative;
-      color: gray;
-      top: 6vh; }
-    footer[data-tipo="footer-dota"] a[data-tipo="steam"] {
-      font-size: 30px;
-      text-decoration: none;
-      color: black;
-      margin-right: 20px; }
-    footer[data-tipo="footer-dota"] a[data-tipo="twiter"] {
-      font-size: 30px;
-      text-decoration: none;
-      color: #1fa8e3;
-      margin-right: 20px; }
-    footer[data-tipo="footer-dota"] a[data-tipo="facebook"] {
-      font-size: 30px;
-      text-decoration: none;
-      color: #3b0ce4;
-      margin-right: 20px; }
-    footer[data-tipo="footer-dota"] a[data-tipo="youtuve"] {
-      font-size: 30px;
-      text-decoration: none;
-      color: red; }
-    footer[data-tipo="footer-dota"] hr[data-tipo="segundo"] {
-      width: 15vw;
-      position: relative;
-      color: gray;
-      bottom: 6.5vh;
-      left: 85vw;
-      position: relative; } }
 
 header nav[data-tipo="nav-dbd"] {
   position: relative;
@@ -3318,7 +2697,8 @@ footer[data-tipo="footer-index"] {
   height: 20vh;
   align-content: center;
   text-align: center;
-  justify-content: center; }
+  justify-content: center;
+  position: relative; }
   footer[data-tipo="footer-index"] hr[data-tipo="primero"] {
     width: 37vw;
     position: relative;
@@ -3391,7 +2771,6 @@ footer[data-tipo="footer-index"] {
 
 @media screen and (max-width: 420px) {
   footer[data-tipo="footer-index"] {
-    top: -10vh;
     height: 20vh;
     align-content: center;
     text-align: center;

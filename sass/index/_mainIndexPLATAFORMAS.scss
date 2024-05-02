@@ -4,6 +4,7 @@ div[data-tipo="primero"] {
     height: 600px;
     overflow: hidden;
     left: 60px;
+    background-color: red;
 
     img[data-tipo="primero-1"] {
         width: 100vw;
@@ -129,7 +130,6 @@ div[data-tipo="segundo"] {
         width: 35vw;
         left: 50vw;
         text-align: center;
-        background-color: red;
     
         a {
             display: inline-block;
