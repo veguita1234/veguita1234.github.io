@@ -248,7 +248,8 @@ main[data-tipo="main-index"] {
       transform: translateX(-50%);
       width: 35vw;
       left: 50vw;
-      text-align: center; }
+      text-align: center;
+      background-color: red; }
       main[data-tipo="main-index"] div[data-tipo="segundo"] a {
         display: inline-block;
         position: relative;
@@ -546,7 +547,8 @@ main[data-tipo="main-index"] {
       transform: translateX(-50%);
       width: 35vw;
       left: 50vw;
-      text-align: center; }
+      text-align: center;
+      background-color: red; }
       main[data-tipo="main-index"] div[data-tipo="segundo"] a {
         display: inline-block;
         position: relative;
@@ -849,7 +851,8 @@ main[data-tipo="main-index"] {
       transform: translateX(-50%);
       width: 35vw;
       left: 50vw;
-      text-align: center; }
+      text-align: center;
+      background-color: red; }
       main[data-tipo="main-index"] div[data-tipo="segundo"] a {
         display: inline-block;
         position: relative;
