@@ -8,14 +8,13 @@ div[data-tipo="tercero"] {
     grid-gap: 10%;
 
     a {
-        div[data-tipo="tres.1"] {
+        height: 30vh;
+
+        img {
             grid-area: dota2;
             position: relative;
             height: 30vh;
             width: 25vw;
-            background-image: url('../assets/IMG/index/DOTA/Dota2.jpg');
-            background-size: cover;
-
         &:hover {
             background-image: url("../assets/IMG/index/DOTA/Dota2-1.png");
         }
@@ -70,23 +69,10 @@ div[data-tipo="tercero"] {
 }
 
 @media screen and (min-width: 768px) {
-    div[data-tipo="tercero"] {
-        position: relative;
-        top: 15vh;
-        height: 70vh;
-        display: grid;
-        grid-template-areas: "dota2 deadby" "left4 texass";
-        justify-content: center;
-        grid-gap: 10%;
-    
+    div {
         a {
-            div[data-tipo="tres.1"] {
-                grid-area: dota2;
-                position: relative;
-                height: 25vh;
-                width: 35vw;
-                background-image: url('../assets/IMG/index/DOTA/Dota2.jpg');
-                background-size: cover;
+            img {
+    
     
             &:hover {
                 background-image: url("../assets/IMG/index/DOTA/Dota2-1.png");
@@ -94,7 +80,7 @@ div[data-tipo="tercero"] {
         }
         }
     
-        a {
+        /*a {
             div[data-tipo="tres.2"] {
                 grid-area: deadby;
                 position: relative;
@@ -139,7 +125,7 @@ div[data-tipo="tercero"] {
             }
         }
     
-    }
+    }*/
     }
 }
 
@@ -147,21 +133,14 @@ div[data-tipo="tercero"] {
     div[data-tipo="tercero"] {
         position: relative;
         height: 90vh;
+
         display: flex;
         flex-direction: column;
-        /*display: grid;
-        grid-template-areas: "dota2 deadby" "left4 texass";*/
         align-items: center;
         gap: 20px;
     
         a {
-            div[data-tipo="tres.1"] {
-                /*grid-area: dota2;*/
-                position: relative;
-                height: 18vh;
-                width: 65vw;
-                background-image: url('../assets/IMG/index/DOTA/Dota2.jpg');
-                background-size: cover;
+            img {
     
             &:hover {
                 background-image: url("../assets/IMG/index/DOTA/Dota2-1.png");
@@ -169,9 +148,8 @@ div[data-tipo="tercero"] {
         }
         }
     
-        a {
+        /*a {
             div[data-tipo="tres.2"] {
-                grid-area: deadby;
                 position: relative;
                 height: 18vh;
                 width: 65vw;
@@ -186,7 +164,7 @@ div[data-tipo="tercero"] {
     
         a {
             div[data-tipo="tres.3"] {
-                grid-area: left4;
+
                 position: relative;
                 height: 18vh;
                 width: 65vw;
@@ -201,7 +179,6 @@ div[data-tipo="tercero"] {
     
         a {
             div[data-tipo="tres.4"] {
-                grid-area: texass;
                 position: relative;
                 height: 18vh;
                 width: 65vw;
@@ -214,6 +191,6 @@ div[data-tipo="tercero"] {
             }
         }
     
-    }
+    }*/
     }
 }
