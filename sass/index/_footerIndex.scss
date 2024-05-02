@@ -103,7 +103,7 @@ footer[data-tipo="footer-index"] {
 }
 
 @media screen and (max-width: 320px) {
-    footer[data-tipo="footer-dota"] {
+    footer[data-tipo="footer-index"] {
         top: -10vh;
         height: 20vh;
         align-content: center;
@@ -152,7 +152,7 @@ footer[data-tipo="footer-index"] {
             width: 15vw;
             position: relative;
             color: gray;
-            bottom: 3vh;
+            bottom: 3.5vh;
             left: 85vw;
             position: relative;
         }

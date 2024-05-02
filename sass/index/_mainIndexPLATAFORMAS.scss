@@ -102,14 +102,14 @@ div[data-tipo="segundo"] {
     div[data-tipo="primero"] {
         position: relative;
         width: 100vw;
-        height: 100vh;
+        height: 80vh;
         overflow: hidden;
         left: -0.1vw;
         
     
         img[data-tipo="primero-1"] {
             width: 100vw;
-            height: 100vh;
+            height: 80vh;
             position: relative;
             opacity: 1;
             transition: opacity 0.5s ease-in-out;

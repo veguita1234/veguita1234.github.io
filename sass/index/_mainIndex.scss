@@ -104,9 +104,10 @@ main[data-tipo="main-index"] {
     @media screen and (max-width: 320px) {
         main[data-tipo="main-index"] {
             position: relative;
-            height: 190vh;
+            height: 220vh;
             top: -10vh;
             z-index: 0;
+            
         
                 h1 {
                     display: inline-block;

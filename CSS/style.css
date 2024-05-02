@@ -230,12 +230,12 @@ main[data-tipo="main-index"] {
     main[data-tipo="main-index"] div[data-tipo="primero"] {
       position: relative;
       width: 100vw;
-      height: 100vh;
+      height: 80vh;
       overflow: hidden;
       left: -0.1vw; }
       main[data-tipo="main-index"] div[data-tipo="primero"] img[data-tipo="primero-1"] {
         width: 100vw;
-        height: 100vh;
+        height: 80vh;
         position: relative;
         opacity: 1;
         transition: opacity 0.5s ease-in-out;
@@ -318,7 +318,7 @@ main[data-tipo="main-index"] {
         grid-area: dota2;
         position: relative;
         height: 25vh;
-        width: 30vw;
+        width: 35vw;
         background-image: url("../assets/IMG/index/DOTA/Dota2.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.1"]:hover {
@@ -327,7 +327,7 @@ main[data-tipo="main-index"] {
         grid-area: deadby;
         position: relative;
         height: 25vh;
-        width: 30vw;
+        width: 35vw;
         background-image: url("../assets/IMG/index/DBD/DBD.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.2"]:hover {
@@ -336,7 +336,7 @@ main[data-tipo="main-index"] {
         grid-area: left4;
         position: relative;
         height: 25vh;
-        width: 30vw;
+        width: 35vw;
         background-image: url("../assets/IMG/index/LEFT/Left.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.3"]:hover {
@@ -345,7 +345,7 @@ main[data-tipo="main-index"] {
         grid-area: texass;
         position: relative;
         height: 25vh;
-        width: 30vw;
+        width: 35vw;
         background-image: url("../assets/IMG/index/TEXAS/Texas.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.4"]:hover {
@@ -353,16 +353,18 @@ main[data-tipo="main-index"] {
   @media screen and (max-width: 320px) {
     main[data-tipo="main-index"] div[data-tipo="tercero"] {
       position: relative;
-      height: 30vh;
-      display: grid;
-      grid-template-areas: "dota2 deadby" "left4 texass";
-      justify-content: center;
-      grid-gap: 10px; }
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      /*display: grid;
+        grid-template-areas: "dota2 deadby" "left4 texass";*/
+      align-items: center;
+      gap: 20px; }
       main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.1"] {
-        grid-area: dota2;
+        /*grid-area: dota2;*/
         position: relative;
-        height: 10vh;
-        width: 35vw;
+        height: 18vh;
+        width: 65vw;
         background-image: url("../assets/IMG/index/DOTA/Dota2.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.1"]:hover {
@@ -370,8 +372,8 @@ main[data-tipo="main-index"] {
       main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.2"] {
         grid-area: deadby;
         position: relative;
-        height: 10vh;
-        width: 35vw;
+        height: 18vh;
+        width: 65vw;
         background-image: url("../assets/IMG/index/DBD/DBD.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.2"]:hover {
@@ -379,8 +381,8 @@ main[data-tipo="main-index"] {
       main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.3"] {
         grid-area: left4;
         position: relative;
-        height: 10vh;
-        width: 35vw;
+        height: 18vh;
+        width: 65vw;
         background-image: url("../assets/IMG/index/LEFT/Left.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.3"]:hover {
@@ -388,8 +390,8 @@ main[data-tipo="main-index"] {
       main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.4"] {
         grid-area: texass;
         position: relative;
-        height: 10vh;
-        width: 35vw;
+        height: 18vh;
+        width: 65vw;
         background-image: url("../assets/IMG/index/TEXAS/Texas.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.4"]:hover {
@@ -513,12 +515,12 @@ main[data-tipo="main-index"] {
     main[data-tipo="main-index"] div[data-tipo="primero"] {
       position: relative;
       width: 100vw;
-      height: 100vh;
+      height: 80vh;
       overflow: hidden;
       left: -0.1vw; }
       main[data-tipo="main-index"] div[data-tipo="primero"] img[data-tipo="primero-1"] {
         width: 100vw;
-        height: 100vh;
+        height: 80vh;
         position: relative;
         opacity: 1;
         transition: opacity 0.5s ease-in-out;
@@ -603,7 +605,7 @@ main[data-tipo="main-index"] {
         grid-area: dota2;
         position: relative;
         height: 25vh;
-        width: 30vw;
+        width: 35vw;
         background-image: url("../assets/IMG/index/DOTA/Dota2.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.1"]:hover {
@@ -612,7 +614,7 @@ main[data-tipo="main-index"] {
         grid-area: deadby;
         position: relative;
         height: 25vh;
-        width: 30vw;
+        width: 35vw;
         background-image: url("../assets/IMG/index/DBD/DBD.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.2"]:hover {
@@ -621,7 +623,7 @@ main[data-tipo="main-index"] {
         grid-area: left4;
         position: relative;
         height: 25vh;
-        width: 30vw;
+        width: 35vw;
         background-image: url("../assets/IMG/index/LEFT/Left.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.3"]:hover {
@@ -630,7 +632,7 @@ main[data-tipo="main-index"] {
         grid-area: texass;
         position: relative;
         height: 25vh;
-        width: 30vw;
+        width: 35vw;
         background-image: url("../assets/IMG/index/TEXAS/Texas.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.4"]:hover {
@@ -638,16 +640,18 @@ main[data-tipo="main-index"] {
   @media screen and (min-width: 768px) and (max-width: 320px) {
     main[data-tipo="main-index"] div[data-tipo="tercero"] {
       position: relative;
-      height: 30vh;
-      display: grid;
-      grid-template-areas: "dota2 deadby" "left4 texass";
-      justify-content: center;
-      grid-gap: 10px; }
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      /*display: grid;
+        grid-template-areas: "dota2 deadby" "left4 texass";*/
+      align-items: center;
+      gap: 20px; }
       main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.1"] {
-        grid-area: dota2;
+        /*grid-area: dota2;*/
         position: relative;
-        height: 10vh;
-        width: 35vw;
+        height: 18vh;
+        width: 65vw;
         background-image: url("../assets/IMG/index/DOTA/Dota2.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.1"]:hover {
@@ -655,8 +659,8 @@ main[data-tipo="main-index"] {
       main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.2"] {
         grid-area: deadby;
         position: relative;
-        height: 10vh;
-        width: 35vw;
+        height: 18vh;
+        width: 65vw;
         background-image: url("../assets/IMG/index/DBD/DBD.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.2"]:hover {
@@ -664,8 +668,8 @@ main[data-tipo="main-index"] {
       main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.3"] {
         grid-area: left4;
         position: relative;
-        height: 10vh;
-        width: 35vw;
+        height: 18vh;
+        width: 65vw;
         background-image: url("../assets/IMG/index/LEFT/Left.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.3"]:hover {
@@ -673,8 +677,8 @@ main[data-tipo="main-index"] {
       main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.4"] {
         grid-area: texass;
         position: relative;
-        height: 10vh;
-        width: 35vw;
+        height: 18vh;
+        width: 65vw;
         background-image: url("../assets/IMG/index/TEXAS/Texas.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.4"]:hover {
@@ -683,7 +687,7 @@ main[data-tipo="main-index"] {
 @media screen and (max-width: 320px) {
   main[data-tipo="main-index"] {
     position: relative;
-    height: 190vh;
+    height: 220vh;
     top: -10vh;
     z-index: 0; }
     main[data-tipo="main-index"] h1 {
@@ -801,12 +805,12 @@ main[data-tipo="main-index"] {
     main[data-tipo="main-index"] div[data-tipo="primero"] {
       position: relative;
       width: 100vw;
-      height: 100vh;
+      height: 80vh;
       overflow: hidden;
       left: -0.1vw; }
       main[data-tipo="main-index"] div[data-tipo="primero"] img[data-tipo="primero-1"] {
         width: 100vw;
-        height: 100vh;
+        height: 80vh;
         position: relative;
         opacity: 1;
         transition: opacity 0.5s ease-in-out;
@@ -891,7 +895,7 @@ main[data-tipo="main-index"] {
         grid-area: dota2;
         position: relative;
         height: 25vh;
-        width: 30vw;
+        width: 35vw;
         background-image: url("../assets/IMG/index/DOTA/Dota2.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.1"]:hover {
@@ -900,7 +904,7 @@ main[data-tipo="main-index"] {
         grid-area: deadby;
         position: relative;
         height: 25vh;
-        width: 30vw;
+        width: 35vw;
         background-image: url("../assets/IMG/index/DBD/DBD.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.2"]:hover {
@@ -909,7 +913,7 @@ main[data-tipo="main-index"] {
         grid-area: left4;
         position: relative;
         height: 25vh;
-        width: 30vw;
+        width: 35vw;
         background-image: url("../assets/IMG/index/LEFT/Left.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.3"]:hover {
@@ -918,7 +922,7 @@ main[data-tipo="main-index"] {
         grid-area: texass;
         position: relative;
         height: 25vh;
-        width: 30vw;
+        width: 35vw;
         background-image: url("../assets/IMG/index/TEXAS/Texas.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.4"]:hover {
@@ -926,16 +930,18 @@ main[data-tipo="main-index"] {
   @media screen and (max-width: 320px) and (max-width: 320px) {
     main[data-tipo="main-index"] div[data-tipo="tercero"] {
       position: relative;
-      height: 30vh;
-      display: grid;
-      grid-template-areas: "dota2 deadby" "left4 texass";
-      justify-content: center;
-      grid-gap: 10px; }
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      /*display: grid;
+        grid-template-areas: "dota2 deadby" "left4 texass";*/
+      align-items: center;
+      gap: 20px; }
       main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.1"] {
-        grid-area: dota2;
+        /*grid-area: dota2;*/
         position: relative;
-        height: 10vh;
-        width: 35vw;
+        height: 18vh;
+        width: 65vw;
         background-image: url("../assets/IMG/index/DOTA/Dota2.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.1"]:hover {
@@ -943,8 +949,8 @@ main[data-tipo="main-index"] {
       main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.2"] {
         grid-area: deadby;
         position: relative;
-        height: 10vh;
-        width: 35vw;
+        height: 18vh;
+        width: 65vw;
         background-image: url("../assets/IMG/index/DBD/DBD.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.2"]:hover {
@@ -952,8 +958,8 @@ main[data-tipo="main-index"] {
       main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.3"] {
         grid-area: left4;
         position: relative;
-        height: 10vh;
-        width: 35vw;
+        height: 18vh;
+        width: 65vw;
         background-image: url("../assets/IMG/index/LEFT/Left.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.3"]:hover {
@@ -961,8 +967,8 @@ main[data-tipo="main-index"] {
       main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.4"] {
         grid-area: texass;
         position: relative;
-        height: 10vh;
-        width: 35vw;
+        height: 18vh;
+        width: 65vw;
         background-image: url("../assets/IMG/index/TEXAS/Texas.jpg");
         background-size: cover; }
         main[data-tipo="main-index"] div[data-tipo="tercero"] a div[data-tipo="tres.4"]:hover {
@@ -3341,41 +3347,41 @@ footer[data-tipo="footer-index"] {
       position: relative; } }
 
 @media screen and (max-width: 320px) {
-  footer[data-tipo="footer-dota"] {
+  footer[data-tipo="footer-index"] {
     top: -10vh;
     height: 20vh;
     align-content: center;
     text-align: center;
     justify-content: center;
     position: relative; }
-    footer[data-tipo="footer-dota"] hr[data-tipo="primero"] {
+    footer[data-tipo="footer-index"] hr[data-tipo="primero"] {
       width: 15vw;
       position: relative;
       color: gray;
       top: 2.5vh; }
-    footer[data-tipo="footer-dota"] a[data-tipo="steam"] {
+    footer[data-tipo="footer-index"] a[data-tipo="steam"] {
       font-size: 30px;
       text-decoration: none;
       color: black;
       margin-right: 20px; }
-    footer[data-tipo="footer-dota"] a[data-tipo="twiter"] {
+    footer[data-tipo="footer-index"] a[data-tipo="twiter"] {
       font-size: 30px;
       text-decoration: none;
       color: #1fa8e3;
       margin-right: 20px; }
-    footer[data-tipo="footer-dota"] a[data-tipo="facebook"] {
+    footer[data-tipo="footer-index"] a[data-tipo="facebook"] {
       font-size: 30px;
       text-decoration: none;
       color: #3b0ce4;
       margin-right: 20px; }
-    footer[data-tipo="footer-dota"] a[data-tipo="youtuve"] {
+    footer[data-tipo="footer-index"] a[data-tipo="youtuve"] {
       font-size: 30px;
       text-decoration: none;
       color: red; }
-    footer[data-tipo="footer-dota"] hr[data-tipo="segundo"] {
+    footer[data-tipo="footer-index"] hr[data-tipo="segundo"] {
       width: 15vw;
       position: relative;
       color: gray;
-      bottom: 3vh;
+      bottom: 3.5vh;
       left: 85vw;
       position: relative; } }
