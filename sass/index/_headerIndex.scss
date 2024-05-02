@@ -1,7 +1,6 @@
 header {
-    height: 15vh;
-    display: flex;
-    flex-direction: row;
+
+    justify-content: center;
 
     input { 
         display: none;
@@ -14,28 +13,31 @@ header {
 
     nav[data-tipo="nav-index"] {
         position: relative;
-        left: 40vw;
         top: 5vh;
+
 
         ul {
             display: flex;
             flex-direction: row;
-            gap: 7em;
+            gap: 10%;
             list-style-type: none;
+            width: 90vw;
+            justify-content: center;
+            
             
             
             li {
-                font-size: 20px;
+                font-size: 150%;
                 border: 1px solid gray;
                 border-radius: 10px;
                 padding: 3px 3px;
                 
 
                 &:hover {
-                    border: 1px solid rgb(42, 243, 250);
+                    border: 1px solid red;
                     padding: 3px 3px;
                     border-radius: 10px;
-                    background-color: rgb(42, 243, 250);
+                    background-color: rgb(250, 42, 42);
                 }
 
                 a {
@@ -50,9 +52,9 @@ header {
                 
             }
         }
+
     }
 }
-
 @media screen and (min-width: 768px) {
 
 }

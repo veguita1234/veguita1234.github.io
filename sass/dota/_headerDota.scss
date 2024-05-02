@@ -3,6 +3,15 @@ header {
 
     justify-content: center;
 
+    input { 
+        display: none;
+    }
+
+    label {
+        display: none;
+        cursor: pointer;
+    }
+
     nav[data-tipo="nav-dota"] {
         position: relative;
         top: 5vh;

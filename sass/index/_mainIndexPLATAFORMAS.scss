@@ -1,17 +1,18 @@
 div[data-tipo="primero"] {
     position: relative;
-    width: 1400px;
-    height: 600px;
+    width: 95vw;
+    height: 100vh;
     overflow: hidden;
-    left: 60px;
+    left: -0.1vw;
     background-color: red;
 
     img[data-tipo="primero-1"] {
-        width: 100vw;
-        height: 100%;
+        width: 95vw;
+        height: 100vh;
         position: relative;
         opacity: 1;
         transition: opacity 0.5s ease-in-out;
+        background-color: red;
     }
 
     &:target {
@@ -49,54 +50,7 @@ div[data-tipo="segundo"] {
 }
 
 @media screen and (min-width: 768px) {
-    div[data-tipo="primero"] {
-        position: relative;
-        width: 100vw;
-        height: 100vh;
-        overflow: hidden;
-        left: -0.1vw;
-    
-        img[data-tipo="primero-1"] {
-            width: 100vw;
-            height: 100vh;
-            position: relative;
-            opacity: 1;
-            transition: opacity 0.5s ease-in-out;
-        }
-    
-        &:target {
-            opacity: 1;
-        }
-    }
-    
-    div[data-tipo="segundo"] {
-        position: relative;
-        top: 2vh;
-        transform: translateX(-50%);
-        width: 15vw;
-        left: 50vw;
-        text-align: center;
-    
-        a {
-            display: inline-block;
-            position: relative;
-            width: 20px;
-            height: 20px;
-            background-color: rgb(182, 181, 185);
-            border-radius: 50%;
-            margin: 0 5px;
-            /*left: 55vw;*/
-            /*color: white;*/
-            text-decoration: none;
-            line-height: 20px;
-    
-            &:hover {
-                background-color: gray;
-            }
-    
-        }
-    
-    }
+
 }
 
 @media screen and (max-width: 420px) {
