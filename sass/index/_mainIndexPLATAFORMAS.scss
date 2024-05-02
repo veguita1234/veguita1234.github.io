@@ -3,8 +3,8 @@ div[data-tipo="primero"] {
     width: 95vw;
     height: 100vh;
     overflow: hidden;
-    left: -0.1vw;
-    background-color: red;
+
+
 
     img[data-tipo="primero-1"] {
         width: 95vw;
@@ -12,7 +12,7 @@ div[data-tipo="primero"] {
         position: relative;
         opacity: 1;
         transition: opacity 0.5s ease-in-out;
-        background-color: red;
+        
     }
 
     &:target {
@@ -27,6 +27,7 @@ div[data-tipo="segundo"] {
     width: 15vw;
     left: 50vw;
     text-align: center;
+    
 
     a {
         display: inline-block;
@@ -40,6 +41,7 @@ div[data-tipo="segundo"] {
         /*color: white;*/
         text-decoration: none;
         line-height: 20px;
+        
 
         &:hover {
             background-color: gray;

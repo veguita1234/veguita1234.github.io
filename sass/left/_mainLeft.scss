@@ -1,14 +1,25 @@
 main[data-tipo="left-main"] {
-    height: 327vh;
+
+    height: 310vh;
+
+    @media screen and (max-width: 768px) {
+        height: 340vh;
+    }
 
     p[data-tipo="titulo-left"] {
         color: black;
         position: relative;
-        left: 30vw;
-        font-size: 6em;
+        font-size: 600%;
         bottom: 1vh;
-        width: 50vw;
+        width: 85vw;
         font-weight: bold;
+        text-align: center;
+        left: 2vw;
+
+        @media screen and (min-width: 768px) {
+                left: 5vw;
+        }
+
     }
 
     div[data-tipo="asesinos-left"] {
@@ -17,9 +28,12 @@ main[data-tipo="left-main"] {
 
         p[data-tipo="left-letra-asesinos"] {
             font-family: killer;
-            font-size: 4em;
+            font-size: 400%;
             color: red;
             padding-bottom: 5vh;
+
+            
+
         }
 
         div {
@@ -52,9 +66,17 @@ main[data-tipo="left-main"] {
                     height: 40vh;
                     background-color: #cbc6c6;
 
+                    @media screen and (max-width: 768px) {
+                        height: 50vh;
+                    }
+
                     p {
                         text-align: justify;
                         font-size: 17px;
+
+                        @media screen and (max-width: 768px) {
+                            font-size: 13.5px;
+                        }
                     }
 
                 }
@@ -85,9 +107,17 @@ main[data-tipo="left-main"] {
                     height: 40vh;
                     background-color: #cbc6c6;
 
+                    @media screen and (max-width: 768px) {
+                        height: 50vh;
+                    }
+
                     p {
                         text-align: justify;
                         font-size: 17px;
+
+                        @media screen and (max-width: 768px) {
+                            font-size: 13px;
+                        }
                     }
                     
                 }
@@ -101,6 +131,10 @@ main[data-tipo="left-main"] {
     div[data-tipo=supervivientes-left] {
         position: relative;
         height: 140vh;
+
+        @media screen and (max-width: 768px) {
+            top: 5vh;
+        }
 
         p[data-tipo="left-letra-supervivientes"] {
             font-size: 4em;
@@ -130,6 +164,10 @@ main[data-tipo="left-main"] {
                     width: 60vw;
                     height: 35vh;
                     background-color: #cbc6c6;
+
+                    @media screen and (max-width: 768px) {
+                        height: 50vh;
+                    }
 
                     p {
                         text-align: justify;
@@ -162,6 +200,10 @@ main[data-tipo="left-main"] {
                     height: 35vh;
                     background-color: #cbc6c6;
 
+                    @media screen and (max-width: 768px) {
+                        height: 50vh;
+                    }
+
                     p {
                         text-align: justify;
                         font-size: 18px;
@@ -182,195 +224,7 @@ main[data-tipo="left-main"] {
     }
 }
 
-@media screen and (min-width: 768px) {
-    main[data-tipo="left-main"] {
-        height: 348vh;
-    
-        p[data-tipo="titulo-left"] {
-            color: black;
-            position: relative;
-            left: 13vw;
-            font-size: 6em;
-            bottom: 1vh;
-            width: 80vw;
-            font-weight: bold;
-        }
-    
-        div[data-tipo="asesinos-left"] {
-            position: relative;
-            height: 140vh;
-            top: 4vh;
-    
-            p[data-tipo="left-letra-asesinos"] {
-                font-family: killer;
-                font-size: 3.5em;
-                color: red;
-                padding-bottom: 5vh;
-            }
-    
-            div {
-                position: relative;
-                display: grid;
-                grid-template-columns: 1fr 2fr;
-                grid-template-rows: auto;
-                gap: 10px;
-                
-    
-                img[data-tipo="smoker"] {
-                    position: relative;
-                    height: 60vh;
-                    width: 20vw;
-                    left: 5vw;
-                }
-    
-                div[data-tipo="smoker"] {
-                    position: relative;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    
-                    article {
-                        position: relative;
-                        border: 1px solid;
-                        border-radius: 30px;
-                        padding: 10px;
-                        width: 60vw;
-                        height: 50vh;
-                        background-color: #cbc6c6;
-    
-                        p {
-                            text-align: justify;
-                            font-size: 13px;
-                        }
-    
-                    }
-                }
-    
-                img[data-tipo="charger"] {
-                    position: relative;
-                    height: 60vh;
-                    width: 20vw;
-                    left: 5vw;
-                    padding-top: 5vh;
-                }
-    
-                div[data-tipo="charger"] {
-                    position: relative;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    height: 60vh;
-                    padding-top: 5vh;
-    
-                    article {
-                        position: relative;
-                        border: 1px solid;
-                        border-radius: 30px;
-                        padding: 10px;
-                        width: 60vw;
-                        height: 45vh;
-                        background-color: #cbc6c6;
-    
-                        p {
-                            text-align: justify;
-                            font-size: 12px;
-                        }
-                        
-                    }
-    
-                }
-            }
-    
-    
-        }
-    
-        div[data-tipo=supervivientes-left] {
-            position: relative;
-            height: 140vh;
-            top: 8vh;
-    
-            p[data-tipo="left-letra-supervivientes"] {
-                font-size: 4em;
-                color: rgb(92, 211, 244);
-                text-align: end;
-                padding-bottom: 5vh;
-                left: -3vw;
-                position: relative;
-            }
-    
-            div {
-                position: relative;
-                display: grid;
-                grid-template-columns: 2fr 1fr;
-                grid-template-rows: auto;
-                gap: 10px;
-    
-                div[dato-tipo="Ellis"] {
-                    position: relative;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-    
-                    article {
-                        position: relative;
-                        border: 1px solid;
-                        border-radius: 30px;
-                        padding: 10px;
-                        width: 60vw;
-                        height: 50vh;
-                        background-color: #cbc6c6;
-    
-                        p {
-                            text-align: justify;
-                            font-size: 16px;
-                        }
-    
-                    }
-                }
-    
-                img[dato-tipo="Ellis"] {
-                    position: relative;
-                    height: 75vh;
-                    width: 20vw;
-                    left: 5vw;
-                }
-    
-    
-                div[dato-tipo="Nick"] {
-                    position: relative;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-    
-                    article {
-                        position: relative;
-                        border: 1px solid;
-                        border-radius: 30px;
-                        padding: 10px;
-                        width: 60vw;
-                        height: 50vh;
-                        background-color: #cbc6c6;
-    
-                        p {
-                            text-align: justify;
-                            font-size: 18px;
-                        }
-    
-                        
-                    }
-                }
-    
-                img[dato-tipo="Nick"] {
-                    position: relative;
-                    height: 75vh;
-                    width: 20vw;
-                    left: 5vw;
-                    padding-top: 5vh;
-                }
-            }
-        }
-    }
-}
+
 
 @media screen and (max-width: 320px) {
     main[data-tipo="left-main"] {

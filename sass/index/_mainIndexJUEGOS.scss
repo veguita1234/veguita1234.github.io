@@ -7,6 +7,7 @@ div[data-tipo="tercero"] {
     justify-content: center;
     grid-gap: 10%;
 
+
     a {
         height: 30vh;
 
@@ -44,49 +45,6 @@ div[data-tipo="tercero"] {
         }
         }
     
-        /*a {
-            div[data-tipo="tres.2"] {
-                position: relative;
-                height: 18vh;
-                width: 65vw;
-                background-image: url('../assets/IMG/index/DBD/DBD.jpg');
-                background-size: cover;
-    
-            &:hover {
-                background-image: url("../assets/IMG/index/DBD/DBD-1.jpg");
-            }
-        }
-        }
-    
-        a {
-            div[data-tipo="tres.3"] {
-
-                position: relative;
-                height: 18vh;
-                width: 65vw;
-                background-image: url('../assets/IMG/index/LEFT/Left.jpg');
-                background-size: cover;
-    
-            &:hover {
-                background-image: url("../assets/IMG/index/LEFT/left-1.jpg");
-            }
-        }
-        }
-    
-        a {
-            div[data-tipo="tres.4"] {
-                position: relative;
-                height: 18vh;
-                width: 65vw;
-                background-image: url('../assets/IMG/index/TEXAS/Texas.jpg');
-                background-size: cover;
-            
-    
-            &:hover {
-                background-image: url("../assets/IMG/index/TEXAS/Texas-1.png");
-            }
-        }
-    
-    }*/
+        
     }
 }

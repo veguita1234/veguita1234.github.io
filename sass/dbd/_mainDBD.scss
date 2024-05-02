@@ -1,17 +1,17 @@
 
 main[data-tipo="dbd-main"] {
 
-    height: 300vh;
+    height: 310vh;
 
     p[data-tipo="titulo-dbd"] {
         color: gray;
         position: relative;
-        left: 25vw;
-        font-size: 6em;
+        font-size: 600%;
         bottom: 1vh;
-        width: 30vw;
+        width: 95vw;
         font-weight: bold;
         text-align: center;
+        left: 2.5vw;
     }
 
         div[data-tipo="asesinos-dbd"] {
@@ -20,7 +20,7 @@ main[data-tipo="dbd-main"] {
 
             p[data-tipo="dbd-letra-asesinos"] {
                 font-family: killer;
-                font-size: 4em;
+                font-size: 400%;
                 color: red;
                 padding-bottom: 5vh;
             }
@@ -30,7 +30,7 @@ main[data-tipo="dbd-main"] {
                 display: grid;
                 grid-template-columns: 1fr 2fr;
                 grid-template-rows: auto;
-                gap: 10px;
+                gap: 5%;
                 
 
                 img[data-tipo="michael"] {
@@ -55,22 +55,27 @@ main[data-tipo="dbd-main"] {
                         border-radius: 30px;
                         padding: 10px;
                         width: 60vw;
-                        height: 45vh;
+                        height: 50vh;
                         background-color: #cbc6c6;
 
                         p {
                             text-align: justify;
-                            font-size: 17px;
+
                         }
+
+
+                        
 
                         div {
                             position: relative;
                             display: inline-block;
-                            left: 12vw;
+                            left: 15vw;
+                            bottom: 1%;
 
                             img {
                                 height: 15vh;
                                 width: 8vw;
+                                
                             }
                         }
                     }
@@ -96,12 +101,12 @@ main[data-tipo="dbd-main"] {
                         border-radius: 30px;
                         padding: 10px;
                         width: 60vw;
-                        height: 50vh;
+                        height: 45vh;
                         background-color: #cbc6c6;
 
                         p {
                             text-align: justify;
-                            font-size: 17px;
+                            font-size: 105%;
                         }
                         
                         div {
@@ -125,6 +130,7 @@ main[data-tipo="dbd-main"] {
         div[data-tipo=supervivientes-dbd] {
             position: relative;
             height: 140vh;
+            top: 10vh;
 
             p[data-tipo="dbd-letra-supervivientes"] {
                 font-size: 4em;
@@ -155,20 +161,38 @@ main[data-tipo="dbd-main"] {
                         height: 55vh;
                         background-color: #cbc6c6;
 
+                        @media screen and (max-width: 768px) {
+                                width: 70vw;
+                        }
+
                         p {
                             text-align: justify;
-                            font-size: 16px;
+                            font-size: 100%;
+                            
+
+                            @media screen and (max-width: 768px) {
+                                font-size: 70%;
+                                width: 100%;
+                        }
                         }
 
                         div {
                             position: relative;
                             display: inline-block;
                             left: 15vw;
-                            bottom: 2vh;
+                            bottom: 1vh;
+
+                            @media screen and (max-width: 768px) {
+                                left: 20vw;
+                            }
+                            
 
                             img {
                                 height: 15vh;
                                 width: 8vw;
+                                @media screen and (max-width: 768px) {
+                                    width: 10vw;
+                                }
                             }
                         }
                     }
@@ -197,20 +221,34 @@ main[data-tipo="dbd-main"] {
                         height: 52vh;
                         background-color: #cbc6c6;
 
+                        @media screen and (max-width: 768px) {
+                            width: 70vw;
+                        }
+
                         p {
                             text-align: justify;
-                            font-size: 17px;
+                            font-size: 110%;
+                            @media screen and (max-width: 768px) {
+                                font-size: 80%;
+                            }
                         }
 
                         div {
                             position: relative;
                             display: inline-block;
                             left: 15vw;
-                            bottom: 2vh;
+                            
+                            @media screen and (max-width: 768px) {
+                                left: 20vw;
+                            }
 
                             img {
                                 height: 15vh;
                                 width: 8vw;
+
+                                @media screen and (max-width: 768px) {
+                                    width: 10vw;
+                                }
                             }
                         }
                     }
@@ -225,123 +263,68 @@ main[data-tipo="dbd-main"] {
             }
         }
     }
-
-    @media screen and (min-width: 768px) {
+    
+    @media screen and (max-width: 768px) {
         main[data-tipo="dbd-main"] {
 
-            height: 320vh;
-
-            p[data-tipo="titulo-dbd"] {
-                color: gray;
-                position: relative;
-                left: 10vw;
-                font-size: 5em;
-                bottom: 1vh;
-                width: 85vw;
-                font-weight: bold;
-            }
         
                 div[data-tipo="asesinos-dbd"] {
-                    position: relative;
-                    height: 140vh;
-                    top: 5vh;
-        
-                    p[data-tipo="dbd-letra-asesinos"] {
-                        font-family: killer;
-                        font-size: 3.5em;
-                        color: red;
-                        padding-bottom: 5vh;
-                    }
+
         
                     div {
-                        position: relative;
-                        display: grid;
-                        grid-template-columns: 1fr 2fr;
-                        grid-template-rows: auto;
-                        gap: 10px;
-                        
-        
-                        img[data-tipo="michael"] {
-                            position: relative;
-                            height: 60vh;
-                            width: 25vw;
-                            left: 5vw;
-                        }
+
         
                         div[data-tipo="michael"] {
-                            position: relative;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            height: 60vh;
-                            
-                            
-        
+
                             article {
-                                position: relative;
-                                border: 1px solid;
-                                border-radius: 30px;
-                                padding: 10px;
-                                width: 60vw;
-                                height: 55vh;
-                                background-color: #cbc6c6;
-        
+
+                                width: 70vw;
+
                                 p {
-                                    text-align: justify;
-                                    font-size: 11px;
+
+                                    font-size: 65%;
                                 }
-        
+
                                 div {
                                     position: relative;
                                     display: inline-block;
-                                    left: 12vw;
+                                    left: 20vw;
+                                    bottom: 1%;
         
                                     img {
                                         height: 15vh;
-                                        width: 8vw;
+                                        width: 10vw;
+                                        
                                     }
                                 }
                             }
                         }
         
-                        img[data-tipo="demogorgon"] {
-                            position: relative;
-                            height: 60vh;
-                            width: 25vw;
-                            left: 5vw;
                         }
         
                         div[data-tipo="demogorgon"] {
-                            position: relative;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            height: 60vh;
-        
-                            article {
-                                position: relative;
-                                border: 1px solid;
-                                border-radius: 30px;
-                                padding: 10px;
-                                width: 60vw;
-                                height: 55vh;
-                                background-color: #cbc6c6;
+
+                            article[data-tipo="demo-1"] {
+
+                                width: 70vw;
+                                height: 50vh;
         
                                 p {
-                                    text-align: justify;
-                                    font-size: 12px;
+                                    
+                                    font-size: 85%;
                                 }
                                 
                                 div {
-                                    top: -2vh;
                                     position: relative;
                                     display: inline-block;
-                                    left: 15vw;
+                                    left: 20vw;
+                                    bottom: 1%;
         
-                                        img {
-                                            height: 15vh;
-                                            width: 8vw;
-                                        }
+                                    img {
+                                        height: 15vh;
+                                        width: 10vw;
+                                        
+                                    }
                                 }
                             }
         
@@ -351,113 +334,10 @@ main[data-tipo="dbd-main"] {
         
                 }
         
-                div[data-tipo=supervivientes-dbd] {
-                    position: relative;
-                    height: 140vh;
-                    top: 10vh;
-        
-                    p[data-tipo="dbd-letra-supervivientes"] {
-                        font-size: 4em;
-                        color: rgb(92, 211, 244);
-                        text-align: end;
-                        padding-bottom: 5vh;
-                    }
-        
-                    div {
-                        position: relative;
-                        display: grid;
-                        grid-template-columns: 2fr 1fr;
-                        grid-template-rows: auto;
-                        gap: 10px;
-        
-                        div[dato-tipo="Nea"] {
-                            position: relative;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-        
-                            article {
-                                position: relative;
-                                border: 1px solid;
-                                border-radius: 30px;
-                                padding: 10px;
-                                width: 60vw;
-                                height: 50vh;
-                                background-color: #cbc6c6;
-        
-                                p {
-                                    text-align: justify;
-                                    font-size: 10px;
-                                }
-        
-                                div {
-                                    position: relative;
-                                    display: inline-block;
-                                    left: 15vw;
-                                    top: 0.5vh;
-        
-                                    img {
-                                        height: 15vh;
-                                        width: 8vw;
-                                    }
-                                }
-                            }
-                        }
-        
-                        img[dato-tipo="Nea"] {
-                            position: relative;
-                            height: 60vh;
-                            width: 20vw;
-                            left: 5vw;
-                        }
-        
-        
-                        div[dato-tipo="Bill"] {
-                            position: relative;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-        
-                            article {
-                                position: relative;
-                                border: 1px solid;
-                                border-radius: 30px;
-                                padding: 10px;
-                                width: 60vw;
-                                height: 45vh;
-                                background-color: #cbc6c6;
-        
-                                p {
-                                    text-align: justify;
-                                    font-size: 11px;
-                                }
-        
-                                div {
-                                    position: relative;
-                                    display: inline-block;
-                                    left: 15vw;
-                                    top: -1vh;
-        
-                                    img {
-                                        height: 15vh;
-                                        width: 8vw;
-                                    }
-                                }
-                            }
-                        }
-        
-                        img[dato-tipo="Bill"] {
-                            position: relative;
-                            height: 60vh;
-                            width: 20vw;
-                            left: 5vw;
-                        }
-                    }
-                }
             }
-    }
 
-    @media screen and (max-width: 320px) {
+    
+    @media screen and (max-width: 420px) {
         main[data-tipo="dbd-main"] {
             position: relative;
             top: -10vh;

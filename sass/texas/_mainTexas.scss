@@ -2,14 +2,19 @@
 main[data-tipo="texas-main"] {
     height: 345vh;
 
+    @media screen and (max-width: 768px) {
+        height: 375vh;                   
+    }
+
     p[data-tipo="titulo-texas"] {
         color: rgb(240, 134, 211);
         position: relative;
-        left: 15vw;
         font-size: 6em;
         bottom: 1vh;
-        width: 70vw;
+        width: 90vw;
+        text-align: center;
         font-weight: bold;
+        left: 5vw;
     }
 
 
@@ -55,9 +60,17 @@ main[data-tipo="texas-main"] {
                     height: 35vh;
                     background-color: #cbc6c6;
 
+                    @media screen and (max-width: 768px) {
+                        height: 50vh;
+                    }
+
                     p {
                         text-align: justify;
                         font-size: 20px;
+
+                        @media screen and (max-width: 768px) {
+                            font-size: 18px;
+                        }
                     }
 
                 }
@@ -89,9 +102,17 @@ main[data-tipo="texas-main"] {
                     background-color: #cbc6c6;
                     top: 4vh;
 
+                    @media screen and (max-width: 768px) {
+                        height: 50vh;
+                    }
+
                     p {
                         text-align: justify;
                         font-size: 20px;
+
+                        @media screen and (max-width: 768px) {
+                            font-size: 18px;
+                        }
                     }
                     
                 }
@@ -106,6 +127,10 @@ main[data-tipo="texas-main"] {
         position: relative;
         height: 140vh;
         top: 20vh;
+
+        @media screen and (max-width: 768px) {
+            top: 25vh;
+        }
 
         p[data-tipo="texas-letra-supervivientes"] {
             font-size: 4em;
@@ -137,9 +162,17 @@ main[data-tipo="texas-main"] {
                     height: 40vh;
                     background-color: #cbc6c6;
 
+                    @media screen and (max-width: 768px) {
+                        height: 55vh;
+                    }
+
                     p {
                         text-align: justify;
                         font-size: 18px;
+
+                        @media screen and (max-width: 768px) {
+                            font-size: 14px;
+                        }
                     }
 
                 }
@@ -168,6 +201,10 @@ main[data-tipo="texas-main"] {
                     height: 35vh;
                     background-color: #cbc6c6;
 
+                    @media screen and (max-width: 768px) {
+                        height: 50vh;   
+                    }
+
                     p {
                         text-align: justify;
                         font-size: 20px;
@@ -188,203 +225,7 @@ main[data-tipo="texas-main"] {
     }
 }
 
-@media screen and (min-width: 768px) {
 
-    main[data-tipo="texas-main"] {
-        height: 355vh;
-    
-        p[data-tipo="titulo-texas"] {
-            color: rgb(240, 134, 211);
-            position: relative;
-            left: 4vw;
-            font-size: 4.2em;
-            bottom: 1vh;
-            width: 95vw;
-            font-weight: bold;
-        }
-    
-    
-        div[data-tipo="asesinos-texas"] {
-            position: relative;
-            height: 140vh;
-    
-            p[data-tipo="texas-letra-asesinos"] {
-                font-family: killer;
-                font-size: 3.5em;
-                color: red;
-                padding-bottom: 5vh;
-                position: relative;
-            }
-    
-            div {
-                position: relative;
-                display: grid;
-                grid-template-columns: 1fr 2fr;
-                grid-template-rows: auto;
-                gap: 10px;
-                
-    
-                img[data-tipo="leatherface"] {
-                    position: relative;
-                    height: 70vh;
-                    width: 20vw;
-                    left: 8vw;
-                }
-    
-                div[data-tipo="leatherface"] {
-                    position: relative;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    
-                    article {
-                        position: relative;
-                        border: 1px solid;
-                        border-radius: 30px;
-                        padding: 10px;
-                        width: 60vw;
-                        height: 55vh;
-                        background-color: #cbc6c6;
-    
-                        p {
-                            text-align: justify;
-                            font-size: 20px;
-                        }
-    
-                    }
-                }
-    
-                img[data-tipo="cook"] {
-                    position: relative;
-                    height: 70vh;
-                    width: 15vw;
-                    left: 10vw;
-                    padding-top: 5vh;
-                }
-    
-                div[data-tipo="cook"] {
-                    position: relative;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    height: 60vh;
-                    padding-top: 5vh;
-    
-                    article {
-                        position: relative;
-                        border: 1px solid;
-                        border-radius: 30px;
-                        padding: 10px;
-                        width: 60vw;
-                        height: 55vh;
-                        background-color: #cbc6c6;
-                        top: 5vh;
-    
-                        p {
-                            text-align: justify;
-                            font-size: 20px;
-                        }
-                        
-                    }
-    
-                }
-            }
-    
-    
-        }
-    
-        div[data-tipo=supervivientes-texas] {
-            position: relative;
-            height: 180vh;
-            top: 20vh;
-    
-            p[data-tipo="texas-letra-supervivientes"] {
-                font-size: 4em;
-                color: rgb(92, 211, 244);
-                text-align: end;
-                padding-bottom: 5vh;
-                top: 5vh;
-                position: relative;
-                
-            }
-    
-            div {
-                position: relative;
-                display: grid;
-                grid-template-columns: 2fr 1fr;
-                grid-template-rows: auto;
-                gap: 10px;
-    
-                div[dato-tipo="leland"] {
-                    position: relative;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-    
-                    article {
-                        position: relative;
-                        border: 1px solid;
-                        border-radius: 30px;
-                        padding: 10px;
-                        width: 60vw;
-                        height: 60vh;
-                        background-color: #cbc6c6;
-                        top: 5vh;
-    
-                        p {
-                            text-align: justify;
-                            font-size: 14px;
-                        }
-    
-                    }
-                }
-    
-                img[dato-tipo="leland"] {
-                    position: relative;
-                    height: 75vh;
-                    width: 20vw;
-                    left: 5vw;
-                    top: 5vh;
-                }
-    
-    
-                div[dato-tipo="connie"] {
-                    position: relative;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-    
-                    article {
-                        position: relative;
-                        border: 1px solid;
-                        border-radius: 30px;
-                        padding: 10px;
-                        width: 60vw;
-                        height: 40vh;
-                        background-color: #cbc6c6;
-                        top: 5vh;
-    
-                        p {
-                            text-align: justify;
-                            font-size: 15px;
-                        }
-    
-                        
-                    }
-                }
-    
-                img[dato-tipo="connie"] {
-                    position: relative;
-                    height: 75vh;
-                    width: 20vw;
-                    left: 5vw;
-                    padding-top: 5vh;
-                    top: 5vh;
-                }
-            }
-        }
-    }
-}
 
 @media screen and (max-width: 320px) {
     main[data-tipo="texas-main"] {
