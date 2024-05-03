@@ -394,13 +394,13 @@ main[data-tipo="dbd-main"] {
                                 border: 1px solid;
                                 border-radius: 30px;
                                 padding: 10px;
-                                width: 60vw;
+                                width: 55vw;
                                 height: 55vh;
                                 background-color: #cbc6c6;
         
                                 p {
                                     text-align: justify;
-                                    font-size: 9px;
+                                    font-size: 50%;
                                 }
         
                                 div {
@@ -430,18 +430,18 @@ main[data-tipo="dbd-main"] {
                             align-items: center;
                             height: 60vh;
         
-                            article {
+                            article[data-tipo="demo-1"] {
                                 position: relative;
                                 border: 1px solid;
                                 border-radius: 30px;
                                 padding: 10px;
-                                width: 60vw;
+                                width: 55vw;
                                 height: 55vh;
                                 background-color: #cbc6c6;
         
                                 p {
                                     text-align: justify;
-                                    font-size: 10px;
+                                    font-size: 55%;
                                 }
                                 
                                 div {
@@ -498,7 +498,7 @@ main[data-tipo="dbd-main"] {
         
                                 p {
                                     text-align: justify;
-                                    font-size: 8px;
+                                    font-size: 45%;
                                 }
         
                                 div {
@@ -540,7 +540,7 @@ main[data-tipo="dbd-main"] {
         
                                 p {
                                     text-align: justify;
-                                    font-size: 9.43px;
+                                    font-size: 55%;
                                 }
         
                                 div {

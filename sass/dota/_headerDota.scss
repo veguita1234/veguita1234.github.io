@@ -61,9 +61,10 @@ header {
     
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     header {
         height: 15vh;
+
     
         #menu-check:not(:checked) ~ nav {
             display: none;
@@ -118,7 +119,7 @@ header {
                 
                 
                 li {
-                    
+                    font-size: 20px;
                     border: none;
                     
     

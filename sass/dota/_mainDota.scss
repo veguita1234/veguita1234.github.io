@@ -71,11 +71,11 @@ main[data-tipo="dota-main"] {
     }
 }
 
-@media screen and (min-width: 768px) {
-    
+@media screen and (max-width: 768px) {
+        /*ya es responsive*/
     }
 
-    /*@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
         main[data-tipo="dota-main"] {
             top: -10vh;
             height: 110vh;
@@ -148,4 +148,4 @@ main[data-tipo="dota-main"] {
                 }
             }
         }
-    }*/
+    }

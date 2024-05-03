@@ -226,7 +226,7 @@ main[data-tipo="left-main"] {
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     main[data-tipo="left-main"] {
         position: relative;
         height: 315vh;
@@ -236,7 +236,7 @@ main[data-tipo="left-main"] {
             color: black;
             position: relative;
             left: 6vw;
-            font-size: 3em;
+            font-size: 350%;
             bottom: 1vh;
             width: 90vw;
             font-weight: bold;
@@ -249,9 +249,10 @@ main[data-tipo="left-main"] {
     
             p[data-tipo="left-letra-asesinos"] {
                 font-family: killer;
-                font-size: 2em;
+                font-size: 250%;
                 color: red;
                 padding-bottom: 5vh;
+                width: 100vw;
             }
     
             div {
@@ -286,7 +287,7 @@ main[data-tipo="left-main"] {
     
                         p {
                             text-align: justify;
-                            font-size: 7.5px;
+                            font-size: 45%;
                         }
     
                     }
@@ -320,7 +321,7 @@ main[data-tipo="left-main"] {
     
                         p {
                             text-align: justify;
-                            font-size: 8.5px;
+                            font-size: 50%;
                         }
                         
                     }
@@ -369,7 +370,7 @@ main[data-tipo="left-main"] {
     
                         p {
                             text-align: justify;
-                            font-size: 11px;
+                            font-size: 70%;
                         }
     
                     }
@@ -400,7 +401,7 @@ main[data-tipo="left-main"] {
     
                         p {
                             text-align: justify;
-                            font-size: 12px;
+                            font-size: 75%;
                         }
     
                         

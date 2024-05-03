@@ -396,7 +396,7 @@ header {
           header nav[data-tipo="nav-dota"] ul li a:hover {
             color: white; }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   header {
     height: 15vh; }
     header #menu-check:not(:checked) ~ nav {
@@ -431,6 +431,7 @@ header {
         gap: 25px;
         list-style-type: none; }
         header nav[data-tipo="nav-dota"] ul li {
+          font-size: 20px;
           border: none; }
           header nav[data-tipo="nav-dota"] ul li:hover {
             border: 1px solid #2af3fa;
@@ -495,80 +496,63 @@ main[data-tipo="dota-main"] {
             width: 10vw;
             height: 15vh; }
 
-/*@media screen and (max-width: 320px) {
-        main[data-tipo="dota-main"] {
-            top: -10vh;
-            height: 110vh;
+@media screen and (max-width: 768px) {
+  /*ya es responsive*/ }
+
+@media screen and (max-width: 420px) {
+  main[data-tipo="dota-main"] {
+    top: -10vh;
+    height: 110vh;
+    position: relative; }
+    main[data-tipo="dota-main"] p[data-tipo="titulo-dota"] {
+      color: red;
+      position: relative;
+      left: 15vw;
+      font-size: 5em;
+      bottom: 1vh;
+      width: 80vw;
+      font-weight: bold; }
+    main[data-tipo="dota-main"] p {
+      font-size: 30px;
+      color: blue;
+      left: 5vw;
+      width: 90vw;
+      position: relative; }
+    main[data-tipo="dota-main"] div {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: auto;
+      gap: 10px;
+      top: 5vh; }
+      main[data-tipo="dota-main"] div img {
+        position: relative;
+        height: 40vh;
+        width: 25vw;
+        left: 5vw; }
+      main[data-tipo="dota-main"] div div {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main[data-tipo="dota-main"] div div article {
+          position: relative;
+          border: 1px solid;
+          border-radius: 30px;
+          padding: 10px;
+          width: 65vw;
+          height: 25vh;
+          background-color: #cbc6c6;
+          top: -5vh; }
+          main[data-tipo="dota-main"] div div article div {
             position: relative;
-        
-        
-            p[data-tipo="titulo-dota"] {
-                color: red;
-                position: relative;
-                left: 15vw;
-                font-size: 5em;
-                bottom: 1vh;
-                width: 80vw;
-                font-weight: bold;
-            }
-        
-            p {
-                font-size: 30px;
-                color: blue;
-                left: 5vw;
-                width: 90vw;
-                position: relative;
-            }
-        
-            div {
-                position: relative;
-                display: grid;
-                grid-template-columns: 1fr 2fr;
-                grid-template-rows: auto;
-                gap: 10px;
-                top: 5vh;
-        
-                img {
-                    position: relative;
-                    height: 40vh;
-                    width: 25vw;
-                    left: 5vw;
-                }
-        
-                div {
-                    position: relative;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-        
-                    article {
-                        position: relative;
-                        border: 1px solid;
-                        border-radius: 30px;
-                        padding: 10px;
-                        width: 65vw;
-                        height: 25vh;
-                        background-color: #cbc6c6;
-                        top: -5vh;
-        
-                        
-        
-                        div {
-                            position: relative;
-                            display: inline-block;
-                            top: -1vh;
-                            left: 3vw;
-        
-                            img {
-                                width: 10vw;
-                                height: 10vh;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }*/
+            display: inline-block;
+            top: -1vh;
+            left: 3vw; }
+            main[data-tipo="dota-main"] div div article div img {
+              width: 10vw;
+              height: 10vh; } }
+
 footer[data-tipo="footer-dota"] {
   height: 20vh;
   align-content: center;
@@ -628,7 +612,10 @@ header {
           header nav[data-tipo="nav-dbd"] ul li a:hover {
             color: white; }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 768px) {
+  /*ya es responsive*/ }
+
+@media screen and (max-width: 420px) {
   header {
     height: 15vh; }
     header #menu-check:not(:checked) ~ nav {
@@ -637,7 +624,7 @@ header {
       display: block;
       background-color: gray;
       width: 100vw;
-      height: 15vh;
+      height: 20vh;
       z-index: 1; }
     header #menu {
       display: block;
@@ -660,7 +647,7 @@ header {
       header nav[data-tipo="nav-dbd"] ul {
         display: flex;
         flex-wrap: wrap;
-        gap: 40px;
+        gap: 25px;
         list-style-type: none; }
         header nav[data-tipo="nav-dbd"] ul li {
           font-size: 20px;
@@ -928,12 +915,12 @@ main[data-tipo="dbd-main"] {
             border: 1px solid;
             border-radius: 30px;
             padding: 10px;
-            width: 60vw;
+            width: 55vw;
             height: 55vh;
             background-color: #cbc6c6; }
             main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] article p {
               text-align: justify;
-              font-size: 9px; }
+              font-size: 50%; }
             main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="michael"] article div {
               position: relative;
               display: inline-block;
@@ -952,22 +939,22 @@ main[data-tipo="dbd-main"] {
           justify-content: center;
           align-items: center;
           height: 60vh; }
-          main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article {
+          main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article[data-tipo="demo-1"] {
             position: relative;
             border: 1px solid;
             border-radius: 30px;
             padding: 10px;
-            width: 60vw;
+            width: 55vw;
             height: 55vh;
             background-color: #cbc6c6; }
-            main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article p {
+            main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article[data-tipo="demo-1"] p {
               text-align: justify;
-              font-size: 10px; }
-            main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article div {
+              font-size: 55%; }
+            main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article[data-tipo="demo-1"] div {
               position: relative;
               display: inline-block;
               left: 15vw; }
-              main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article div img {
+              main[data-tipo="dbd-main"] div[data-tipo="asesinos-dbd"] div div[data-tipo="demogorgon"] article[data-tipo="demo-1"] div img {
                 height: 8vh;
                 width: 8vw; }
     main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] {
@@ -1000,7 +987,7 @@ main[data-tipo="dbd-main"] {
             background-color: #cbc6c6; }
             main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] article p {
               text-align: justify;
-              font-size: 8px; }
+              font-size: 45%; }
             main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Nea"] article div {
               position: relative;
               display: inline-block;
@@ -1029,7 +1016,7 @@ main[data-tipo="dbd-main"] {
             background-color: #cbc6c6; }
             main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] article p {
               text-align: justify;
-              font-size: 9.43px; }
+              font-size: 55%; }
             main[data-tipo="dbd-main"] div[data-tipo=supervivientes-dbd] div div[dato-tipo="Bill"] article div {
               position: relative;
               display: inline-block;
@@ -1147,53 +1134,10 @@ header {
           header nav[data-tipo="nav-left"] ul li a:hover {
             color: white; }
 
-/*@media screen and (min-width: 768px) {
-    header {
-        height: 15vh;
+@media screen and (min-width: 768px) {
+  /*ya es responsive*/ }
 
-    
-        nav[data-tipo="nav-left"] {
-            position: absolute;
-            left: 1vw;
-            top: 5vh;
-    
-            ul {
-                display: flex;
-                flex-direction: row;
-                gap: 7em;
-                list-style-type: none;
-                
-                
-                li {
-                    font-size: 20px;
-                    border: 1px solid gray;
-                    border-radius: 10px;
-                    padding: 3px 3px;
-                    
-    
-                    &:hover {
-                        border: 1px solid rgb(42, 243, 250);
-                        padding: 3px 3px;
-                        border-radius: 10px;
-                        background-color: rgb(42, 243, 250);
-                    }
-    
-                    a {
-                        text-decoration: none;
-                        color: black;
-    
-                        &:hover {
-                            color: white;
-                        }
-                        
-                    }
-                    
-                }
-            }
-        }
-    }
-}*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   header {
     height: 15vh; }
     header #menu-check:not(:checked) ~ nav {
@@ -1396,7 +1340,7 @@ main[data-tipo="left-main"] {
         left: 5vw;
         padding-top: 5vh; }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   main[data-tipo="left-main"] {
     position: relative;
     height: 315vh;
@@ -1405,7 +1349,7 @@ main[data-tipo="left-main"] {
       color: black;
       position: relative;
       left: 6vw;
-      font-size: 3em;
+      font-size: 350%;
       bottom: 1vh;
       width: 90vw;
       font-weight: bold; }
@@ -1415,9 +1359,10 @@ main[data-tipo="left-main"] {
       top: 3vh; }
       main[data-tipo="left-main"] div[data-tipo="asesinos-left"] p[data-tipo="left-letra-asesinos"] {
         font-family: killer;
-        font-size: 2em;
+        font-size: 250%;
         color: red;
-        padding-bottom: 5vh; }
+        padding-bottom: 5vh;
+        width: 100vw; }
       main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div {
         position: relative;
         display: grid;
@@ -1444,7 +1389,7 @@ main[data-tipo="left-main"] {
             background-color: #cbc6c6; }
             main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="smoker"] article p {
               text-align: justify;
-              font-size: 7.5px; }
+              font-size: 45%; }
         main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div img[data-tipo="charger"] {
           position: relative;
           height: 60vh;
@@ -1469,7 +1414,7 @@ main[data-tipo="left-main"] {
             top: -1vh; }
             main[data-tipo="left-main"] div[data-tipo="asesinos-left"] div div[data-tipo="charger"] article p {
               text-align: justify;
-              font-size: 8.5px; }
+              font-size: 50%; }
     main[data-tipo="left-main"] div[data-tipo=supervivientes-left] {
       position: relative;
       height: 140vh;
@@ -1500,7 +1445,7 @@ main[data-tipo="left-main"] {
             background-color: #cbc6c6; }
             main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Ellis"] article p {
               text-align: justify;
-              font-size: 11px; }
+              font-size: 70%; }
         main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div img[dato-tipo="Ellis"] {
           position: relative;
           height: 75vh;
@@ -1521,7 +1466,7 @@ main[data-tipo="left-main"] {
             background-color: #cbc6c6; }
             main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div div[dato-tipo="Nick"] article p {
               text-align: justify;
-              font-size: 12px; }
+              font-size: 75%; }
         main[data-tipo="left-main"] div[data-tipo=supervivientes-left] div img[dato-tipo="Nick"] {
           position: relative;
           height: 75vh;
