@@ -32,6 +32,7 @@ header {
                 border: 1px solid gray;
                 border-radius: 10px;
                 padding: 3px 3px;
+                translate: no;
                 
                 
 
@@ -123,6 +124,7 @@ header {
                 li {
                     font-size: 20px;
                     border: none;
+                    translate: no;
                     
     
                     &:hover {

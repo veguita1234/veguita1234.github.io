@@ -28,10 +28,13 @@ header {
             
             
             li {
+                translate: no;
                 font-size: 150%;
                 border: 1px solid gray;
                 border-radius: 10px;
                 padding: 3px 3px;
+                translate: no;
+                
                 
 
                 &:hover {
@@ -118,6 +121,7 @@ header {
                 li {
                     font-size: 20px;
                     border: none;
+                    translate: no;
                     
     
                     &:hover {

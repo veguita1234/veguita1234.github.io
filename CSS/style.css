@@ -24,7 +24,8 @@ header {
         font-size: 150%;
         border: 1px solid gray;
         border-radius: 10px;
-        padding: 3px 3px; }
+        padding: 3px 3px;
+        translate: no; }
         header nav[data-tipo="nav-index"] ul li:hover {
           border: 1px solid red;
           padding: 3px 3px;
@@ -72,7 +73,8 @@ header {
         list-style-type: none; }
         header nav[data-tipo="nav-index"] ul li {
           font-size: 20px;
-          border: none; }
+          border: none;
+          translate: no; }
           header nav[data-tipo="nav-index"] ul li:hover {
             border: 1px solid #2af3fa;
             padding: 3px 3px;
@@ -384,7 +386,8 @@ header {
         font-size: 150%;
         border: 1px solid gray;
         border-radius: 10px;
-        padding: 3px 3px; }
+        padding: 3px 3px;
+        translate: no; }
         header nav[data-tipo="nav-dota"] ul li:hover {
           border: 1px solid red;
           padding: 3px 3px;
@@ -432,7 +435,8 @@ header {
         list-style-type: none; }
         header nav[data-tipo="nav-dota"] ul li {
           font-size: 20px;
-          border: none; }
+          border: none;
+          translate: no; }
           header nav[data-tipo="nav-dota"] ul li:hover {
             border: 1px solid #2af3fa;
             padding: 3px 3px;
@@ -600,7 +604,8 @@ header {
         font-size: 150%;
         border: 1px solid gray;
         border-radius: 10px;
-        padding: 3px 3px; }
+        padding: 3px 3px;
+        translate: no; }
         header nav[data-tipo="nav-dbd"] ul li:hover {
           border: 1px solid red;
           padding: 3px 3px;
@@ -651,7 +656,8 @@ header {
         list-style-type: none; }
         header nav[data-tipo="nav-dbd"] ul li {
           font-size: 20px;
-          border: none; }
+          border: none;
+          translate: no; }
           header nav[data-tipo="nav-dbd"] ul li:hover {
             border: 1px solid #2af3fa;
             padding: 3px 3px;
@@ -1122,7 +1128,8 @@ header {
         font-size: 150%;
         border: 1px solid gray;
         border-radius: 10px;
-        padding: 3px 3px; }
+        padding: 3px 3px;
+        translate: no; }
         header nav[data-tipo="nav-left"] ul li:hover {
           border: 1px solid red;
           padding: 3px 3px;
@@ -1173,7 +1180,8 @@ header {
         list-style-type: none; }
         header nav[data-tipo="nav-left"] ul li {
           font-size: 20px;
-          border: none; }
+          border: none;
+          translate: no; }
           header nav[data-tipo="nav-left"] ul li:hover {
             border: 1px solid #2af3fa;
             padding: 3px 3px;
@@ -1358,6 +1366,7 @@ main[data-tipo="left-main"] {
       height: 140vh;
       top: 3vh; }
       main[data-tipo="left-main"] div[data-tipo="asesinos-left"] p[data-tipo="left-letra-asesinos"] {
+        translate: no;
         font-family: killer;
         font-size: 250%;
         color: red;
@@ -1590,10 +1599,12 @@ header {
       width: 90vw;
       justify-content: center; }
       header nav[data-tipo="nav-texas"] ul li {
+        translate: no;
         font-size: 150%;
         border: 1px solid gray;
         border-radius: 10px;
-        padding: 3px 3px; }
+        padding: 3px 3px;
+        translate: no; }
         header nav[data-tipo="nav-texas"] ul li:hover {
           border: 1px solid red;
           padding: 3px 3px;
@@ -1641,7 +1652,8 @@ header {
         list-style-type: none; }
         header nav[data-tipo="nav-texas"] ul li {
           font-size: 20px;
-          border: none; }
+          border: none;
+          translate: no; }
           header nav[data-tipo="nav-texas"] ul li:hover {
             border: 1px solid #2af3fa;
             padding: 3px 3px;
