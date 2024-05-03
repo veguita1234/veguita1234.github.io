@@ -1599,7 +1599,6 @@ header {
       width: 90vw;
       justify-content: center; }
       header nav[data-tipo="nav-texas"] ul li {
-        translate: no;
         font-size: 150%;
         border: 1px solid gray;
         border-radius: 10px;

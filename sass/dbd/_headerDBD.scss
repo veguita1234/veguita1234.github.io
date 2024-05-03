@@ -16,44 +16,8 @@ header {
         position: relative;
         top: 5vh;
 
-
-        ul {
-            display: flex;
-            flex-direction: row;
-            gap: 10%;
-            list-style-type: none;
-            width: 90vw;
-            justify-content: center;
-            
-            
-            
-            li {
-                font-size: 150%;
-                border: 1px solid gray;
-                border-radius: 10px;
-                padding: 3px 3px;
-                translate: no;
-                
-
-                &:hover {
-                    border: 1px solid red;
-                    padding: 3px 3px;
-                    border-radius: 10px;
-                    background-color: rgb(250, 42, 42);
-                }
-
-                a {
-                    text-decoration: none;
-                    color: black;
-
-                    &:hover {
-                        color: white;
-                    }
-                    
-                }
-                
-            }
-        }
+    @include cabezera;
+        
 
     }
 }
