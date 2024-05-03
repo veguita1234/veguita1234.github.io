@@ -59,7 +59,7 @@ header {
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     header {
         height: 15vh;
     
@@ -71,7 +71,7 @@ header {
         #menu-check:checked ~ nav {
             display: block;
             background-color: gray;
-            width: 100vw;
+            width: 95vw;
             height: 15vh;
             z-index: 1;
         }
