@@ -1661,7 +1661,7 @@ main[data-tipo="texas-main"] {
   main[data-tipo="texas-main"] p[data-tipo="titulo-texas"] {
     color: #f086d3;
     position: relative;
-    font-size: 6em;
+    font-size: 550%;
     bottom: 1vh;
     width: 90vw;
     text-align: center;
@@ -1672,7 +1672,7 @@ main[data-tipo="texas-main"] {
     height: 140vh; }
     main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] p[data-tipo="texas-letra-asesinos"] {
       font-family: killer;
-      font-size: 4em;
+      font-size: 400%;
       color: red;
       padding-bottom: 5vh;
       position: relative; }
@@ -1705,10 +1705,10 @@ main[data-tipo="texas-main"] {
               height: 50vh; } }
           main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="leatherface"] article p {
             text-align: justify;
-            font-size: 20px; }
+            font-size: 140%; }
             @media screen and (max-width: 768px) {
               main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="leatherface"] article p {
-                font-size: 18px; } }
+                font-size: 120%; } }
       main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div img[data-tipo="cook"] {
         position: relative;
         height: 70vh;
@@ -1736,10 +1736,10 @@ main[data-tipo="texas-main"] {
               height: 50vh; } }
           main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="cook"] article p {
             text-align: justify;
-            font-size: 20px; }
+            font-size: 130%; }
             @media screen and (max-width: 768px) {
               main[data-tipo="texas-main"] div[data-tipo="asesinos-texas"] div div[data-tipo="cook"] article p {
-                font-size: 18px; } }
+                font-size: 110%; } }
   main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] {
     position: relative;
     height: 140vh;
@@ -1748,7 +1748,7 @@ main[data-tipo="texas-main"] {
       main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] {
         top: 25vh; } }
     main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] p[data-tipo="texas-letra-supervivientes"] {
-      font-size: 4em;
+      font-size: 450%;
       color: #5cd3f4;
       text-align: end;
       padding-bottom: 5vh; }
@@ -1776,10 +1776,10 @@ main[data-tipo="texas-main"] {
               height: 55vh; } }
           main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="leland"] article p {
             text-align: justify;
-            font-size: 18px; }
+            font-size: 110%; }
             @media screen and (max-width: 768px) {
               main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="leland"] article p {
-                font-size: 14px; } }
+                font-size: 90%; } }
       main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div img[dato-tipo="leland"] {
         position: relative;
         height: 75vh;
@@ -1803,7 +1803,10 @@ main[data-tipo="texas-main"] {
               height: 50vh; } }
           main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="connie"] article p {
             text-align: justify;
-            font-size: 20px; }
+            font-size: 140%; }
+            @media screen and (max-width: 768px) {
+              main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div div[dato-tipo="connie"] article p {
+                font-size: 120%; } }
       main[data-tipo="texas-main"] div[data-tipo=supervivientes-texas] div img[dato-tipo="connie"] {
         position: relative;
         height: 75vh;
@@ -1811,7 +1814,7 @@ main[data-tipo="texas-main"] {
         left: 5vw;
         padding-top: 5vh; }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   main[data-tipo="texas-main"] {
     position: relative;
     height: 345vh;

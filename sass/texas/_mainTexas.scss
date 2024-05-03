@@ -9,7 +9,7 @@ main[data-tipo="texas-main"] {
     p[data-tipo="titulo-texas"] {
         color: rgb(240, 134, 211);
         position: relative;
-        font-size: 6em;
+        font-size: 550%;
         bottom: 1vh;
         width: 90vw;
         text-align: center;
@@ -24,7 +24,7 @@ main[data-tipo="texas-main"] {
 
         p[data-tipo="texas-letra-asesinos"] {
             font-family: killer;
-            font-size: 4em;
+            font-size: 400%;
             color: red;
             padding-bottom: 5vh;
             position: relative;
@@ -66,10 +66,10 @@ main[data-tipo="texas-main"] {
 
                     p {
                         text-align: justify;
-                        font-size: 20px;
+                        font-size: 140%;
 
                         @media screen and (max-width: 768px) {
-                            font-size: 18px;
+                            font-size: 120%;
                         }
                     }
 
@@ -108,10 +108,10 @@ main[data-tipo="texas-main"] {
 
                     p {
                         text-align: justify;
-                        font-size: 20px;
+                        font-size: 130%;
 
                         @media screen and (max-width: 768px) {
-                            font-size: 18px;
+                            font-size: 110%;
                         }
                     }
                     
@@ -133,7 +133,7 @@ main[data-tipo="texas-main"] {
         }
 
         p[data-tipo="texas-letra-supervivientes"] {
-            font-size: 4em;
+            font-size: 450%;
             color: rgb(92, 211, 244);
             text-align: end;
             padding-bottom: 5vh;
@@ -168,10 +168,10 @@ main[data-tipo="texas-main"] {
 
                     p {
                         text-align: justify;
-                        font-size: 18px;
+                        font-size: 110%;
 
                         @media screen and (max-width: 768px) {
-                            font-size: 14px;
+                            font-size: 90%;
                         }
                     }
 
@@ -207,7 +207,11 @@ main[data-tipo="texas-main"] {
 
                     p {
                         text-align: justify;
-                        font-size: 20px;
+                        font-size: 140%;
+
+                        @media screen and (max-width: 768px) {
+                            font-size: 120%;;   
+                        }
                     }
 
                     
@@ -227,7 +231,7 @@ main[data-tipo="texas-main"] {
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     main[data-tipo="texas-main"] {
         position: relative;
         height: 345vh;
